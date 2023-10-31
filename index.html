@@ -1,5 +1,5 @@
 ---
-title: Projects by Frederick Chan, Software Engineer
+title: Frederick Chan, Software Engineer
 layout: default
 ---
 <header class="border-b border-stone-500 mb-5 pb-3">
@@ -34,7 +34,7 @@ layout: default
     </ol>
   </nav>
 
-  <section class="mb-5">
+  <section class="mb-5" id="professional-work">
     <h2 class="fancy-heading font-display text-4xl text-center mb-3">Professional Work</h2>
 
     <article class="mb-3">
@@ -66,7 +66,7 @@ layout: default
     </article>
   </section>
 
-  <section>
+  <section class="mb-5" id="projects">
     <h2 class="fancy-heading font-display text-4xl text-center mb-3">Projects</h2>
 
     <article class="mb-3">
@@ -124,6 +124,40 @@ layout: default
         <li><span class="badge">QGIS</span></li>
       </ul>
     </article>
+
+  </section>
+
+  <section class="mb-5" id="publications">
+    <h2 class="fancy-heading font-display text-4xl text-center">Publications</h2>
+
+    <section class="mb-5">
+      <header class="text-center font-display mb-3">
+        <h3 class="text-3xl">Serious publications</h3>
+        <p class="text-lg">Articles published in real™ journals, like Science</p>
+      </header>
+
+      <article class="mb-3">
+        <h3 class="text-lg font-bold uppercase">
+          <a href="https://doi.org/10.1126/science.add2187">Robust deep learning based protein sequence design using ProteinMPNN</a>
+        </h3>
+        <p>You can use a message passing neural network to predict amino acid sequences
+          for proteins with novel structures! <a href="https://huggingface.co/spaces/simonduerr/ProteinMPNN">Try it yourself at Hugging Face</a>. Published in <a href="https://doi.org/10.1126/science.add2187">Science</a> (a <a href="https://doi.org/10.1101/2022.06.03.494563">preprint</a> is also available).</p>
+      </article>
+    </section>
+
+    <section>
+      <header class="text-center font-display mb-3">
+        <h3 class="font-display text-3xl">Silly publications</h3>
+        <p class="text-lg">Articles published in <s>joke</s> tastefully humorous journals, like <a href="https://sigbovik.org/">SIGBOVIK</a></p>
+      </header>
+
+      <article class="mb-3">
+        <h3 class="text-lg font-bold uppercase">
+          <a href="{{ '/downloads/minecraft.pdf' | relative_url }}">Visualizing Player Engagement with Virtual Spaces using GIS</a>
+        </h3>
+        <p>You can put a Minecraft map in real map software and it works! Published in <a href="http://sigbovik.org/2020/proceedings.pdf">SIGBOVIK 2020</a> (page 273)</p>
+      </article>
+    </section>
 
   </section>
 </main>
