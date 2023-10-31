@@ -1,0 +1,8 @@
+name: Frederick's Perch
+permalink: /blog/:title:output_ext
+
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false

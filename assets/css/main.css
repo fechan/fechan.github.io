@@ -1,0 +1,37 @@
+---
+---
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: hsl(35, 70%, 89%);
+    color: hsl(60, 2%, 20%);
+  }
+
+  a {
+    @apply text-redchan;
+  }
+
+  a:hover {
+    @apply text-redchan-light;
+    text-decoration: underline;
+  }
+}
+
+@layer components {
+  .badge {
+    @apply relative bottom-1 text-redchan text-xs font-medium mr-2 px-2.5 py-0.5 rounded border border-redchan;
+  }
+}
+
+.fancy-heading::before {
+  content: "☙";
+  @apply pe-2;
+}
+
+.fancy-heading::after {
+  content: "❧";
+  @apply ps-2
+}
