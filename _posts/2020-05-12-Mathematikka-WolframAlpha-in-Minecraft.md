@@ -8,7 +8,7 @@ I put WolframAlpha in Minecraft by writing [Mathematikka](https://github.com/fec
 
 <div style="display: flex; justify-content: center">
     <video controls width="500">
-        <source src="/blog/assets/images/wolframinecraft.mp4"
+        <source src="/assets/images/wolframinecraft.mp4"
                 type="video/mp4">
 
         Sorry, your browser doesn't support embedded videos.
