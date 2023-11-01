@@ -8,21 +8,23 @@ module.exports = {
     './*.html',
   ],
   theme: {
-    colors: {
-      'redchan': {
-        DEFAULT: '#a11a37',
-        light: '#e7234d',
-      }
-    },
-    fontFamily: {
-      display: ['"Goudy Bookletter 1911"', 'serif'],
-      body: ['Montserrat', 'sans-serif'],
-    },
-    container: {
-      center: true,
-      padding: {
-        DEFAULT: '1.5rem',
-      }
+    extend: {
+      colors: {
+        'redchan': {
+          DEFAULT: '#a11a37',
+          light: '#e7234d',
+        }
+      },
+      fontFamily: {
+        display: ['"Goudy Bookletter 1911"', 'serif'],
+        body: ['Montserrat', 'sans-serif'],
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '1.5rem',
+        }
+      },
     },
   },
   plugins: [
