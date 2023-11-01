@@ -24,6 +24,10 @@
   .badge {
     @apply relative bottom-1 text-redchan text-xs font-medium mr-2 px-2.5 py-0.5 rounded border border-redchan;
   }
+
+  .list-comma li:not(:last-child):after {
+    content: ", ";
+  }
 }
 
 .fancy-heading::before {
