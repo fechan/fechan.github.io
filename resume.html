@@ -1,0 +1,128 @@
+---
+title: Résumé
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <title>{{ page.title }} | {{ site.name }}</title>
+</head>
+<body>
+  <main class="h-resume">
+    <h1 class="p-name">Frederick Chan</h1>
+    <span>Software engineer</span>
+
+    <section id="contact-info" class="p-contact h-card">
+      <span class="p-name" hidden>Frederick Chan</span>
+      <ul>
+        <li><a href="mailto:work.fechan@gmail.com" class="u-email">work.fechan@gmail.com</a></li>
+        <li><a href="{{ site.url }}" class="u-url">{{ site.url }}</a></li>
+        <li><a href="https://github.com/fechan" class="u-url">github.com/fechan</a></li>
+        <li><a href="https://www.linkedin.com/in/fechan" class="u-url">linkedin.com/in/fechan</a></li>
+      </ul>
+    </section>
+
+    <section id="summary" class="p-summary">
+      <p>I prioritize readable, maintainable code. I'm technology agnostic and love learning new technologies. I've written software for a multitude of fields, including web development, machine learning, and data science. I do my research and read style guides before I start projects.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical skills</h2>
+      <ul>
+        <h3 class="font-bold">Languages</h3>
+        <li class="p-skill">Python</li>
+        <li class="p-skill">JavaScript</li>
+        <li class="p-skill">Java</li>
+        <li class="p-skill">C++</li>
+        <li class="p-skill">Lua</li>
+        <li class="p-skill">SQL</li>
+        <li class="p-skill">Ruby</li>
+        <li class="p-skill">HTML5</li>
+        <li class="p-skill">CSS</li>
+      </ul>
+      <ul>
+        <h3 class="font-bold">Technologies</h3>
+        <li class="p-skill">React</li>
+        <li class="p-skill">Node.js</li>
+        <li class="p-skill">Pandas</li>
+        <li class="p-skill">TensorFlow</li>
+        <li class="p-skill">PyTorch</li>
+        <li class="p-skill">Ruby on Rails</li>
+        <li class="p-skill">Git</li>
+        <li class="p-skill">Github</li>
+        <li class="p-skill">Linux</li>
+        <li class="p-skill">Docker</li>
+        <li class="p-skill">QGIS</li>
+      </ul>
+    </section>
+
+    <section id="professional-experience">
+      <h2>Professional experience</h2>
+      <ul>
+        <li class="p-experience h-event">
+          <section>
+            <div class="p-location h-card">
+              <h3 class="p-org">Institute for Protein Design, David Baker Lab</h3>
+            </div>
+            <p>
+              <span class="p-name">Research Engineer and Web Developer</span>
+              (<time class="dt-start" datetime="2021-05">May 2021</time> - <time class="dt-end" datetime="2023-06">June 2023</time>)
+            </p>
+          </section>
+          <section class="p-summary">
+            <ul class="pl-5 list-disc">
+              <li>Co-author of <i>Robust deep learning based protein sequence design using ProteinMPNN</i>, a PyTorch message-passing neural network with 19.5% better sequence recovery than DeepMind's AlphaFold</li>
+              <li>Adapted ProteinMPNN for protein structure prediction with an approach inspired by diffusion models</li>
+              <li>Developed the Foldit website redesign with Ruby on Rails</li>
+              <li>Created and integrated my own webpage designs into existing UX based on stakeholder feedback</li>
+              <li>Conducted feasibility studies for integrating a modern HTML5-based UI into Foldit to improve code maintainability</li>
+            </ul>
+          </section>
+        </li>
+
+        <li class="p-experience h-event">
+          <section>
+            <div class="p-location h-card">
+              <h3 class="p-org">Newbook Digital Texts</h3>
+            </div>
+            <p>
+              <span class="p-name">Full Stack Developer Intern</span>
+              (<time class="dt-start" datetime="2020-08">August 2020</time> - <time class="dt-end" datetime="2021-03">March 2021</time>)
+            </p>
+          </section>
+          <section class="p-summary">
+            <ul>
+              <li>Presented my work at the eScience Institute seminar, <i>They Came to Egypt: Databases and Digital Editions of 19th Century Nile Travelogues</i></li>
+              <li>Designed, developed, and deployed Nile Travelogues, a full stack web app using Node.js, SQLite, and HTML5</li>
+              <li>Reduced manual work up to 90% when converting print information to a digital database using Python and Wolfram Language</li>
+              <li>Designed and developed an application to automatically produce TEI-compliant XML markup of historical documents with information about text entities from Wikidata</li>
+            </ul>
+          </section>
+        </li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="p-education h-event">
+        <section>
+          <div class="p-location h-card">
+            <h3 class="p-name">BSc Informatics (Data Science), BA Linguistics (double degree)</h3>
+          </div>
+          <p><span class="p-org">University of Washington, Seattle</span> (<time datetime="2019" class="dt-start">2019</time> - <time datetime="2023" class="dt-end">2023</time>)</p>
+        </section>
+        <section class="p-summary">
+          <ul>
+            <li>Graduated Magna Cum Laude (BSc) and Cum Laude (BA)</li>
+            <li><span class="text-bold">Leadership:</span> 1 yr. President and 3 yrs. Officer of the Conlang Club at UW</li>
+          </ul>
+        </section>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
