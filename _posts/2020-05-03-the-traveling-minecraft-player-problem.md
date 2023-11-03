@@ -2,6 +2,7 @@
 layout: post
 categories: [minecraft, QGIS, GRASS GIS]
 title: "The Traveling Minecraft Player Problem"
+tldr: "You can scan a Minecraft world for diamonds and use GRASS's `v.net.salesman` to plot an efficient route to get all of them."
 ---
 ## tl;dr
 You can scan a Minecraft world for diamonds and use GRASS's `v.net.salesman` to plot an efficient route to get all of them.

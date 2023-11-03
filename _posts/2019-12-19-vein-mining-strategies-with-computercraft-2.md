@@ -2,6 +2,7 @@
 layout: post
 categories: [computercraft, minecraft]
 title: "Vein Mining with ComputerCraft Part 2 (Veins as Graphs)"
+tldr: "We can model Minecraft ore veins as graph data structures in ComputerCraft to create a program for veinmining. The graph method maximizes runtime efficiency at the cost of a bigger program."
 ---
 ## tl;dr
 [Last time](https://fechan.github.io/blog/vein-mining-strategies-with-computercraft-1/), we talked about representing ore veins as trees. This time, we talk about representing them as graphs, which is faster but complex. This is because you have to calculate locations of blocks already inspected, as well as avoiding re-inspecting those blocks. The full code is at the bottom.

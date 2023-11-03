@@ -2,6 +2,7 @@
 layout: post
 categories: [unicode, localization]
 title: "The Story of the Triumph Emoji"
+tldr: 'The 😤 `Face with Steam From Nose` emoji was originally called the `Face with Look of Triumph` because the face has a different meaning in Japan.'
 ---
 ![The Triumph Emoji as it appears in Unicode 6.0](/assets/images/triumph-unicode.png)
 

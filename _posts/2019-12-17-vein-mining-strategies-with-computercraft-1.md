@@ -2,6 +2,7 @@
 layout: post
 categories: [computercraft, minecraft]
 title: "Vein Mining with ComputerCraft Part 1 (Veins as Trees)"
+tldr: "We can model Minecraft ore veins as tree data structures in ComputerCraft to create a program for veinmining. The tree method minimizes the program size at the cost of efficiency compared to the graph method."
 ---
 ## tl;dr
 ComputerCraft is a Minecraft mod that adds Lua-programmable turtles (robots) that can inspect and mine blocks. You can represent contiguous veins of ores as tree or graph structures and mine all the blocks with a tree/graph traversal. Trees are slow but less complex, and graphs are fast but more complex. You can minimize the time to analyze blocks on the same elevation as the turtle with a neat trick. This post talks about the tree method, and the full code is at the bottom.
