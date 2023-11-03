@@ -13,6 +13,9 @@ module.exports = {
         'redchan': {
           DEFAULT: '#a11a37',
           light: '#e7234d',
+        },
+        'sumiblack': {
+          DEFAULT: '#343432',
         }
       },
       fontFamily: {

@@ -1,5 +1,10 @@
 <header class="mb-5">
-  <h1 class="font-display text-center text-4xl md:text-5xl my-2">Frederick's Perch</h1>
+  <a href="{{ '/index.html' | relative_url }}">
+    <div class="flex items-center justify-center gap-x-3">
+      <img src="{{ '/assets/images/crow_transp.webp' | relative_url }}" alt="A picture of a crow" class="w-10 h-15">
+      <h1 class="font-display text-center text-4xl md:text-5xl my-2 text-sumiblack">Frederick's Perch</h1>
+    </div>
+  </a>
   <nav class="border-y border-stone-500 py-1">
     <ul class="flex flex-wrap gap-4 uppercase text-sm justify-center">
       <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>

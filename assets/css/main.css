@@ -7,7 +7,7 @@
 @layer base {
   body {
     background-color: hsl(35, 70%, 89%);
-    color: hsl(60, 2%, 20%);
+    @apply text-sumiblack;
   }
 
   a {
@@ -47,5 +47,6 @@
     prose-blockquote:border-stone-500
     prose-img:mx-auto
     prose-code:before:content-none 
-    prose-code:after:content-none;
+    prose-code:after:content-none
+    prose-headings:font-display;
 }
