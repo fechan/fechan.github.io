@@ -37,5 +37,15 @@
 
 .fancy-heading::after {
   content: "❧";
-  @apply ps-2
+  @apply ps-2;
+}
+
+.blog-post {
+  @apply prose
+    prose-a:text-redchan
+    prose-a:no-underline
+    prose-blockquote:border-stone-500
+    prose-img:mx-auto
+    prose-code:before:content-none 
+    prose-code:after:content-none;
 }
