@@ -17,8 +17,8 @@ There's also another one not on their blog that I think fits even better, since 
 
 ![Giant Killing Vol.12 Ch.109](/assets/images/manga-triumph-2.png)
 
-Of course, representing triumph by having steam come out of your nose is practically unheard of for Westerners, so we might not understand "triumph" just by looking at the face. [Ogata notes this as well](https://ogwata.hatenadiary.org/entry/20100211/p1) (Google Translated from Japanese and edited with my limited Japanese skill):
->It's true that the main part is that the face is facing upwards, the eyes are closed, and the nose is exhaling. Certainly, this is "triumphant pride." However, I wonder whether or not people in Europe and America who do not know manga expressions can understand it, since the emphatic expression of the nose, which means "proud," is too strong. The emphasis on your nose when you brag is unique to Japan, isn't it? This is a subtle point.
+Of course, representing triumph by having steam come out of your nose is practically unheard of for Westerners, so we might not understand "triumph" just by looking at the face. [Ogata notes this as well](https://ogwata.hatenadiary.org/entry/20100211/p1):
+>It's true that the most important part is that the face is facing upwards, the eyes are closed, and the nose is exhaling. Certainly, this is "triumphant pride." However, since using the nose to represent "proud" is emphasized so greatly, I wonder whether or not people in the West who do not know manga expressions can understand it. The emphasis on your nose when you brag is unique to Japan, isn't it? This is a subtle point.
 
 ## Phone companies
 Since emoji were invented by Japanese telephone companies for text in phones, naturally a lot of the early Unicode emoji are Japan-centric. For example, the 📛 [name badge emoji](https://unicode.org/emoji/charts-12.0/full-emoji-list.html#1f4db) for Western users looks less like a name badge and more like a flaming piece of tofu, but is in reality a [tulip-shaped name badge worn by Japanese kindergarteners](https://japaneseemoji.tumblr.com/post/124068050679/u-1f4db-a-name-badge-worn-by-japanese).
