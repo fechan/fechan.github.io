@@ -1,5 +1,5 @@
 name: Frederick's Perch
-permalink: /blog/:title:output_ext
+permalink: /blog/:title/
 
 description: The website and portfolio of Frederick Chan, Software Engineer and Technomancer from the Emerald City
 
