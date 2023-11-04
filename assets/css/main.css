@@ -53,5 +53,6 @@
     prose-img:mx-auto
     prose-code:before:content-none 
     prose-code:after:content-none
-    prose-headings:font-display;
+    prose-headings:font-display
+    mx-auto;
 }
