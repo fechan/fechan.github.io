@@ -28,6 +28,11 @@
   .list-comma li:not(:last-child):after {
     content: ", ";
   }
+
+  .list-pipe li:not(:last-child):after {
+    content: "|";
+    @apply mx-1;
+  }
 }
 
 .fancy-heading::before {
