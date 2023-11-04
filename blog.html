@@ -10,7 +10,7 @@ layout: default
   {% for post in site.posts %}
     <li class="mb-3">
       <div class="flex justify-between">
-        <a href="{{ post.url }}" class="uppercase font-bold text-lg">{{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}" class="uppercase font-bold text-lg">{{ post.title }}</a>
         <time datetime="{{ post.date | date: '%Y-%m-%d'}}" class="text-right whitespace-pre">{{ post.date | date: "%-d %b %Y"}}</time>
       </div>
       <p><b>tl;dr:</b> {{ post.tldr | markdownify | remove: '<p>' | remove: '</p>' }}</p>
