@@ -20,12 +20,12 @@ description: The résumé of Frederick Chan, Software Engineer
     {% include header.html %}
 
     <p>
-      <div class="text-center text-lg">
+      <div id="viewing-cv-notice" class="text-center text-lg">
         <span class="font-bold">You are currently viewing the unabridged CV version of this page.</span>
         <a href="?version=resume" class="block">Want a short résumé instead?</a>
       </div>
 
-      <div class="text-center text-lg" hidden>
+      <div id="viewing-resume-notice" class="text-center text-lg" hidden>
         <span class="font-bold">You are currently viewing the shortened résumé version of this page.</span>
         <a href="?version=cv" class="block">Want the unabridged CV instead?</a>
       </div>
@@ -152,7 +152,7 @@ description: The résumé of Frederick Chan, Software Engineer
             <li><span class="font-bold">Leadership:</span> 1 yr. President and 2 yrs. Officer of the Conlang Club at UW</li>
             <li>iSchool Informatics Innovation Award winner</li>
             <li class="cv-only">Graduated Magna Cum Laude in Informatics and Cum Laude in Linguistics</li>
-            <li>Washington State Opportunity Scholarship recipient</li>
+            <li class="cv-only">Washington State Opportunity Scholarship recipient</li>
           </ul>
         </section>
       </div>
@@ -179,5 +179,7 @@ description: The résumé of Frederick Chan, Software Engineer
       </ul>
     </section>
   </main>
+
+  <script src="/assets/js/resume-switcher.js"></script>
 </body>
 </html>
