@@ -16,6 +16,27 @@ description: The résumé of Frederick Chan, Software Engineer
   <title>{{ page.title }} | {{ site.name }}</title>
 </head>
 <body class="container print:max-w-full font-body bg-white">
+  <header class="print:hidden mb-3">
+    {% include header.html %}
+
+    <p>
+      <div class="text-center text-lg">
+        <span class="font-bold">You are currently viewing the unabridged CV version of this page.</span>
+        <a href="?version=resume" class="block">Want a short résumé instead?</a>
+      </div>
+
+      <div class="text-center text-lg" hidden>
+        <span class="font-bold">You are currently viewing the shortened résumé version of this page.</span>
+        <a href="?version=cv" class="block">Want the unabridged CV instead?</a>
+      </div>
+    </p>
+
+    <p class="text-center text-sm text-stone-600 mt-3">
+      Everything above the dotted line will disappear when you <a href="javascript:if(window.print)window.print()">print</a> this page.
+      <hr class="border border-stone-500 border-dashed mt-1">
+    </p>
+  </header>
+
   <main class="h-resume">
     <h1 class="p-name font-black text-3xl">Frederick Chan</h1>
 
