@@ -61,6 +61,12 @@ description: The résumé of Frederick Chan, Software Engineer
         <li class="p-skill">Docker</li>
         <li class="p-skill">QGIS</li>
       </ul>
+      <ul class="cv-only flex flex-wrap gap-x-1 list-comma">
+        <h3 class="font-bold">Engineering:</h3>
+        <li class="p-skill">System architecture</li>
+        <li class="p-skill">software design</li>
+        <li class="p-skill">software accessibility</li>
+      </ul>
     </section>
 
     <section id="professional-experience" class="mb-5">
@@ -78,7 +84,8 @@ description: The résumé of Frederick Chan, Software Engineer
           </section>
           <section class="p-summary">
             <ul class="pl-5 list-disc">
-              <li>Co-author of <i>Robust deep learning based protein sequence design using ProteinMPNN</i>, a PyTorch message-passing neural network with 19.5% better sequence recovery than DeepMind's AlphaFold</li>
+              <li>Co-author of <i>Robust deep learning based protein sequence design using ProteinMPNN</i>, a PyTorch neural network with 19.5% better sequence recovery than DeepMind's AlphaFold</li>
+              <li class="cv-only">Adapted ProteinMPNN for protein backbone structure prediction for greater sequence diversity in novel proteins using an approach inspired by diffusion networks</li>
               <li>Developed the Foldit website redesign with Ruby on Rails</li>
               <li>Created and integrated my own webpage designs into existing UX based on stakeholder feedback</li>
               <li>Conducted feasibility studies for integrating a modern HTML5-based UI into Foldit to improve code maintainability</li>
@@ -121,11 +128,34 @@ description: The résumé of Frederick Chan, Software Engineer
         </section>
         <section class="p-summary">
           <ul class="pl-5 list-disc">
-            <li>iSchool Informatics Innovation Award winner</li>
             <li><span class="font-bold">Leadership:</span> 1 yr. President and 2 yrs. Officer of the Conlang Club at UW</li>
+            <li>iSchool Informatics Innovation Award winner</li>
+            <li class="cv-only">Graduated Magna Cum Laude in Informatics and Cum Laude in Linguistics</li>
+            <li>Washington State Opportunity Scholarship recipient</li>
           </ul>
         </section>
       </div>
+    </section>
+
+    <section id="talks-and-publications" class="cv-only mb-5">
+      <h2 class="font-bold text-2xl mb-1">Talks and publications</h2>
+      <ul class="pl-5 list-disc">
+        <li>2022, Science: <i>Robust deep learning-based protein sequence design using ProteinMPNN</i></li>
+        <li>2021, eScience Institute: <i>They Came to Egypt: Databases and Digital Editions of 19th Century Nile Travelogues</i></li>
+      </ul>
+    </section>
+
+    <section id="projects" class="cv-only mb-5">
+      <h2 class="font-bold text-2xl">Projects</h2>
+      <p class="mb-1">(See my Github profile at <a href="https://github.com/fechan">github.com/fechan</a> for more)</p>
+      <ul class="pl-5 list-disc">
+        <li>Grow Online (D3, Node, JavaScript): <i>Web implementation of a board game I invented called Grow that's playable on a web browser.</i></li>
+        <li>Fredbox (React, Node, JavaScript): <i>Multiplayer game where players compete to answer a series of brain games as quickly as possible inspired by Jackbox.</i></li>
+        <li>Trilangle (D3, JavaScript, Formal Language): <i>Constructed language using tessellating triangles to encode syntax and represent meaning. Has a sentence renderer in D3 and JavaScript.</i></li>
+        <li>Mathematikka (Java, Mathematica): <i>Bukkit server plugin that uses the Mathematica kernel to query WolframAlpha from within Minecraft.</i></li>
+        <li>Minecraft Geological Survey (Python): <i>Tools for mapping and analyzing Minecraft maps in Geographic Information Systems (GIS) software.</i></li>
+        <li>Legislature Simulator (JavaScript): <i>Online zero-player game that simulates a fictional country's legislative sessions.</i></li>
+      </ul>
     </section>
   </main>
 </body>
