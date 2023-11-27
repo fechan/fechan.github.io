@@ -1,3 +1,7 @@
+/**
+ * Switch back and forth between Resume and CV versions of the resume
+ * based on URL parameter
+ */
 (function() {
   const urlParams = new URLSearchParams(window.location.search);
 
