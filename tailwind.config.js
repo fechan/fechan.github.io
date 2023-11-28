@@ -7,6 +7,10 @@ module.exports = {
     './*.md',
     './*.html',
   ],
+  safelist: [
+    "copyable-hover", // used for the resume-clipboard.js module only
+    "copyable-active", // used for the resume-clipboard.js module only
+  ],
   theme: {
     extend: {
       colors: {

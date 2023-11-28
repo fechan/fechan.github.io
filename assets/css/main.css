@@ -56,3 +56,24 @@
     prose-headings:font-display
     mx-auto;
 }
+
+.copyable {
+  position: relative;
+}
+
+.copyable-hover {
+  /* @apply outline outline-1 outline-dashed outline-slate-400; */
+  @apply bg-slate-100;
+}
+
+.copyable-active::after {
+  @apply text-xs;
+  content: "✅ COPIED!" !important;
+  right: -4.25rem !important;
+}
+
+.copyable-hover::after {
+  @apply absolute top-1/2 -right-5;
+  content: "📋";
+  transform: translateY(-50%);
+}
