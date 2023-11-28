@@ -7,13 +7,17 @@
 
   document.querySelectorAll(".copyable").forEach(elem => {
     elem.addEventListener("mousedown", event => {
+      if (event.button !== 0 || event.altKey) return;
+
       event.stopPropagation();
       navigator.clipboard.writeText(elem.textContent);
       elem.classList.add(COPYABLE_ACTIVE_CLASS);
     });
 
     elem.addEventListener("mouseup", event => {
-      elem.classList.remove(COPYABLE_ACTIVE_CLASS);
+      setTimeout(() => {
+        elem.classList.remove(COPYABLE_ACTIVE_CLASS);
+      }, 700);
     });
 
     elem.addEventListener("mouseover", event => {
