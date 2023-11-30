@@ -10,7 +10,7 @@
       if (event.button !== 0 || event.altKey) return;
 
       event.stopPropagation();
-      navigator.clipboard.writeText(elem.textContent);
+      navigator.clipboard.writeText(extractText(elem));
       elem.classList.add(COPYABLE_ACTIVE_CLASS);
     });
 
@@ -30,4 +30,24 @@
       elem.classList.remove(COPYABLE_HOVER_CLASS);
     });
   });
+
+  /**
+   * Extract and process text from an HTML element in a human-readable way
+   * @param {HTMLElement} elem Element whose text to extract
+   * @returns Text content
+   */
+  function extractText(elem) {
+    let elemCopy = elem.cloneNode(true);
+
+    // add dashes before list items that have no children
+    elemCopy.querySelectorAll("li").forEach(li => {
+      if (li.querySelectorAll("li").length === 0) li.textContent = "- " + li.textContent
+    });
+
+    let text = elemCopy.textContent
+      .replace(/^ +/gm, "") // strip leading spaces from each line
+      .replace(/^\n+|\n+$/g, "") // strip leading & trailing newlines from entire text block
+      .replace(/\n{3,}/g, "\n\n"); // replace 3+ consecutive newlines with 2 newlines
+    return text;
+  }
 })();
