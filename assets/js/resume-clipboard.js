@@ -39,7 +39,7 @@
   function extractText(elem) {
     let elemCopy = elem.cloneNode(true);
 
-    // add dashes before list items that have no children
+    // add dashes before list items that have no child list items
     elemCopy.querySelectorAll("li").forEach(li => {
       if (li.querySelectorAll("li").length === 0) li.textContent = "- " + li.textContent
     });
