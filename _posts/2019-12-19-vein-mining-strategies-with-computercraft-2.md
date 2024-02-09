@@ -334,3 +334,6 @@ function mineVeinHelper (xyz, orientation, traversed)
     end
 end
 ```
+
+## License
+The code in this blog post is provided under the MIT license. If you use this code in your own program, linking back to this blog post would be nice, but is not required.
