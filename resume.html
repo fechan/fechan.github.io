@@ -15,7 +15,7 @@ description: The résumé of Frederick Chan, Software Engineer
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <title>{{ page.title }} | {{ site.name }}</title>
 </head>
-<body class="container print:max-w-full font-body bg-white text-[.85rem]">
+<body class="container print:max-w-full font-body bg-white text-[.85rem] p-0">
   <header class="print:hidden mb-3">
     {% include header.html %}
 
@@ -50,12 +50,12 @@ description: The résumé of Frederick Chan, Software Engineer
       </ul>
     </section>
 
-    <section id="summary" class="copyable p-summary mb-5">
+    <section id="summary" class="copyable p-summary mb-4">
       <p>I'm a software engineer who writes maintainable, readable code, helping projects win awards and publish cutting-edge research. I've developed for a diverse range of applications, including full-stack, machine learning, and data science. I plan ahead and adhere to the best practices of any codebase I work on to make better software for users and developers alike.</p>
     </section>
 
-    <section id="skills" class="copyable mb-5">
-      <h2 class="font-bold text-xl mb-1 border-b">Skills</h2>
+    <section id="skills" class="copyable mb-4">
+      <h2 class="font-bold text-xl border-b border-slate-400">Skills</h2>
       <ul class="copyable flex flex-wrap gap-x-1 list-comma">
         <h3 class="font-bold">Languages:</h3>
         <li class="p-skill">Python</li>
@@ -78,10 +78,10 @@ description: The résumé of Frederick Chan, Software Engineer
         <li class="p-skill">PyTorch</li>
         <li class="p-skill">Ruby&nbsp;on&nbsp;Rails</li>
         <li class="p-skill">Git</li>
-        <li class="p-skill">Github</li>
+        <li class="p-skill cv-only">Github</li>
         <li class="p-skill">Linux</li>
+        <li class="p-skill cv-only">QGIS</li>
         <li class="p-skill">Docker</li>
-        <li class="p-skill">QGIS</li>
       </ul>
       <ul class="copyable flex flex-wrap gap-x-1 list-comma">
         <h3 class="font-bold">Soft skills:</h3>
@@ -92,8 +92,8 @@ description: The résumé of Frederick Chan, Software Engineer
       </ul>
     </section>
 
-    <section id="professional-experience" class="copyable mb-5">
-      <h2 class="font-bold text-xl mb-1 border-b">Professional experience</h2>
+    <section id="professional-experience" class="copyable mb-4">
+      <h2 class="font-bold text-xl border-b border-slate-400">Professional experience</h2>
       <ul>
         <li class="copyable p-experience h-event mb-3">
           <section class="mb-1">
@@ -108,8 +108,8 @@ description: The résumé of Frederick Chan, Software Engineer
           <section class="copyable p-summary">
             <ul class="pl-5 list-disc">
               <li>Led a team of 5 in creating the architecture and software requirements for a real-time, cross-platform mobile application starting from the concept stage</li>
-              <li>Implemented both the server and client side of a full-stack mobile application with React Native, Node.js, and JavaScript</li>
-              <li>Conducted user research and collaborated with a team of 5 to design and prototype user-friendly application designs</li>
+              <li>Implemented both the server and client side of a full-stack application with React Native, Node.js, and JavaScript</li>
+              <li>Conducted user research and collaborated with a team of 5 to design and prototype app UX designs</li>
             </ul>
           </section>
         </li>
@@ -127,10 +127,10 @@ description: The résumé of Frederick Chan, Software Engineer
           <section class="copyable p-summary">
             <ul class="pl-5 list-disc">
               <li>Co-author of <i>Robust deep learning based protein sequence design using ProteinMPNN</i>, a PyTorch neural network with 19.5% better sequence recovery than DeepMind's AlphaFold</li>
-              <li>Adapted ProteinMPNN for protein backbone structure prediction for greater sequence diversity in novel proteins using an approach inspired by diffusion network AI</li>
+              <li>Adapted ProteinMPNN for protein backbone structure prediction for greater sequence diversity in novel proteins using an approach inspired by diffusion neural networks</li>
               <li>Developed the Foldit website redesign with Ruby on Rails and JavaScript</li>
-              <li>Created and integrated my own webpage designs into existing UX based on stakeholder feedback</li>
               <li>Conducted feasibility studies for integrating a modern HTML5-based UI into Foldit, written in <span class="whitespace-nowrap">C++</span>, to improve code maintainability</li>
+              <li class="cv-only">Created and integrated my own webpage designs into existing UX based on stakeholder feedback</li>
             </ul>
           </section>
         </li>
@@ -156,8 +156,8 @@ description: The résumé of Frederick Chan, Software Engineer
       </ul>
     </section>
 
-    <section id="education" class="copyable mb-5">
-      <h2 class="font-bold text-2xl mb-1 border-b">Education</h2>
+    <section id="education" class="copyable mb-4">
+      <h2 class="font-bold text-xl border-b border-slate-400">Education</h2>
       <div class="p-education h-event">
         <section>
           <div class="p-location h-card">
@@ -179,16 +179,16 @@ description: The résumé of Frederick Chan, Software Engineer
       </div>
     </section>
 
-    <section id="talks-and-publications" class="copyable cv-only mb-5">
-      <h2 class="font-bold text-2xl mb-1">Talks and publications</h2>
+    <section id="talks-and-publications" class="copyable cv-only mb-4">
+      <h2 class="font-bold text-xl mb-1 border-b border-slate-400">Talks and publications</h2>
       <ul class="pl-5 list-disc">
         <li>2022, Science: <i>Robust deep learning-based protein sequence design using ProteinMPNN</i></li>
         <li>2021, eScience Institute: <i>They Came to Egypt: Databases and Digital Editions of 19th Century Nile Travelogues</i></li>
       </ul>
     </section>
 
-    <section id="projects" class="cv-only copyable mb-5">
-      <h2 class="font-bold text-2xl">Projects</h2>
+    <section id="projects" class="cv-only copyable mb-4">
+      <h2 class="font-bold text-xl border-b border-slate-400">Projects</h2>
       <p class="mb-1">(See my Github profile at <a href="https://github.com/fechan">github.com/fechan</a> for more)</p>
       <ul class="pl-5 list-disc">
         <li>Grow Online (D3, Node, JavaScript): <i>Web implementation of a board game I invented called Grow that's playable on a web browser.</i></li>
