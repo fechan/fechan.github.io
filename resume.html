@@ -15,7 +15,7 @@ description: The résumé of Frederick Chan, Software Engineer
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <title>{{ page.title }} | {{ site.name }}</title>
 </head>
-<body class="container print:max-w-full font-body bg-white text-[.9rem]">
+<body class="container print:max-w-full font-body bg-white text-[.85rem]">
   <header class="print:hidden mb-3">
     {% include header.html %}
 
@@ -38,7 +38,7 @@ description: The résumé of Frederick Chan, Software Engineer
   </header>
 
   <main class="h-resume">
-    <h1 class="p-name font-black text-3xl">Frederick Chan</h1>
+    <h1 class="p-name font-black text-2xl">Frederick Chan</h1>
 
     <section id="contact-info" class="p-contact h-card mb-2">
       <span class="p-name" hidden>Frederick Chan</span>
@@ -55,7 +55,7 @@ description: The résumé of Frederick Chan, Software Engineer
     </section>
 
     <section id="skills" class="copyable mb-5">
-      <h2 class="font-bold text-2xl mb-1">Skills</h2>
+      <h2 class="font-bold text-xl mb-1 border-b">Skills</h2>
       <ul class="copyable flex flex-wrap gap-x-1 list-comma">
         <h3 class="font-bold">Languages:</h3>
         <li class="p-skill">Python</li>
@@ -93,8 +93,27 @@ description: The résumé of Frederick Chan, Software Engineer
     </section>
 
     <section id="professional-experience" class="copyable mb-5">
-      <h2 class="font-bold text-2xl mb-1">Professional experience</h2>
+      <h2 class="font-bold text-xl mb-1 border-b">Professional experience</h2>
       <ul>
+        <li class="copyable p-experience h-event mb-3">
+          <section class="mb-1">
+            <div class="copyable p-location h-card">
+              <h3 class="p-org font-bold text-lg">Conzensus, LLC</h3>
+            </div>
+            <p class="flex justify-between">
+              <span class="copyable p-name">Software Engineer</span>
+              <span class="italic"><time class="dt-start" datetime="2023-06">June 2023</time> - <time class="dt-end">Present</time></span>
+            </p>
+          </section>
+          <section class="copyable p-summary">
+            <ul class="pl-5 list-disc">
+              <li>Led a team of 5 in creating the architecture and software requirements for a real-time, cross-platform mobile application starting from the concept stage</li>
+              <li>Implemented both the server and client side of a full-stack mobile application with React Native, Node.js, and JavaScript</li>
+              <li>Conducted user research and collaborated with a team of 5 to design and prototype user-friendly application designs</li>
+            </ul>
+          </section>
+        </li>
+
         <li class="copyable p-experience h-event mb-3">
           <section class="mb-1">
             <div class="copyable p-location h-card">
@@ -138,7 +157,7 @@ description: The résumé of Frederick Chan, Software Engineer
     </section>
 
     <section id="education" class="copyable mb-5">
-      <h2 class="font-bold text-2xl mb-1">Education</h2>
+      <h2 class="font-bold text-2xl mb-1 border-b">Education</h2>
       <div class="p-education h-event">
         <section>
           <div class="p-location h-card">
