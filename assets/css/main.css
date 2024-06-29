@@ -1,5 +1,9 @@
 ---
 ---
+
+@import "./rouge.css";
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -47,6 +51,11 @@
 
 .blog-post {
   @apply prose
+    prose-h2:mt-5
+    prose-h2:text-4xl
+    prose-h2:mb-1
+    prose-h3:text-2xl
+    prose-h3:mb-1
     prose-a:text-redchan
     prose-a:no-underline
     prose-blockquote:border-stone-500
@@ -76,4 +85,14 @@
   @apply absolute top-1/2 -right-5;
   content: "📋";
   transform: translateY(-50%);
+}
+
+@font-face {
+  font-family: HamNoSys;
+  src: url( {{ '/assets/fonts/hamnosysunicode-webfont.woff2' | relative_url }} );
+  size-adjust: 180%;
+}
+
+ham-signs {
+  font-family: HamNoSys;
 }

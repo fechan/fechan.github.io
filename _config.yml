@@ -3,6 +3,8 @@ permalink: /blog/:title/
 
 description: The website and portfolio of Frederick Chan, Software Engineer and Technomancer from the Emerald City
 
+highlighter: rouge
+
 plugins:
   - jekyll-postcss
 
