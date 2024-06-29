@@ -11,7 +11,7 @@ Since I'm making a signed conlang and wanted to publish the grammar as a webpage
 
 You can use the [HamNoSys input palette](https://www.sign-lang.uni-hamburg.de/hamnosys/input/) to get the symbol names if you don't know them.
 
-To write HamNoSys with this, use the `<ham-signs></ham-signs>` tags with HamNoSys symbol names between them. For example, the [DGS sign AUGE (eye)](https://www.sign-lang.uni-hamburg.de/korpusdict/bags/bag84.html) would be written in HTML as follows:
+To write HamNoSys with this, use the `<ham-signs></ham-signs>` tags with HamNoSys symbol names between them. For example, the <a href="https://www.sign-lang.uni-hamburg.de/korpusdict/bags/bag84.html">DGS sign <span class="small-caps">AUGE</span> *eye*</a> would be written in HTML as follows:
 
 ```html
 <ham-signs>
