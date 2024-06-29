@@ -56,8 +56,10 @@
 
 .blog-post {
   @apply prose
+    prose-h1:mt-5
+    prose-h1:text-4xl
     prose-h2:mt-5
-    prose-h2:text-4xl
+    prose-h2:text-3xl
     prose-h2:mb-1
     prose-h3:text-2xl
     prose-h3:mb-1
