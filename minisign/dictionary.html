@@ -1,0 +1,94 @@
+---
+title: MiniSign dictionary
+layout: minisign
+prose: false
+---
+<p class="mt-3 mb-3">This is a list of lexical signs in MiniSign. Function morphemes are not listed here.</p>
+
+<h2 class="text-3xl font-display">Parameter descriptions</h2>
+<p class="mb-3">Each sign may be specified for the one of the following parameters, which together make up the sign.</p>
+<dl>
+  <dt class="font-display font-bold text-xl">Handedness</dt>
+  <dd class="mb-3">Number of hands used in the sign. If not specified, the sign is single handed by default.</dd>
+
+  <dt class="font-display font-bold text-xl">Handshape</dt>
+  <dd class="mb-3">Configuration of the fingers, e.g. fist, flat hand, thumbs-up, etc.</dd>
+
+  <dt class="font-display font-bold text-xl">Hand orientation</dt>
+  <dd class="mb-3">Direction the fingers and palm are pointing. When not specified, any orientation is allowed.</dd>
+
+  <dt class="font-display font-bold text-xl">Hand constellation</dt>
+  <dd class="mb-3">Whether the hands are near, touching, clasped, etc. Never specified in 1-handed signs. If not specified in a 2-handed sign, the hands are apart by default.</dd>
+
+  <dt class="font-display font-bold text-xl">Location</dt>
+  <dd class="mb-3">Location where the sign is articulated.</dd>
+
+  <dt class="font-display font-bold text-xl">Movement</dt>
+  <dd class="mb-3">The sign's movement.</dd>
+</dl>
+
+<main class="mt-5">
+  {% assign dictionary = site.data.minisign-dict | sort: "gloss" %}
+  {% for word in dictionary %}
+    <article class="border-t border-stone-400">
+      <h2 class="text-3xl small-caps font-display font-bold">{{ word.gloss }}</h2>
+  
+      <div class="md:grid grid-cols-3">
+        <div class="col-span-2 mb-3">
+
+          {% if word.etymology %}
+            <p class="mb-3">Etymology: {{ word.etymology }}</p>
+          {% endif %}
+
+          <ul class="list-disc list-inside mb-3">
+            <h3 class="capitalize font-bold">{{ word.pos }}</h3>
+            {% for sense in word.senses %}
+              <li class="ps-5">{{ sense }}</li>
+            {% endfor %}
+          </ul>
+
+          {% if word.notes %}
+            <h3 class="font-bold">Notes</h3>
+            <p>{{ word.notes }}</p>
+          {% endif %}
+
+        </div>
+
+        <table class="text-left">
+          <thead class="font-display border-b border-stone-600">
+            <tr>
+              <th class="w-40">Parameter</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-stone-400">
+              <th scope="row" class="font-display">Handedness</th>
+              <td class="text-xl h-12">{{ word.hands }}</td>
+            </tr>
+            <tr class="border-b border-stone-400">
+              <th scope="row" class="font-display">Handshape</th>
+              <td class="text-xl h-12"><ham-signs>{{ word.shape }}</ham-signs></td>
+            </tr>
+            <tr class="border-b border-stone-400">
+              <th scope="row" class="font-display">Hand orientation</th>
+              <td class="text-xl h-12"><ham-signs>{{ word.orient }}</ham-signs></td>
+            </tr>
+            <tr class="border-b border-stone-400">
+              <th scope="row" class="font-display">Hand constellation</th>
+              <td class="text-xl h-12"><ham-signs>{{ word.const }}</ham-signs></td>
+            </tr>
+            <tr class="border-b border-stone-400">
+              <th scope="row" class="font-display">Location</th>
+              <td class="text-xl h-12"><ham-signs>{{ word.loc }}</ham-signs></td>
+            </tr>
+            <tr class="border-b border-stone-400">
+              <th scope="row" class="font-display">Movement</th>
+              <td class="text-xl h-12"><ham-signs>{{ word.move }}</ham-signs></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+  {% endfor %}
+</main>

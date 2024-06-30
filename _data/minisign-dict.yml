@@ -1,0 +1,22 @@
+- gloss: anime
+  pos: noun
+  senses:
+    - anime
+  etymology: Iconic sign of someone adjusting their glasses.
+  notes:
+  hands:
+  shape: hamfinger2,hamthumboutmod
+  orient: hamextfingeru,hampalmu
+  constellation:
+  loc: hameyes,hamclose
+  move: hamextfingerui
+
+- gloss: move
+  pos: verb
+  senses:
+    - move
+  etymology: Iconic sign of moving something from one place to another.
+  notes: MOVE is a spatial verb where the sign moves from the source ① to goal ②.
+  shape: hamcee12
+  loc: hamthumb,hamcoreftag
+  move: hammover,hamindexfinger,hamcoreftag

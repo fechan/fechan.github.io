@@ -186,3 +186,19 @@ layout: minisign
     </tr>
   </tbody>
 </table>
+
+### <ham-signs>hamcee12</ham-signs> Shapes with 1 finger nearly pinching
+<table>
+  <thead>
+    <tr>
+      <th>HamNoSys</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><ham-signs>hamcee12</ham-signs></td>
+      <td>Shapes with 1 finger nearly pinching</td>
+    </tr>
+  </tbody>
+</table>
