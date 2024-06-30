@@ -10,6 +10,7 @@
   constellation:
   loc: hameyes,hamclose
   move: hamextfingerui
+  nmp:
 
 - gloss: move
   pos: verb
@@ -20,3 +21,4 @@
   shape: hamcee12
   loc: hamthumb,hamcoreftag
   move: hammover,hamindexfinger,hamcoreftag
+  nmp:

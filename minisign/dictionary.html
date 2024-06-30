@@ -25,12 +25,15 @@ prose: false
 
   <dt class="font-display font-bold text-xl">Movement</dt>
   <dd class="mb-3">The sign's movement.</dd>
+
+  <dt class="font-display font-bold text-xl">Non-manuals</dt>
+  <dd class="mb-3">Articulations that do not involve the hand. If not specified, the facial expression and body posture is neutral by default.</dd>
 </dl>
 
 <main class="mt-5">
   {% assign dictionary = site.data.minisign-dict | sort: "gloss" %}
   {% for word in dictionary %}
-    <article class="border-t border-stone-400">
+    <article class="border-t border-stone-400 mt-3">
       <h2 class="text-3xl small-caps font-display font-bold">{{ word.gloss }}</h2>
   
       <div class="md:grid grid-cols-3">
@@ -85,6 +88,10 @@ prose: false
             <tr class="border-b border-stone-400">
               <th scope="row" class="font-display">Movement</th>
               <td class="text-xl h-12"><ham-signs>{{ word.move }}</ham-signs></td>
+            </tr>
+            <tr class="border-b border-stone-400">
+              <th scope="row" class="font-display">Non-manuals</th>
+              <td class="text-xl h-12"><ham-signs>{{ word.nmp }}</ham-signs></td>
             </tr>
           </tbody>
         </table>
