@@ -8,8 +8,8 @@
   shape: hamfinger2,hamthumboutmod
   orient: hamextfingeru,hampalmu
   constellation:
-  loc: hameyes,hamclose
-  move: hammoveu,hamsmallmod
+  loc: hameyes,hambetween,hamnose,hamclose
+  move: hammoveui,hamsmallmod
   nmp:
 
 - gloss: move
