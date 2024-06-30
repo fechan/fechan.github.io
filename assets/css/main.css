@@ -70,6 +70,9 @@
     prose-code:before:content-none 
     prose-code:after:content-none
     prose-headings:font-display
+    prose-thead:border-stone-600
+    prose-tr:border-stone-400
+    prose-li:marker:text-sumiblack
     max-w-[80ch]
     mx-auto;
 }

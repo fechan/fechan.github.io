@@ -3,6 +3,8 @@ module.exports = {
     './_drafts/**/*.html',
     './_includes/**/*.html',
     './_layouts/**/*.html',
+    './minisign/**/*.html',
+    './minisign/**/*.md',
     './_posts/*.md',
     './*.md',
     './*.html',
