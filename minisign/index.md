@@ -1,9 +1,8 @@
 ---
-title: MiniSign
+title: MiniSign - A small signed conlang intro to sign language linguistics
 layout: minisign
+no_nav: true
 ---
-# MiniSign - A small signed conlang intro to sign language linguistics
-
 ## Introduction
 MiniSign is a signed conlang project I'm creating to learn about sign language linguistics and teach them to fellow conlangers later.
 
