@@ -9,7 +9,7 @@
   orient: hamextfingeru,hampalmu
   constellation:
   loc: hameyes,hamclose
-  move: hamextfingerui
+  move: hammoveu,hamsmallmod
   nmp:
 
 - gloss: move
