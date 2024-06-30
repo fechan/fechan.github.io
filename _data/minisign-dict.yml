@@ -21,4 +21,14 @@
   shape: hamcee12
   loc: hamthumb,hamcoreftag
   move: hammover,hamindexfinger,hamcoreftag
-  nmp:
+
+- gloss: happy
+  pos: adjective
+  senses:
+    - happy
+  etymology: Iconic sign tracing a smile with a finger
+  notes:
+  shape: hamfinger2,hamthumboutmod
+  loc: hamlrat,hamlips
+  move: hammover,hamarcd,hamlips,hamlrat
+  nmp: Mouth smiling
