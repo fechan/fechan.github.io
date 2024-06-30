@@ -209,7 +209,7 @@
     }
 
     connectedCallback() {
-      this.title = this.textContent;
+      this.title = this.textContent.replace(/^\s/g, "");
       let hamnosysSent = [];
       for (let sign of this.textContent.split(new RegExp('\\s+'))) {
         if (sign === '') continue;
