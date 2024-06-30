@@ -32,3 +32,12 @@
   loc: hamlrat,hamlips
   move: hammover,hamarcd,hamlips,hamlrat
   nmp: Mouth smiling
+
+- gloss: hello
+  pos: interjection
+  senses:
+    - hello, hi
+  etymology: Iconic sign of a hand wave, for catching someone attention.
+  shape: hamflathand,hamthumboutmod
+  loc: hamneutralspace
+  move: hamswinging,hamrepeatfromstart
