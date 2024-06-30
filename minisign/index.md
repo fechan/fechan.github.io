@@ -3,6 +3,9 @@ title: MiniSign - A small signed conlang intro to sign language linguistics
 layout: minisign
 no_nav: true
 ---
+
+<div class="rounded bg-yellow-300/1 border border-yellow-500 p-3 mt-5">⚠️ MiniSign is not complete, and there is a lot that still needs to be developed!</div>
+
 ## Introduction
 MiniSign is a signed conlang project I'm creating to learn about sign language linguistics and teach them to fellow conlangers later.
 
