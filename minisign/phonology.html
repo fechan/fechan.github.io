@@ -2,7 +2,41 @@
 title: MiniSign phonology
 layout: minisign
 ---
-<h2>Handshape inventory</h2>
+<nav class="border-s border-stone-400 ps-5">
+  <h2 class="!text-lg">Table of contents</h2>
+  <ol>
+    <li><a href="#sign-constituents">Sign constituents</a></li>
+    <li><a href="#handshape-inventory">Handshape inventory</a></li>
+    <li><a href="#location-inventory">Location inventory</a></li>
+  </ol>
+</nav>
+
+<h2 id="sign-constituents">Sign constituents</h2>
+<p class="mb-3">Each sign may be specified for one or more of the following parameters, which together make up the sign. If a sign is not specified for a certain parameter, changes in that parameter does not alter its lexical meaning (though it may have grammatical significance).</p>
+<dl>
+  <dt>Handedness</dt>
+  <dd>Number of hands used in the sign. If not specified, the sign is single handed by default.</dd>
+
+  <dt>Handshape</dt>
+  <dd>Configuration of the fingers, e.g. fist, flat hand, thumbs-up, etc.</dd>
+
+  <dt>Hand orientation</dt>
+  <dd>Direction the fingers and palm are pointing. When not specified, any orientation is allowed.</dd>
+
+  <dt>Hand constellation</dt>
+  <dd>Whether the hands are near, touching, clasped, etc. Never specified in 1-handed signs. If not specified in a 2-handed sign, the hands are apart by default.</dd>
+
+  <dt>Location</dt>
+  <dd>Location where the sign is articulated.</dd>
+
+  <dt>Movement</dt>
+  <dd>The sign's movement.</dd>
+
+  <dt>Non-manuals</dt>
+  <dd>Articulations that do not involve the hand. If not specified, the facial expression and body posture is neutral by default.</dd>
+</dl>
+
+<h2 id="handshape-inventory">Handshape inventory</h2>
 <p>The following handshapes may appear on the dominant hand or the nondominant hand in signs where both hands have the same handshape.</p>
 
 <p>Descriptions of these handshapes are on the <a href="/minisign/handshape">handshapes page</a>.</p>
@@ -120,7 +154,7 @@ layout: minisign
   </tbody>
 </table>
 
-<h2>Location inventory</h2>
+<h2 id="location-inventory">Location inventory</h2>
 <p>The following locations may appear in signs. The <ham-signs>hamlrat</ham-signs> black square indicates a location to the left or right of a body part; for example, <ham-signs>hamlrat,hamhead</ham-signs> indicates left of head and <ham-signs>hamhead,hamlrat</ham-signs> indicates right of head.</p>
 
 <div class="grid grid-cols-2">
