@@ -3,6 +3,15 @@ title: MiniSign verbs
 layout: minisign
 ---
 
+## Agreement and spatial verbs
+Verbs can be categorized in terms of whether they agree with their subjects and objects and how they do so.
+
+* **Agreement verbs** agree with their subjects and/or objects by changing the direction where the sign is performed.
+* **Spatial verbs** agree with their subjects and/or objects by changing the location where the sign is performed.
+  * ex: <span class="small-caps">[MOVE](/minisign/dictionary#move)</span>, <span class="small-caps">[SHINE](/minisign/dictionary#shine)</span>
+* **Plain verbs** do not agree with their subjects or objects. However, Verbs that are produced in neutral space in MiniSign can be signed at a particular location to show where the verb takes place.
+  * ex: <span class="small-caps">[MAKE](/minisign/dictionary#make)</span>
+
 ## Aspect
 By default, verbs are either imperfective or perfective depending on whether or not they have a duration. Durative verbs that occur over a period of time like RUN are imperfective by default, and punctual verbs like SNEEZE that happen instantaneously are perfective by default.
 
