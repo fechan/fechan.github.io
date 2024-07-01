@@ -8,14 +8,14 @@ prose: false
 <main class="mt-5">
   {% assign dictionary = site.data.minisign-dict | sort: "gloss" %}
   {% for word in dictionary %}
-    <article class="border-t border-stone-400 mt-3">
+    <article class="border-t border-stone-400 mt-3" id="{{ word.gloss }}">
       <h2 class="text-3xl small-caps font-display font-bold">{{ word.gloss }}</h2>
   
       <div class="md:grid grid-cols-3">
         <div class="col-span-2 mb-3">
 
           {% if word.etymology %}
-            <p class="mb-3">Etymology: {{ word.etymology }}</p>
+            <p class="mb-3">Etymology: {{ word.etymology | markdownify}}</p>
           {% endif %}
 
           <ul class="list-disc list-inside mb-3">
