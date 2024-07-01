@@ -4,6 +4,8 @@ layout: minisign
 ---
 
 ## Aspect
+By default, verbs are either imperfective or perfective depending on whether or not they have a duration. Durative verbs that occur over a period of time like RUN are imperfective by default, and punctual verbs like SNEEZE that happen instantaneously are perfective by default.
+
 ### Imperfective (<span class="small-caps">IPFV</span>)
 The imperfective aspect (<span class="small-caps">IPFV</span>) is marked with the auxiliary verb <span class="small-caps">[DO](/minisign/dictionary#do)</span> after the main verb.
 

@@ -16,6 +16,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'canvascream': {
+          DEFAULT: '#f7e6cf',
+        },
         'redchan': {
           DEFAULT: '#a11a37',
           light: '#e7234d',
