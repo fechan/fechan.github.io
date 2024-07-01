@@ -17,7 +17,7 @@
   senses:
     - move
   etymology: Iconic sign of moving something from one place to another.
-  notes: MOVE is a spatial verb where the sign moves from the source ① to goal ②.
+  notes: MOVE is a spatial verb where the sign moves from the source ① to the goal ②.
   shape: hamcee12
   loc: hamthumb,hamcoreftag
   move: hammover,hamindexfinger,hamcoreftag
@@ -62,4 +62,35 @@
   orient: hamextfingerol,hampalmu
   loc: hamneutralspace
   move: hammoved,hamsmallmod,hamrepeatfromstart
-  
+
+- gloss: moon
+  pos: noun
+  senses:
+    - moon
+  etymology: Iconic sign of a crescent moon
+  shape: hamflathand,hamfingerbendmod,hamthumbopenmod
+  orient: hamextfingerl
+  loc: hamforehead,hamlrat,hamclose
+  move: hammoveo,hamsmallmod
+
+- gloss: sun
+  pos: noun
+  senses:
+    - sun
+  etymology: Iconic sign of a shining sun
+  shape: hamfist,hamthumbacrossmod
+  orient: hamextfingeru,hampalmd
+  loc: hamforehead,hamlrat,hamclose
+  move: hamreplace,hamfinger2345,hamthumbopenmod
+
+- gloss: shine
+  pos: verb
+  senses:
+    - shine
+    - flash
+  etymology: Iconic sign of a shining sun and reduplication of [sun](#sun)
+  shape: hamfist,hamthumbacrossmod
+  orient: hamindexfinger,hamcoreftag
+  loc: hamthumb,hamcoreftag
+  move: hamreplace,hamfinger2345,hamthumbopenmod,hamrepeatfromstart
+  notes: SHINE is an agreement verb where the sign is located at the source ① and the palm is oriented towards the goal ②.
