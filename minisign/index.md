@@ -15,4 +15,5 @@ Since many conlangers take it as a challenge to create a conlang that feels plau
 
 ## Table of contents
 * [Phonology](/minisign/phonology)
+* [Verbs](/minisign/verbs)
 * [Dictionary](/minisign/dictionary)
