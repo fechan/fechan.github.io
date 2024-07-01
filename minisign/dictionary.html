@@ -34,8 +34,8 @@ prose: false
 
         <div class="w-full">
           <div>
-            <ham-signs class="text-3xl block mb-5">
-              {{ word.hands }},{{ word.shape }},{{ word.orient }},{{ word.loc }},{{ word.move }}
+            <ham-signs class="text-2xl block mb-5">
+              {{ word.symm }},{{ word.shape }},{{ word.const }},{{ word.orient }},{{ word.loc }},{{ word.move }}
             </ham-signs>
             {% if word.nmp %}
               <div class="font-bold mb-5">Non-manuals: {{ word.nmp }}</div>
@@ -53,20 +53,20 @@ prose: false
               </thead>
               <tbody>
                 <tr class="border-b border-stone-400">
-                  <th scope="row" class="font-display">Handedness</th>
-                  <td class="text-xl h-12">{{ word.hands }}</td>
+                  <th scope="row" class="font-display">Hand symmetry</th>
+                  <td class="text-xl h-12"><ham-signs>{{ word.symm }}</ham-signs></td>
                 </tr>
                 <tr class="border-b border-stone-400">
                   <th scope="row" class="font-display">Handshape</th>
                   <td class="text-xl h-12"><ham-signs>{{ word.shape }}</ham-signs></td>
                 </tr>
                 <tr class="border-b border-stone-400">
-                  <th scope="row" class="font-display">Hand orientation</th>
-                  <td class="text-xl h-12"><ham-signs>{{ word.orient }}</ham-signs></td>
-                </tr>
-                <tr class="border-b border-stone-400">
                   <th scope="row" class="font-display">Hand constellation</th>
                   <td class="text-xl h-12"><ham-signs>{{ word.const }}</ham-signs></td>
+                </tr>
+                <tr class="border-b border-stone-400">
+                  <th scope="row" class="font-display">Hand orientation</th>
+                  <td class="text-xl h-12"><ham-signs>{{ word.orient }}</ham-signs></td>
                 </tr>
                 <tr class="border-b border-stone-400">
                   <th scope="row" class="font-display">Location</th>

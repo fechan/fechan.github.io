@@ -4,7 +4,7 @@
     - anime
   etymology: Iconic sign of someone adjusting their glasses.
   notes:
-  hands:
+  symm:
   shape: hamfinger2,hamthumboutmod
   orient: hamextfingeru,hampalmu
   constellation:
@@ -41,3 +41,25 @@
   shape: hamflathand,hamthumboutmod
   loc: hamneutralspace
   move: hamswinging,hamrepeatfromstart
+
+- gloss: make
+  pos: verb
+  senses:
+    - make, produce
+  etymology: Iconic sign of a hammer head striking an anvil
+  shape: hamparbegin,hamfinger23,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
+  orient: hamextfingerol,hampalmu
+  loc: hamneutralspace
+  move: hammoved,hamtouch
+
+- gloss: do
+  pos: verb
+  senses:
+    - do (something), be busy
+    - work
+  etymology: Reduction of non-dominant hand in @MAKE plus reduplication
+  shape: hamfinger23
+  orient: hamextfingerol,hampalmu
+  loc: hamneutralspace
+  move: hammoved,hamsmallmod,hamrepeatfromstart
+  

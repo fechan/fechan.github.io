@@ -14,9 +14,6 @@ layout: minisign
 <h2 id="sign-constituents">Sign constituents</h2>
 <p class="mb-3">Each sign may be specified for one or more of the following parameters, which together make up the sign. If a sign is not specified for a certain parameter, changes in that parameter does not alter its lexical meaning (though it may have grammatical significance).</p>
 <dl>
-  <dt>Handedness</dt>
-  <dd>Number of hands used in the sign. If not specified, the sign is single handed by default.</dd>
-
   <dt>Handshape</dt>
   <dd>Configuration of the fingers, e.g. fist, flat hand, thumbs-up, etc.</dd>
 
@@ -25,6 +22,9 @@ layout: minisign
 
   <dt>Hand constellation</dt>
   <dd>Whether the hands are near, touching, clasped, etc. Never specified in 1-handed signs. If not specified in a 2-handed sign, the hands are apart by default.</dd>
+
+  <dt>Hand symmetry</dt>
+  <dd>In 2-handed signs, whether the hands mirror each other. Never specified in 1-handed signs. If not specified in a 2-handed sign, the hands are asymmetric and their location and handshape must be specified.</dd>
 
   <dt>Location</dt>
   <dd>Location where the sign is articulated.</dd>
