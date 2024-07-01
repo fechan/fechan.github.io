@@ -15,7 +15,7 @@ prose: false
         <div class="col-span-2 mb-3">
 
           {% if word.etymology %}
-            <p class="mb-3">Etymology: {{ word.etymology | markdownify}}</p>
+            <p class="mb-3 italic">Etymology: {{ word.etymology | markdownify | remove: '<p>' | remove: '</p>' }}</p>
           {% endif %}
 
           <ul class="list-disc list-inside mb-3">
