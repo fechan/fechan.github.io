@@ -72,6 +72,10 @@ layout: minisign
       <td><ham-signs>hamfinger23,hamthumbacrossmod</ham-signs></td>
       <td>Index & middle finger extended and touching together with thumb across palm</td>
     </tr>
+    <tr>
+      <td><ham-signs>hamfinger23,hamthumbacrossmod,hammiddlefinger,hamfingernail,hamindexfinger</ham-signs></td>
+      <td>Index & middle finger extended, with the middle finger crossing over the index finger and thumb across palm.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -91,6 +95,10 @@ layout: minisign
     <tr>
       <td><ham-signs>hamfinger23spread,hamthumbacrossmod,hamfingerbendmod</ham-signs></td>
       <td>Index & middle finger extended and spread apart with thumb across palm</td>
+    </tr>
+    <tr>
+      <td><ham-signs>hamfinger23spread,hamthumboutmod</ham-signs></td>
+      <td>Index & middle finger extended and spread apart with thumb out</td>
     </tr>
   </tbody>
 </table>
@@ -167,6 +175,10 @@ layout: minisign
     <tr>
       <td><ham-signs>hampinch12open</ham-signs></td>
       <td>Index finger pinches with the thumb, others extended</td>
+    </tr>
+    <tr>
+      <td><ham-signs>hampinch12open,hamfingerhookmod,hampinky</ham-signs></td>
+      <td>Hooked pinky pinches with the thumb, others extended.</td>
     </tr>
   </tbody>
 </table>

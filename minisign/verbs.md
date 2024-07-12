@@ -22,8 +22,8 @@ The imperfective aspect (<span class="small-caps">IPFV</span>) is marked with th
 #### Particle sign <span class="small-caps">PFV</span>
 The perfective aspect is marked with the particle sign <span class="small-caps">PFV</span> after the verb, produced the same as <span class="small-caps">[MAKE](/minisign/dictionary#make)</span> but with the nondominant hand removed.
 
-#### Mouthed /u/ pfv
-Alternatively, the mouthing /u/ may be used during the production of the verb to mark the perfective aspect, but only for telic verbs like achievements <i>(to release)</i> or accomplishments <i>(to drown)</i>.
+#### Mouthed /pu/ pfv
+Alternatively, the mouthing /pu/ may be used during the production of the verb to mark the perfective aspect, but only for telic verbs like achievements <i>(to release)</i> or accomplishments <i>(to drown)</i>.
 
 A good test of whether a verb is telic is to ask whether in the process of doing the verb, it would be appropriate to say that you *have done it* even if you're not done. For example, if you're running, it would be fine to say that you *have run*, even if you're not done running, because running is an atelic action. However, if you're building a house, it wouldn't make sense to say that you *have built a house* when you're not done building it, because building is a telic action.
 
