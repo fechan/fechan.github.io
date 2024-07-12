@@ -94,3 +94,34 @@
   loc: hamthumb,hamcoreftag
   move: hamreplace,hamfinger2345,hamthumbopenmod,hamrepeatfromstart
   notes: SHINE is a spatial verb where the sign is located at the source ① and the palm is oriented towards the goal ②.
+
+- gloss: time
+  pos: noun
+  senses:
+    - time
+    - hour
+  etymology: Iconic sign of pointing at a wristwatch
+  shape: hamparbegin,hamfinger2,hamthumbacrossmod,hamplus,hamfist,hamparend
+  orient: hamextfingerol
+  loc: hamwristback,hamclose
+  move: hammoved
+
+- gloss: forward
+  pos: adverb
+  senses:
+    - forward, towards the front
+  etymology: Iconic sign of the hand moving and pointing forward
+  shape: hamfinger23,hamthumbacrossmod
+  orient: hamextfingero
+  loc: hamneutralspace
+  move: hammoveo
+
+- gloss: future
+  pos: adverb
+  senses:
+    - (in the) future
+  etymology: Compound of [TIME](#time)+[FORWARD](#forward)
+  shape: hamparbegin,hamfinger23,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
+  orient: hamextfingerol
+  loc: hamwristback
+  move: hammoveo,hamreplace,hamextfingero
