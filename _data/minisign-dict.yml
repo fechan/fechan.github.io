@@ -8,7 +8,7 @@
   shape: hamfinger2,hamthumboutmod
   orient: hamextfingeru,hampalmu
   constellation:
-  loc: hameyes,hambetween,hamnose,hamclose
+  loc: hamnose,hamclose
   move: hammoveui,hamsmallmod
   nmp:
 
