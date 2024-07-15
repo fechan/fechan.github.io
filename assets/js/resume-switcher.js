@@ -6,16 +6,13 @@
   const urlParams = new URLSearchParams(window.location.search);
 
   const cvOnlyElements = document.querySelectorAll(".cv-only");
-  const viewingCVNotice = document.getElementById("viewing-cv-notice");
-  const viewingResumeNotice = document.getElementById("viewing-resume-notice");
+  const resumeOnlyElements = document.querySelectorAll(".resume-only");
 
   if (urlParams.get("version") === "resume") {
     cvOnlyElements.forEach(elem => elem.setAttribute("hidden", ""));
-    viewingCVNotice.setAttribute("hidden", "");
-    viewingResumeNotice.removeAttribute("hidden");
+    resumeOnlyElements.forEach(elem => elem.removeAttribute("hidden"));
   } else {
+    resumeOnlyElements.forEach(elem => elem.setAttribute("hidden", ""));
     cvOnlyElements.forEach(elem => elem.removeAttribute("hidden"));
-    viewingCVNotice.removeAttribute("hidden");
-    viewingResumeNotice.setAttribute("hidden", "");
   }
 })();

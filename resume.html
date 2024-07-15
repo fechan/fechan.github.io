@@ -20,12 +20,12 @@ description: The résumé of Frederick Chan, Software Engineer
     {% include header.html %}
 
     <p>
-      <div id="viewing-cv-notice" class="text-center text-lg">
+      <div class="cv-only text-center text-lg">
         <span class="font-bold">You are currently viewing the unabridged CV version of this page.</span>
         <a href="?version=resume" class="block">Want a short résumé instead?</a>
       </div>
 
-      <div id="viewing-resume-notice" class="text-center text-lg" hidden>
+      <div class="resume-only text-center text-lg" hidden>
         <span class="font-bold">You are currently viewing the shortened résumé version of this page.</span>
         <a href="?version=cv" class="block">Want the unabridged CV instead?</a>
       </div>
@@ -201,6 +201,25 @@ description: The résumé of Frederick Chan, Software Engineer
       </ul>
     </section>
   </main>
+
+  <footer class="print:hidden mb-3">
+    <hr class="border border-stone-500 border-dashed mt-1">
+    <p class="text-center text-sm text-stone-600 mt-1 mb-3">
+      Everything below the dotted line will disappear when you <a href="javascript:if(window.print)window.print()">🖨️ print</a> this page.
+    </p>
+
+    <p>
+      <div class="cv-only text-center text-lg">
+        <span class="font-bold">You are currently viewing the unabridged CV version of this page.</span>
+        <a href="?version=resume" class="block">Want a short résumé instead?</a>
+      </div>
+
+      <div class="resume-only text-center text-lg" hidden>
+        <span class="font-bold">You are currently viewing the shortened résumé version of this page.</span>
+        <a href="?version=cv" class="block">Want the unabridged CV instead?</a>
+      </div>
+    </p>
+  </footer>
 
   <script src="/assets/js/resume-switcher.js"></script>
   <script src="/assets/js/resume-clipboard.js"></script>
