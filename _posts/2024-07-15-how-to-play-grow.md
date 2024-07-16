@@ -24,22 +24,23 @@ Grow stones are flat cylinders that can be stacked on top of each other, roughly
 * (Player 3) Light green and dark green Grow stones
 * (Player 4) Light yellow and dark yellow Grow stones
 
-## Setup
+## Playing
+### Setup
 1. Determine turn order (Dice roll is suggested. Highest roll goes first. The person to the left/clockwise goes next.)
 2. Each player, in order, puts a head-stone on any unoccupied space on the board.
 
-## Main gameplay loop
+### Main gameplay loop
 On each player's turn after the [setup](#setup), they do the following steps (which may be done in any order, or simultaneously). Players take turns until the board is filled.
 
-2. The player may drop a head-stone onto any unoccupied space on the board
-1. For each of the player's head-stones on the board:
+1. The player may drop a head-stone onto any unoccupied space on the board
+2. For each of the player's head-stones on the board:
     1. First, choose one of the following options to move the stone:
         1. (Option A) Move the head-stone to any adjacent unoccupied space. (Diagonals are not allowed).
         2. (Option B) If the head-stone is adjacent to a contiguous group of the player's own stones, the player may move their head-stone to any space in that group. (Diagonals are not allowed. Multiple of the player's own stones may occupy the same space).
         3. (Option C) Leave the head-stone where it is
     2. Then, if the space where the head-stone used to be is unoccupied, that players puts their own tail-stone in that space.
 
-## Winning
+### Winning
 When there are no more unoccupied spaces on the board, the game ends. The player with the most spaces occupied by their own stones wins.
 
 ## Tips
