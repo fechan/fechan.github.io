@@ -5,7 +5,7 @@ title: "HamNoSys symbol name → HamNoSys Web Component"
 tldr: 'I wrote a quick little Web Component for rendering HamNoSys symbol names into their corresponding HamNoSys characters that you can put on any web page.'
 ---
 
-The [Hamburg Notation System (HamNoSys)](https://www.sign-lang.uni-hamburg.de/dgs-korpus/hamnosys-97.html) is a sign language transcription system that aims to be able to transcribe as many sign language as possible. It's not ASCII (or even Unicode) compatible, so it's cumbersome to type. However, every symbol has an ASCII compatible name― for example, `hamfinger2` represents <ham-signs>hamfinger2</ham-signs>.
+The [Hamburg Notation System (HamNoSys)](https://www.sign-lang.uni-hamburg.de/dgs-korpus/hamnosys-97.html) is a sign language transcription system that aims to be able to transcribe as many sign languages as possible. It's not ASCII (or even Unicode) compatible, so it's cumbersome to type. However, every symbol has an ASCII compatible name― for example, `hamfinger2` represents <ham-signs>hamfinger2</ham-signs>.
 
 Since I'm making a signed conlang and wanted to publish the grammar as a webpage, I wrote a little Web Component to render HamNoSys symbol names into HamNoSys, which adds a custom `<ham-signs>` tag that lets you type HamNoSys symbol names and turn them into their HamNoSys symbols, like you would in the HamNoSys LaTeX package.
 
