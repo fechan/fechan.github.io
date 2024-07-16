@@ -46,6 +46,10 @@ ham-signs {
 ### The Web Component script
 After adding the styles, add the following `<script>` tag to your page, just before the closing `</body>` tag:
 
-<script src="https://gist.github.com/fechan/fc7e98523dcc45da956c11bbccc8cc7e.js"></script>
+<div>
+  <template shadowrootmode="open">
+    <script src="https://gist.github.com/fechan/fc7e98523dcc45da956c11bbccc8cc7e.js"></script>
+  </template>
+</div>
 
 <script src="{{ '/assets/js/hamnosys-elem.js' | absolute_url }}"></script>
