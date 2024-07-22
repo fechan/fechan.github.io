@@ -35,7 +35,7 @@ SIGILS allows you to pipe items in modded Minecraft factories using ComputerCraf
 
 1. Put down your computer somewhere convenient
 2. Put a wired modem next to the computer.
-    * It is recommended to use the full block versions of the wired modems for convenience, since they can connect to multiple machines simultaneously, as well as non-full blocks such like chests and brewing stands.
+    * It is recommended to use the full block versions of the wired modems for convenience, since they can connect to multiple machines simultaneously, as well as non-full blocks such as chests and brewing stands.
     * If the modem has no red on it, right click it to add it to the computer's network
 3. Place wired modems next to any machines you want to pipe items to/from
     * Again, if the modem block has no red on it, right click it
