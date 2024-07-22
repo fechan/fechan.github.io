@@ -74,7 +74,7 @@ SIGILS allows you to pipe items in modded Minecraft factories using ComputerCraf
 ![Available peripherals dialog box](/assets/images/sigils-available-periphs.webp)
 
 ## Removing machines
-In order for your pipes to keep working in the event of a temporary disconnection (for example, if your machine is in an unloaded chunk), SIGILS does will not remove disconnected machines from your factory unless you explicitly tell it to do so.
+In order for your pipes to keep working in the event of a temporary disconnection (for example, if your machine is in an unloaded chunk), SIGILS will not remove disconnected machines from your factory unless you explicitly tell it to do so.
 
 1. Disconnect your old machine(s) from the computer network
     * You can break the machine, break the wired modem, or disable the wired modem. All of these are fine.
