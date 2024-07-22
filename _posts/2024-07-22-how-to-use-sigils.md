@@ -61,7 +61,7 @@ SIGILS allows you to pipe items in modded Minecraft factories using ComputerCraf
   </div>
 </figure>
 1. In SIGILS, press E to enter editing mode and take note of the 4-letter session code
-2. In your web browser, go to [sigils.fredchan.org](https://sigils.fredchan.org) and enter the session code
+2. In your web browser, go to [sigils.fredchan.org](https://sigils.fredchan.org) (the SIGILS editor) and enter the session code
 3. Press "Start editing"
 4. Click and drag from any red (triangular) handle into any blue (square) handle to pipe items from one inventory to another.
 5. (Optional) In the "Creating a new pipe" dialog box, set an item filter and/or nickname for the pipe.
@@ -69,14 +69,33 @@ SIGILS allows you to pipe items in modded Minecraft factories using ComputerCraf
 6. When you're all done, go back into your ComputerCraft computer and press E again to exit editing mode.
 
 ## Adding machines
-1. Connect your new machine(s) to the computer network with wired modems
-2. Click and drag the names of detected machines in the top right into the main workspace
+1. In Minecraft, connect your new machine(s) to the computer network with wired modems
+2. In the editor, click and drag the names of detected machines in the top right into the main workspace
 ![Available peripherals dialog box](/assets/images/sigils-available-periphs.webp)
 
 ## Removing machines
 In order for your pipes to keep working in the event of a temporary disconnection (for example, if your machine is in an unloaded chunk), SIGILS will not remove disconnected machines from your factory unless you explicitly tell it to do so.
 
-1. Disconnect your old machine(s) from the computer network
+1. In Minecraft, disconnect your old machine(s) from the computer network
     * You can break the machine, break the wired modem, or disable the wired modem. All of these are fine.
-2. In the top right, click on the machine you want to remove
+2. In the editor, tn the top right, click on the machine you want to remove
 ![Missing peripherals dialog box](/assets/images/sigils-missing-periphs.webp)
+
+## Combining machines
+<figure class="float-right text-center !my-0">
+  <div class="w-96">
+    <a href="/assets/images/sigils-combine-periphs.webp">
+      <img src="/assets/images/sigils-combine-periphs.webp"
+        alt="A single pipe between a chest and a furnace's top slot"
+        class="!my-0"
+      />
+    </a>
+    <figcaption>The blast furnace may be combined with the group of furnaces by dragging it into the group of furnaces. The chest supplies coal into the fuel slots of the furnaces in the furnace group using one pipe. (click for full image)</figcaption>
+  </div>
+</figure>
+
+You can combine machines and their inventory slots to allow a single pipe to pipe items to multiple machines at once. This can be useful if you want to smelt a lot of items in bulk, for example.
+
+1. In the editor, click and drag the machines you want to combine into a second machine
+2. Groups of inventory slots with the same nickname will be combined
+    * e.g. A slot nicknamed "Fuel" will combine with other slots nicknamed "Fuel"
