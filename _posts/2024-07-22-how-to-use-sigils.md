@@ -13,12 +13,12 @@ SIGILS allows you to pipe items in modded Minecraft factories using ComputerCraf
 * Minecraft 1.16 or greater
 * CC: Tweaked 1.94.0 or greater
 
-## Basic usage: Setting up and making a pipe
-
 ### Minecraft items
 * Any non-portable ComputerCraft computer (including turtles)
 * Wired modems (from CC: Tweaked. The full-block versions are more convenient to use.)
 * (Optional) Networking cable (from CC: Tweaked)
+
+## Basic usage: Setting up and making a pipe
 
 ### Connecting machines to your ComputerCraft computer
 <figure class="float-right text-center !my-0">
