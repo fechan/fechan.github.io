@@ -63,5 +63,20 @@ SIGILS allows you to pipe items in modded Minecraft factories using ComputerCraf
 1. In SIGILS, press E to enter editing mode and take note of the 4-letter session code
 2. In your web browser, go to [sigils.fredchan.org](https://sigils.fredchan.org) and enter the session code
 3. Press "Start editing"
-4. Click and drag from any red (triangular) handle into any blue (square) handle to pipe items from one inventory to another. Congratulations, you've made your first pipe!
-5. When you're all done, go back into your ComputerCraft computer and press E again to exit editing mode.
+4. Click and drag from any red (triangular) handle into any blue (square) handle to pipe items from one inventory to another.
+5. (Optional) In the "Creating a new pipe" dialog box, set an item filter and/or nickname for the pipe.
+6. Click "Create Pipe." Congratulations, you've made your first pipe!
+6. When you're all done, go back into your ComputerCraft computer and press E again to exit editing mode.
+
+## Adding machines
+1. Connect your new machine(s) to the computer network with wired modems
+2. Click and drag the names of detected machines in the top right into the main workspace
+![Available peripherals dialog box](/assets/images/sigils-available-periphs.webp)
+
+## Removing machines
+In order for your pipes to keep working in the event of a temporary disconnection (for example, if your machine is in an unloaded chunk), SIGILS does will not remove disconnected machines from your factory unless you explicitly tell it to do so.
+
+1. Disconnect your old machine(s) from the computer network
+    * You can break the machine, break the wired modem, or disable the wired modem. All of these are fine.
+2. In the top right, click on the machine you want to remove
+![Missing peripherals dialog box](/assets/images/sigils-missing-periphs.webp)
