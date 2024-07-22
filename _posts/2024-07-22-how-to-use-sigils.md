@@ -81,7 +81,7 @@ In order for your pipes to keep working in the event of a temporary disconnectio
 2. In the editor, tn the top right, click on the machine you want to remove
 ![Missing peripherals dialog box](/assets/images/sigils-missing-periphs.webp)
 
-## Combining machines
+## Combining and splitting machines
 <figure class="float-right text-center !my-0">
   <div class="w-96">
     <a href="/assets/images/sigils-combine-periphs.webp">
@@ -99,3 +99,4 @@ You can combine machines and their inventory slots to allow a single pipe to pip
 1. In the editor, click and drag the machines you want to combine into a second machine
 2. Groups of inventory slots with the same nickname will be combined
     * e.g. A slot nicknamed "Fuel" will combine with other slots nicknamed "Fuel"
+3. To split a machine from a group, click and drag its name from the group to elsewhere in the main workspace
