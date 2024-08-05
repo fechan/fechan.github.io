@@ -125,3 +125,23 @@
   orient: hamextfingerol
   loc: hamwristback
   move: hammoveo,hamreplace,hamextfingero
+
+- gloss: backward
+  pos: adverb
+  senses:
+    - backward, towards the back
+  etymology: Iconic sign of the hand gesturing toward the back
+  shape: hamfinger23,hamthumbacrossmod
+  orient: hamextfingero
+  loc: hamneutralspace
+  move: hamreplace,hamextfingeril
+
+- gloss: past
+  pos: adverb
+  senses:
+    - (in the) past
+  etymology: Compount of [TIME](#time)+[FORWARD](#forward)
+  shape: hamparbegin,hamfinger23,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
+  orient: hamextfingerol
+  loc: hamwristback
+  move: hammoveu,hamsmallmod,hamreplace,hamextfingeril
