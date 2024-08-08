@@ -8,5 +8,6 @@
   <h2 class="font-display text-4xl font-bold text-center">{{ page.title }}</h2>
   <p class="fancy-heading text-center mt-3">Published on <time>{{ page.date | date: "%-d %B %Y"}}</time></p>
   <main class="blog-post">{{ content }}</main>
+  {% include footer.html %}
 </body>
 </html>
