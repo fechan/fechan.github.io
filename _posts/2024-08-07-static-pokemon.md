@@ -35,7 +35,7 @@ I answered it by downloading the [PokéAPI](https://pokeapi.co/) source and buil
       {% if a == b %}
         <div class="text-center">
           <a href="{{ 'https://bulbapedia.bulbagarden.net/wiki/' | append: pokemon.name }}">
-            <img src="{{ '/assets/images/pokemon/' | append: pokemon.id | append: '.png' }}" class="!my-0 !mx-auto" height=96 width=96/>
+            <img src="{{ '/assets/images/pokemon/' | append: pokemon.id | append: '.png' | absolute_url }}" class="!my-0 !mx-auto" height=96 width=96/>
             {{ pokemon.name }}
           </a>
         </div>
