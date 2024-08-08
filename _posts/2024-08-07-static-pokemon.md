@@ -9,7 +9,7 @@ Here, I answer a question from a friend of mine:
 
 > Which non-legendary Gen 1 Pokémon has no alternate forms or evolutions?
 
-I answered it by downloading the PokéAPI source and building the SQLite database that backs it. I also use it to answer the question for all the other gens as well (mainline games only).
+I answered it by downloading the [PokéAPI](https://pokeapi.co/) source and building the SQLite database that backs it. I also use it to answer the question for all the other gens as well (mainline games only).
 
 **Note**: When this article was published, the latest generation was [Gen 9 (Scarlet/Violet)](https://bulbapedia.bulbagarden.net/wiki/Generation_IX).
 
@@ -27,7 +27,7 @@ I answered it by downloading the PokéAPI source and building the SQLite databas
 ## The Pokémon
 {% for generation in (1..9) %}
   <h3>Generation {{generation}}</h3>
-  <div class="grid grid-cols-3 md:grid-cols-5">
+  <div class="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-8">
     {% for pokemon in site.data.static-pokemon %}
       <!-- HACK: stupid and dumb hack to make jekyll compare them as numbers. for some reason to_i doesn't work -->
       {% assign a = generation | plus: 0 %}
