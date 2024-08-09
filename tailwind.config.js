@@ -15,6 +15,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        'resume': ['.85rem']
+      },
       colors: {
         'canvascream': {
           DEFAULT: '#f7e6cf',

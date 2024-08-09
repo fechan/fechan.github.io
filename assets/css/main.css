@@ -83,7 +83,7 @@
 
 .copyable-hover {
   /* @apply outline outline-1 outline-dashed outline-slate-400; */
-  @apply bg-slate-100;
+  @apply bg-slate-100/50;
 }
 
 .copyable-hover.copyable-active::after {
