@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [HamNoSys, sign languages, linguistics]
+categories: [Pokémon, SQL]
 title: "Non-legendary Pokémon with no evolutions or alternate forms"
 tldr: 'I calculated a list of them using the SQL database that drives PokéAPI. There is only one such Pokémon from Gen 1.'
 ---
