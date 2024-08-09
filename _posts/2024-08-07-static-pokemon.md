@@ -29,7 +29,7 @@ I answered it by downloading the [PokéAPI](https://pokeapi.co/) source and buil
   <h3>Generation {{generation}}</h3>
   <div class="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-8">
     {% for pokemon in site.data.static-pokemon %}
-      <!-- HACK: stupid and dumb hack to make jekyll compare them as numbers. for some reason to_i doesn't work -->
+      {% comment %} HACK: stupid and dumb hack to make jekyll compare them as numbers. for some reason to_i doesn't work {% endcomment %}
       {% assign a = generation | plus: 0 %}
       {% assign b = pokemon.generation | plus: 0 %}
       {% if a == b %}

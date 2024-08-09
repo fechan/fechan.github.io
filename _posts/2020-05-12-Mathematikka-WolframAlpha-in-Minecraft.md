@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [minecraft, WolframAlpha, Mathematica, J/Link]
+categories: [Minecraft, WolframAlpha, Mathematica, J/Link]
 title: "Mathematikka: WolframAlpha in Minecraft"
 tldr: "I put WolframAlpha in Minecraft by writing Mathematikka, a Bukkit plugin that queries Mathematica via J/Link to get WolframAlpha results."
 ---

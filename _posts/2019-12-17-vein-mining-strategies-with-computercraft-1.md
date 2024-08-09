@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [computercraft, minecraft]
+categories: [ComputerCraft, Minecraft]
 title: "Vein Mining with ComputerCraft Part 1 (Veins as Trees)"
 tldr: "We can model Minecraft ore veins as tree data structures in ComputerCraft to create a program for veinmining. The tree method minimizes the program size at the cost of efficiency compared to the graph method."
 ---
