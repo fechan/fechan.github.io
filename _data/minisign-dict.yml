@@ -48,7 +48,7 @@
     - make, produce
   etymology: Iconic sign of a hammer head striking an anvil
   shape: hamparbegin,hamfinger23,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
-  orient: hamextfingerol,hampalmu
+  orient: hamextfingerol,hampalmd
   loc: hamneutralspace
   move: hammoved,hamtouch
 
@@ -59,7 +59,7 @@
     - work
   etymology: Reduction of non-dominant hand in [MAKE](#make) plus reduplication
   shape: hamfinger23
-  orient: hamextfingerol,hampalmu
+  orient: hamextfingerol,hampalmd
   loc: hamneutralspace
   move: hammoved,hamsmallmod,hamrepeatfromstart
 
