@@ -17,7 +17,7 @@ Since many conlangers take it as a challenge to create a conlang that feels plau
 * [Notational conventions](/minisign/conventions)
 * [Phonology](/minisign/phonology)
 * [Verbs](/minisign/verbs)
-* [Numerals](/minisign/numerals)
+* [Classifiers](/minisign/classifiers)
 * [Fingerspelling](/minisign/fingerspelling)
 * [Dictionary](/minisign/dictionary)
 * [Example sentences](/minisign/example-sentences)
