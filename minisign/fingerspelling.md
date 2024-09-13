@@ -1,5 +1,5 @@
 ---
-title: Fingerspelling
+title: MiniSign fingerspelling
 layout: minisign
 ---
 ## Introduction
