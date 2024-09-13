@@ -107,3 +107,7 @@
 ham-signs {
   font-family: HamNoSys;
 }
+
+small-caps {
+  font-variant-caps: all-small-caps;
+}

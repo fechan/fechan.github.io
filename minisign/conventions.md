@@ -3,7 +3,7 @@ title: MiniSign notational conventions
 layout: minisign
 ---
 ## Terms
-* **Iconicity** refers to the ability for sign languages to directly represent aspects of referents using its phonology. For example, the MiniSign word <span class="small-caps">[SCISSORS](/minisign/dictionary#scissors)</span> is signed by making a handshape that is iconic of a pair of scissors.
+* **Iconicity** refers to the ability for sign languages to directly represent aspects of referents using its phonology. For example, the MiniSign word [<small-caps>SCISSORS</small-caps>](/minisign/dictionary#scissors) is signed by making a handshape that is iconic of a pair of scissors.
 * **Non-manual markers** or **non-manuals** refers to morphemes signed without the hands, that may be co-articulated at the same time as manual signs.
 
 ## Phonological transcription
@@ -11,7 +11,7 @@ The MiniSign reference grammar uses the [Hamburg Notation System](https://web.dg
 
 ## Glossing conventions
 ### Manual glosses
-Manual signs are written in <span class="small-caps">SMALL CAPS</span>.
+Manual signs are written in <small-caps>SMALL CAPS</small-caps>.
 
 <table>
   <tr>
@@ -19,27 +19,27 @@ Manual signs are written in <span class="small-caps">SMALL CAPS</span>.
     <th>Meaning</th>
   </tr>
   <tr>
-    <td><span class="small-caps">INDEX</span><sub>3</sub></td>
+    <td><small-caps>INDEX</small-caps><sub>3</sub></td>
     <td>A pointing sign towards a location in space. The subscript "1" indicates it points towards the signer, "2" indicates it points to the addressee, and "3" for everything else. "3" can be arbitrarily subdivided with a letter, such as "3a", "3b", etc.</td>
   </tr>
   <tr>
-    <td><sub>1</sub><span class="small-caps">SIGN</span><sub>3</sub></td>
+    <td><sub>1</sub><small-caps>SIGN</small-caps><sub>3</sub></td>
     <td>A sign incorporating two locations, usually a motion from the left subscript to the right subscript.</td>
   </tr>
   <tr>
-    <td><span class="small-caps">SIGN++</span></td>
+    <td><small-caps>SIGN++</small-caps></td>
     <td>A reduplicated sign.</td>
   </tr>
   <tr>
-    <td><span class="small-caps">SIGN-SIGN</span></td>
+    <td><small-caps>SIGN-SIGN</small-caps></td>
     <td>A single sign requiring more than one English word to gloss.</td>
   </tr>
   <tr>
-    <td><span class="small-caps">SIGN+SIGN</span></td>
+    <td><small-caps>SIGN+SIGN</small-caps></td>
     <td>A combination of two signs, or a sign and an affix.</td>
   </tr>
   <tr>
-    <td><span class="small-caps">S-I-G-N</span></td>
+    <td><small-caps>S-I-G-N</small-caps></td>
     <td>A fingerspelled sign.</td>
   </tr>
 </table>

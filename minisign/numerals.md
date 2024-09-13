@@ -76,7 +76,7 @@ For example, the numeral representing two (2) <ham-signs>hamfinger23spread,hamex
 
 ## Numeral incorporation
 
-Numerals handshapes can be used as bound morphemes that combine with certain signs such as <span class="small-caps">[TIME](/minisign/dictionary#time)</span> and <span class="small-caps">[PAST](/minisign/dictionary#past)</span>, replacing the sign's handshape and orientation of the sign in some manner:
+Numerals handshapes can be used as bound morphemes that combine with certain signs such as [<small-caps>PAST</small-caps>](/minisign/dictionary#past), replacing the sign's handshape and orientation of the sign in some manner:
 
 * The dominant hand's handshape and orientation are replaced by the numeral's
 * If the sign is normally symmetric (both hands have the same handshape), then the non-dominant hand's handshape is replaced by the numeral also
