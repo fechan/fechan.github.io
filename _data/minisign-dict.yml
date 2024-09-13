@@ -70,7 +70,7 @@
   etymology: Iconic sign of a crescent moon
   shape: hamflathand,hamfingerbendmod,hamthumbopenmod
   orient: hamextfingerl
-  loc: hamforehead,hamlrat,hamclose
+  loc: hamforehead,hamlrbeside,hamclose
   move: hammoveo,hamsmallmod
 
 - gloss: sun
@@ -161,3 +161,13 @@
   orient: hamextfingero
   loc: hamneutralspace
   move: hamparbegin,hamnomotion,hamplus,hamfinger2345,hamthumbopenmod,hamparend
+
+- gloss: name
+  pos: noun
+  senses:
+    - name
+  etymology: Iconic sign of presenting a "Hello, my name is" nametag on one's chest
+  shape: hamfinger2
+  orient: hamextfingerui,hampalmu
+  loc: hamlrat,hamchest
+  move: hammover,hamsmallmod
