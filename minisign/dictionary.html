@@ -27,7 +27,7 @@ prose: false
 
           {% if word.notes %}
             <h3 class="font-bold">Notes</h3>
-            <p>{{ word.notes }}</p>
+            <p>{{ word.notes | markdownify | remove: '<p>' | remove: '</p>' }}</p>
           {% endif %}
 
         </div>
@@ -35,7 +35,7 @@ prose: false
         <div class="w-full">
           <div>
             <ham-signs class="text-2xl block mb-5">
-              {{ word.symm }},{{ word.shape }},{{ word.const }},{{ word.orient }},{{ word.loc }},{{ word.move }}
+              {{ word.symm }},{{ word.shape }},{{ word.constellation }},{{ word.orient }},{{ word.loc }},{{ word.move }}
             </ham-signs>
             {% if word.nmp %}
               <div class="font-bold mb-5">Non-manuals: {{ word.nmp }}</div>
@@ -62,7 +62,7 @@ prose: false
                 </tr>
                 <tr class="border-b border-stone-400">
                   <th scope="row" class="font-display">Hand constellation</th>
-                  <td class="text-xl h-12"><ham-signs>{{ word.const }}</ham-signs></td>
+                  <td class="text-xl h-12"><ham-signs>{{ word.constellation }}</ham-signs></td>
                 </tr>
                 <tr class="border-b border-stone-400">
                   <th scope="row" class="font-display">Hand orientation</th>
