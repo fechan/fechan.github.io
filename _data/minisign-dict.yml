@@ -160,7 +160,7 @@
   constellation: hamclose
   orient: hamextfingero
   loc: hamneutralspace
-  move: hamparbegin,hamnomotion,hamplus,hamfinger2345,hamthumbopenmod,hamparend
+  move: hamparbegin,hamnomotion,hamplus,hamreplace,hamfinger2345,hamthumbopenmod,hamparend
 
 - gloss: name
   pos: noun
@@ -171,3 +171,16 @@
   orient: hamextfingerui,hampalmu
   loc: hamlrat,hamchest
   move: hammover,hamsmallmod
+
+- gloss: tomorrow
+  pos: adverb
+  senses:
+    - tomorrow
+  etymology: Compound of [DAY](#day)+[FORWARD](#forward)
+  notes: When combined with a [numeral morpheme](/minisign/numerals#numeral_incorporation), it indicates a certain number of days in the future (e.g. DAY+THREE "three days from now").
+  symm: hamsymmpar,hamlargemod
+  shape: hamparbegin,hamfist,hamthumbacrossmod,hamplus,hamfinger2,hamthumbacrossmod,hamparend
+  constellation: hamclose
+  orient: hamextfingero
+  loc: hamneutralspace
+  move: hamparbegin,hamnomotion,hamplus,hammoveo,hamparend
