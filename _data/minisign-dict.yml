@@ -184,3 +184,12 @@
   orient: hamextfingero
   loc: hamneutralspace
   move: hamparbegin,hammoveo,hamplus,hamnomotion,hamparend
+
+- gloss: scissors
+  pos: noun
+  senses:
+    - scissors
+  etymology: Iconic sign of a pair of scissors
+  shape: hamfinger23spread,hamthumbacrossmod
+  loc: hamneutralspace
+  move: hamreplace,hamfinger23,hamrepeatfromstart
