@@ -2,6 +2,10 @@
 title: MiniSign notational conventions
 layout: minisign
 ---
+## Terms
+* **Iconicity** refers to the ability for sign languages to directly represent aspects of referents using its phonology. For example, the MiniSign word <span class="small-caps">[SCISSORS](/minisign/dictionary#scissors)</span> is signed by making a handshape that is iconic of a pair of scissors.
+* **Non-manual markers** or **non-manuals** refers to morphemes signed without the hands, that may be co-articulated at the same time as manual signs.
+
 ## Phonological transcription
 The MiniSign reference grammar uses the [Hamburg Notation System](https://web.dgs-korpus.de/hamnosys-97.html) (HamNoSys) as its transcription system.
 
