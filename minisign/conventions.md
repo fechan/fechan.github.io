@@ -42,7 +42,32 @@ Manual signs are written in <small-caps>SMALL CAPS</small-caps>.
     <td><small-caps>S-I-G-N</small-caps></td>
     <td>A fingerspelled sign.</td>
   </tr>
+  <tr>
+    <td><small-caps>CL:TYPE</small-caps></td>
+    <td>A <a href="/minisign/classifiers">classifier</a> sign with the given type, such as <small-caps>CL:FLAT</small-caps> for the flat objects classifier.</td>
+  </tr>
 </table>
+
+### Both hands signing different things
+Sometimes MiniSign sentences can have different signs being articulated in each hand. In this case, two gloss tiers are used to accommodate this: one labelled *dh* (dominant hand) and the other labelled *ndh* (non-dominant hand).
+
+<figure class="flex items-center flex-col">
+  <table class="!w-min">
+    <tr>
+      <td class="border-b border-canvascream !pb-0">ndh:</td>
+      <td class="border-b border-canvascream !pb-0"></td>
+      <td colspan=3 class="border-b border-slate-500 !pb-0">CL:FIST<sub>3bottom</sub></td>
+    </tr>
+    <tr>
+      <td>dh:</td>
+      <td>ROCK</td>
+      <td><div class="w-24"></div></td>
+      <td>PAPER</td>
+      <td>CL:FLAT<sub>3top</sub></td>
+    </tr>
+  </table>
+  <figcaption><i>"The paper is on top of the rock"</i></figcaption>
+</figure>
 
 ### Non-manual glosses
 Non-manual markers are written in lower case, in a tier above the manual signs. They have a line underneath, indicating the duration of the non-manual marker.
