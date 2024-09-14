@@ -3,7 +3,7 @@ title: MiniSign fingerspelling
 layout: minisign
 ---
 ## Introduction
-Minisign's fingerspelled alphabet is used for loanwords and names from other languages that use the Latin alphabet.
+Minisign's fingerspelled alphabet is used for loanwords and names from other languages that use the Latin alphabet. These are all considered borrowings and do not necessarily conform to the [basic handshape inventory](/minisign/phonology#handshape-inventory).
 
 <table>
   <thead>
