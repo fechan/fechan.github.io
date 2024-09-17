@@ -39,6 +39,7 @@
     - hello, hi
   etymology: Iconic sign of a hand wave, for catching someone's attention.
   shape: hamflathand,hamthumboutmod
+  orient: hamextfingeru,hampalmd
   loc: hamneutralspace
   move: hamswinging,hamrepeatfromstart
 
@@ -69,7 +70,7 @@
     - moon
   etymology: Iconic sign of a crescent moon
   shape: hamflathand,hamfingerbendmod,hamthumbopenmod
-  orient: hamextfingerl
+  orient: hamextfingeru,hampalml
   loc: hamforehead,hamlrbeside,hamclose
   move: hammoveo,hamsmallmod
 
@@ -113,7 +114,7 @@
     - forward, towards the front
   etymology: Iconic sign of the hand moving and pointing forward
   shape: hamfinger23,hamthumbacrossmod
-  orient: hamextfingero
+  orient: hamextfingero,hampalml
   loc: hamneutralspace
   move: hammoveo
 
@@ -124,7 +125,7 @@
   etymology: Compound of [TIME](#time)+[FORWARD](#forward)
   notes: When combined with a [numeral morpheme](/minisign/numerals#numeral_incorporation), it indicates a certain number of hours in the future (e.g. FUTURE+THREE "three hours in the future").
   shape: hamparbegin,hamfinger23,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
-  orient: hamextfingerol
+  orient: hamextfingerol,hampalmi
   loc: hamwristback
   move: hammoveo,hamreplace,hamextfingero
 
@@ -134,7 +135,7 @@
     - backward, towards the back
   etymology: Iconic sign of the hand gesturing toward the back
   shape: hamfinger23,hamthumbacrossmod
-  orient: hamextfingero
+  orient: hamextfingero,hampalml
   loc: hamneutralspace
   move: hamreplace,hamextfingeril
 
@@ -168,7 +169,7 @@
     - name
   etymology: Iconic sign of presenting a "Hello, my name is" nametag on one's chest
   shape: hamfinger2
-  orient: hamextfingerui,hampalmu
+  orient: hamextfingerui,hampalmd
   loc: hamlrat,hamchest
   move: hammover,hamsmallmod
 
@@ -192,4 +193,4 @@
   etymology: Iconic sign of a pair of scissors
   shape: hamfinger23spread,hamthumbacrossmod
   loc: hamneutralspace
-  move: hamreplace,hamfinger23,hamrepeatfromstart
+  move: hamreplace,hamfinger23,hamthumbacrossmod,hamrepeatfromstart
