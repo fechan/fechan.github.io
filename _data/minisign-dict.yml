@@ -49,9 +49,9 @@
     - make, produce
   etymology: Iconic sign of a hammer head striking an anvil
   shape: hamparbegin,hamfinger23,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
-  orient: hamextfingerol,hampalmd
-  loc: hamneutralspace
-  move: hammoved,hamtouch
+  orient: hamparbegin,hamextfingerol,hampalmd,hamplus,hamextfingeror,hampalmr,hamparend
+  loc: hamparbegin,hamshoulders,hamplus,hamchest,hamparend
+  move: hammoved,hamparbegin,hamthumbball,hamplus,hamfingerpad,hamparend,hamtouch
 
 - gloss: do
   pos: verb
@@ -170,7 +170,7 @@
   etymology: Iconic sign of presenting a "Hello, my name is" nametag on one's chest
   shape: hamfinger2
   orient: hamextfingerui,hampalmd
-  loc: hamlrat,hamchest
+  loc: hamtouch,hamlrat,hamchest
   move: hammover,hamsmallmod
 
 - gloss: tomorrow
