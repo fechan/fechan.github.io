@@ -79,7 +79,7 @@
   etymology: Iconic sign of a shining sun
   shape: fist,thumbacrossmod
   orient: extfingeru,palmd
-  loc: forehead,lrat,close
+  loc: forehead,lrbeside,close
   move: replace,finger2345,thumbopenmod
 
 - gloss: shine
