@@ -28,6 +28,7 @@
   etymology: Iconic sign tracing a smile with a finger
   notes:
   shape: finger2,thumboutmod
+  orient: extfingeru,palmu
   loc: lrat,lips
   move: mover,arcd,lips,lrat
   nmp: Mouth smiling
