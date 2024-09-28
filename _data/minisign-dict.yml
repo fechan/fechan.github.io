@@ -40,7 +40,6 @@
   etymology: Iconic sign of a hand wave, for catching someone's attention.
   shape: hamflathand,hamthumboutmod
   orient: hamextfingeru,hampalmd
-  loc: hamneutralspace
   move: hamswinging,hamrepeatfromstart
 
 - gloss: make
@@ -61,7 +60,6 @@
   etymology: Reduction of non-dominant hand in [MAKE](#make) plus reduplication
   shape: hamfinger23
   orient: hamextfingerol,hampalmd
-  loc: hamneutralspace
   move: hammoved,hamsmallmod,hamrepeatfromstart
 
 - gloss: moon
@@ -115,7 +113,6 @@
   etymology: Iconic sign of the hand moving and pointing forward
   shape: hamfinger23,hamthumbacrossmod
   orient: hamextfingero,hampalml
-  loc: hamneutralspace
   move: hammoveo
 
 - gloss: future
@@ -136,7 +133,6 @@
   etymology: Iconic sign of the hand gesturing toward the back
   shape: hamfinger23,hamthumbacrossmod
   orient: hamextfingero,hampalml
-  loc: hamneutralspace
   move: hamreplace,hamextfingeril
 
 - gloss: past
@@ -160,7 +156,6 @@
   shape: hamparbegin,hamfist,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
   constellation: hamclose
   orient: hamextfingero,hampalml
-  loc: hamneutralspace
   move: hamparbegin,hamreplace,hamfinger2345,hamthumbopenmod,hamplus,hamnomotion,hamparend
 
 - gloss: name
@@ -183,7 +178,6 @@
   shape: hamparbegin,hamfinger2,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
   constellation: hamclose
   orient: hamextfingero,hampalml
-  loc: hamneutralspace
   move: hamparbegin,hammoveo,hamplus,hamnomotion,hamparend
 
 - gloss: scissors
@@ -192,5 +186,4 @@
     - scissors
   etymology: Iconic sign of a pair of scissors
   shape: hamfinger23spread,hamthumbacrossmod
-  loc: hamneutralspace
   move: hamreplace,hamfinger23,hamthumbacrossmod,hamrepeatfromstart
