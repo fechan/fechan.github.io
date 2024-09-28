@@ -5,11 +5,11 @@
   etymology: Iconic sign of someone adjusting their glasses.
   notes:
   symm:
-  shape: hamfinger2,hamthumboutmod
-  orient: hamextfingeru,hampalmu
+  shape: finger2,thumboutmod
+  orient: extfingeru,palmu
   constellation:
-  loc: hamnose,hamclose
-  move: hammoveui,hamsmallmod
+  loc: nose,close
+  move: moveui,smallmod
   nmp:
 
 - gloss: move
@@ -18,9 +18,9 @@
     - move
   etymology: Iconic sign of moving something from one place to another.
   notes: MOVE is a spatial verb where the sign moves from the source ① to the goal ②.
-  shape: hamcee12
-  loc: hamthumb,hamcoreftag
-  move: hammover,hamindexfinger,hamcoreftag
+  shape: cee12
+  loc: thumb,coreftag
+  move: mover,indexfinger,coreftag
 
 - gloss: happy
   pos: adjective
@@ -28,9 +28,9 @@
     - happy
   etymology: Iconic sign tracing a smile with a finger
   notes:
-  shape: hamfinger2,hamthumboutmod
-  loc: hamlrat,hamlips
-  move: hammover,hamarcd,hamlips,hamlrat
+  shape: finger2,thumboutmod
+  loc: lrat,lips
+  move: mover,arcd,lips,lrat
   nmp: Mouth smiling
 
 - gloss: hello
@@ -38,19 +38,19 @@
   senses:
     - hello, hi
   etymology: Iconic sign of a hand wave, for catching someone's attention.
-  shape: hamflathand,hamthumboutmod
-  orient: hamextfingeru,hampalmd
-  move: hamswinging,hamrepeatfromstart
+  shape: flathand,thumboutmod
+  orient: extfingeru,palmd
+  move: swinging,repeatfromstart
 
 - gloss: make
   pos: verb
   senses:
     - make, produce
-  etymology: Iconic sign of a hammer head striking an anvil
-  shape: hamparbegin,hamfinger23,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
-  orient: hamparbegin,hamextfingerol,hampalmd,hamplus,hamextfingeror,hampalmr,hamparend
-  loc: hamparbegin,hamshoulders,hamplus,hamchest,hamparend
-  move: hammoved,hamparbegin,hamthumbball,hamplus,hamfingerpad,hamparend,hamtouch
+  etymology: Iconic sign of a mer head striking an anvil
+  shape: parbegin,finger23,thumbacrossmod,plus,fist,thumbacrossmod,parend
+  orient: parbegin,extfingerol,palmd,plus,extfingeror,palmr,parend
+  loc: parbegin,shoulders,plus,chest,parend
+  move: moved,parbegin,thumbball,plus,fingerpad,parend,touch
 
 - gloss: do
   pos: verb
@@ -58,29 +58,29 @@
     - do (something), be busy
     - work
   etymology: Reduction of non-dominant hand in [MAKE](#make) plus reduplication
-  shape: hamfinger23
-  orient: hamextfingerol,hampalmd
-  move: hammoved,hamsmallmod,hamrepeatfromstart
+  shape: finger23
+  orient: extfingerol,palmd
+  move: moved,smallmod,repeatfromstart
 
 - gloss: moon
   pos: noun
   senses:
     - moon
   etymology: Iconic sign of a crescent moon
-  shape: hamflathand,hamfingerbendmod,hamthumbopenmod
-  orient: hamextfingeru,hampalml
-  loc: hamforehead,hamlrbeside,hamclose
-  move: hammoveo,hamsmallmod
+  shape: flathand,fingerbendmod,thumbopenmod
+  orient: extfingeru,palml
+  loc: forehead,lrbeside,close
+  move: moveo,smallmod
 
 - gloss: sun
   pos: noun
   senses:
     - sun
   etymology: Iconic sign of a shining sun
-  shape: hamfist,hamthumbacrossmod
-  orient: hamextfingeru,hampalmd
-  loc: hamforehead,hamlrat,hamclose
-  move: hamreplace,hamfinger2345,hamthumbopenmod
+  shape: fist,thumbacrossmod
+  orient: extfingeru,palmd
+  loc: forehead,lrat,close
+  move: replace,finger2345,thumbopenmod
 
 - gloss: shine
   pos: verb
@@ -88,10 +88,10 @@
     - shine
     - flash
   etymology: Iconic sign of a shining sun and reduplication of [SUN](#sun)
-  shape: hamfist,hamthumbacrossmod
-  orient: hamindexfinger,hamcoreftag
-  loc: hamthumb,hamcoreftag
-  move: hamreplace,hamfinger2345,hamthumbopenmod,hamrepeatfromstart
+  shape: fist,thumbacrossmod
+  orient: indexfinger,coreftag
+  loc: thumb,coreftag
+  move: replace,finger2345,thumbopenmod,repeatfromstart
   notes: SHINE is a spatial verb where the sign is located at the source ① and the palm is oriented towards the goal ②.
 
 - gloss: time
@@ -101,19 +101,19 @@
     - hour
   etymology: Iconic sign of pointing at a wristwatch
   notes: When combined with a [numeral morpheme](/minisign/numerals#numeral_incorporation), it indicates a certain time (e.g. PAST+THREE "three o' clock").
-  shape: hamparbegin,hamfinger2,hamthumbacrossmod,hamplus,hamfist,hamparend
-  orient: hamextfingerol
-  loc: hamwristback,hamclose
-  move: hammoved
+  shape: parbegin,finger2,thumbacrossmod,plus,fist,parend
+  orient: extfingerol
+  loc: wristback,close
+  move: moved
 
 - gloss: forward
   pos: adverb
   senses:
     - forward, towards the front
   etymology: Iconic sign of the hand moving and pointing forward
-  shape: hamfinger23,hamthumbacrossmod
-  orient: hamextfingero,hampalml
-  move: hammoveo
+  shape: finger23,thumbacrossmod
+  orient: extfingero,palml
+  move: moveo
 
 - gloss: future
   pos: adverb
@@ -121,19 +121,19 @@
     - (in the) future
   etymology: Compound of [TIME](#time)+[FORWARD](#forward)
   notes: When combined with a [numeral morpheme](/minisign/numerals#numeral_incorporation), it indicates a certain number of hours in the future (e.g. FUTURE+THREE "three hours in the future").
-  shape: hamparbegin,hamfinger23,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
-  orient: hamextfingerol,hampalml
-  loc: hamwristback
-  move: hammoveo,hamreplace,hamextfingero
+  shape: parbegin,finger23,thumbacrossmod,plus,fist,thumbacrossmod,parend
+  orient: extfingerol,palml
+  loc: wristback
+  move: moveo,replace,extfingero
 
 - gloss: backward
   pos: adverb
   senses:
     - backward, towards the back
   etymology: Iconic sign of the hand gesturing toward the back
-  shape: hamfinger23,hamthumbacrossmod
-  orient: hamextfingero,hampalml
-  move: hamreplace,hamextfingeril
+  shape: finger23,thumbacrossmod
+  orient: extfingero,palml
+  move: replace,extfingeril
 
 - gloss: past
   pos: adverb
@@ -141,10 +141,10 @@
     - (in the) past
   etymology: Compound of [TIME](#time)+[BACKWARD](#backward)
   notes: When combined with a [numeral morpheme](/minisign/numerals#numeral_incorporation), it indicates a certain number of hours in the past (e.g. PAST+THREE "three hours ago").
-  shape: hamparbegin,hamfinger23,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
-  orient: hamextfingerol
-  loc: hamwristback
-  move: hammoveu,hamsmallmod,hamreplace,hamextfingeril
+  shape: parbegin,finger23,thumbacrossmod,plus,fist,thumbacrossmod,parend
+  orient: extfingerol
+  loc: wristback
+  move: moveu,smallmod,replace,extfingeril
 
 - gloss: day
   pos: noun
@@ -152,21 +152,21 @@
     - day
   etymology: Compound of [SUN](#sun) and a fist representing the earth
   notes: When combined with a [numeral morpheme](/minisign/numerals#numeral_incorporation), it indicates a certain number of days (e.g. DAY+THREE "three days").
-  symm: hamsymmpar,hamlargemod
-  shape: hamparbegin,hamfist,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
-  constellation: hamclose
-  orient: hamextfingero,hampalml
-  move: hamparbegin,hamreplace,hamfinger2345,hamthumbopenmod,hamplus,hamnomotion,hamparend
+  symm: symmpar,largemod
+  shape: parbegin,fist,thumbacrossmod,plus,fist,thumbacrossmod,parend
+  constellation: close
+  orient: extfingero,palml
+  move: parbegin,replace,finger2345,thumbopenmod,plus,nomotion,parend
 
 - gloss: name
   pos: noun
   senses:
     - name
   etymology: Iconic sign of presenting a "Hello, my name is" nametag on one's chest
-  shape: hamfinger2
-  orient: hamextfingerui,hampalmd
-  loc: hamtouch,hamlrat,hamchest
-  move: hammover,hamsmallmod
+  shape: finger2
+  orient: extfingerui,palmd
+  loc: touch,lrat,chest
+  move: mover,smallmod
 
 - gloss: tomorrow
   pos: adverb
@@ -174,16 +174,16 @@
     - tomorrow
   etymology: Compound of [DAY](#day)+[FORWARD](#forward)
   notes: When combined with a [numeral morpheme](/minisign/numerals#numeral_incorporation), it indicates a certain number of days in the future (e.g. DAY+THREE "three days from now").
-  symm: hamsymmlr
-  shape: hamparbegin,hamfinger2,hamthumbacrossmod,hamplus,hamfist,hamthumbacrossmod,hamparend
-  constellation: hamclose
-  orient: hamextfingero,hampalml
-  move: hamparbegin,hammoveo,hamplus,hamnomotion,hamparend
+  symm: symmlr
+  shape: parbegin,finger2,thumbacrossmod,plus,fist,thumbacrossmod,parend
+  constellation: close
+  orient: extfingero,palml
+  move: parbegin,moveo,plus,nomotion,parend
 
 - gloss: scissors
   pos: noun
   senses:
     - scissors
   etymology: Iconic sign of a pair of scissors
-  shape: hamfinger23spread,hamthumbacrossmod
-  move: hamreplace,hamfinger23,hamthumbacrossmod,hamrepeatfromstart
+  shape: finger23spread,thumbacrossmod
+  move: replace,finger23,thumbacrossmod,repeatfromstart

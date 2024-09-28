@@ -218,6 +218,8 @@
         for (let symbolName of sign.split(new RegExp(','))) {
           if (symbolName in HAMNOSYS_NAMES) {
             hamnosysSign = hamnosysSign + HAMNOSYS_NAMES[symbolName];
+          } else if ('ham' + symbolName in HAMNOSYS_NAMES) {
+            hamnosysSign = hamnosysSign + HAMNOSYS_NAMES['ham' + symbolName];
           } else {
             hamnosysSign = hamnosysSign + symbolName;
           }
