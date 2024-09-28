@@ -17,10 +17,9 @@
   senses:
     - move
   etymology: Iconic sign of moving something from one place to another.
-  notes: MOVE is a spatial verb where the sign moves from the source ① to the goal ②.
+  notes: MOVE is a spatial verb where the sign moves from the source to the goal.
   shape: cee12
-  loc: thumb,coreftag
-  move: mover,indexfinger,coreftag
+  move: mover
 
 - gloss: happy
   pos: adjective
@@ -89,10 +88,9 @@
     - flash
   etymology: Iconic sign of a shining sun and reduplication of [SUN](#sun)
   shape: fist,thumbacrossmod
-  orient: indexfinger,coreftag
-  loc: thumb,coreftag
+  orient: extfingeru,palmd
   move: replace,finger2345,thumbopenmod,repeatfromstart
-  notes: SHINE is a spatial verb where the sign is located at the source ① and the palm is oriented towards the goal ②.
+  notes: SHINE is a spatial verb and can be located at the source and with the palm oriented towards the goal.
 
 - gloss: time
   pos: noun
