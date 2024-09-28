@@ -101,9 +101,9 @@
   etymology: Iconic sign of pointing at a wristwatch
   notes: When combined with a [numeral morpheme](/minisign/numerals#numeral_incorporation), it indicates a certain time (e.g. PAST+THREE "three o' clock").
   shape: parbegin,finger2,thumbacrossmod,plus,fist,parend
-  orient: extfingerol
-  loc: wristback,close
-  move: moved
+  orient: parbegin,extfingerol,plus,extfingeror,parend,palmd
+  loc: parbegin,shoulders,plus,chest,parend
+  move: moved,parbegin,wristback,plus,fingerpad,parend,touch
 
 - gloss: forward
   pos: adverb
@@ -121,7 +121,7 @@
   etymology: Compound of [TIME](#time)+[FORWARD](#forward)
   notes: When combined with a [numeral morpheme](/minisign/numerals#numeral_incorporation), it indicates a certain number of hours in the future (e.g. FUTURE+THREE "three hours in the future").
   shape: parbegin,finger23,thumbacrossmod,plus,fist,thumbacrossmod,parend
-  orient: extfingerol,palml
+  orient: parbegin,extfingerol,palml,plus,extfingeror,palmd,parend
   loc: wristback
   move: moveo,replace,extfingero
 
