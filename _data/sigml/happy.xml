@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sigml>
+    <hns_sign gloss="happy">
+        <hamnosys_manual>
+<hamfinger2 />
+<hamthumboutmod />
+<hamextfingeru />
+<hampalmu />
+<hamlrat />
+<hamlips />
+<hammover />
+<hamarcd />
+<hamlips />
+<hamlrat />
+        </hamnosys_manual>
+    </hns_sign>
+</sigml>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sigml>
+    <hns_sign gloss="shine">
+        <hamnosys_manual>
+<hamfist />
+<hamthumbacrossmod />
+<hamextfingeru />
+<hampalmd />
+<hamreplace />
+<hamfinger2345 />
+<hamthumbopenmod />
+<hamrepeatfromstart />
+        </hamnosys_manual>
+    </hns_sign>
+</sigml>
