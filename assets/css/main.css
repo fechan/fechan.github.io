@@ -111,3 +111,7 @@ ham-signs {
 small-caps {
   font-variant-caps: all-small-caps;
 }
+
+.conlanger-note {
+  @apply block w-full border border-blue-400 bg-blue-100/25 rounded py-3 px-5 mb-3;
+}
