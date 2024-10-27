@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sigml>
+    <hns_sign gloss="cat">
+        <hamnosys_manual>
+<hamfist />
+<hamthumbacrossmod />
+<hamextfingeru />
+<hampalmd />
+<hamshoulders />
+<hamlrat />
+<hamreplace />
+<hamextfingero />
+        </hamnosys_manual>
+    </hns_sign>
+</sigml>
