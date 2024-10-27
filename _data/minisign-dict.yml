@@ -198,3 +198,54 @@
   orient: extfingeru,palmd
   loc: shoulders,lrat
   move: replace,extfingero
+
+- gloss: eat
+  pos: verb
+  senses:
+    - eat
+  etymology: Iconic sign of someone eating
+  shape: cee12
+  orient: extfingero,palml
+  loc: chin
+  nmp: biting
+
+- gloss: cup
+  pos: noun
+  etymology: Iconic sign of tilting a mug when drinking
+  senses:
+    - cup, mug
+  shape: fist
+  loc: chin
+  orient: extfingerl,palml
+  move: replace,palmd
+
+- gloss: drink
+  pos: verb
+  etymology: "[CUP](#cup) with lips rounded for drinking"
+  senses:
+    - cup, mug
+  shape: fist
+  loc: chin
+  orient: extfingerl,palml
+  move: replace,palmd
+  nmp: Mouthing /u/
+
+- gloss: push
+  pos: verb
+  etymology: Iconic sign of someone pushing
+  senses:
+    - push
+  shape: flathand
+  orient: extfingeru,palmd
+  loc: shoulders
+  move: moveo
+
+- gloss: break
+  pos: verb
+  etymology: Iconic sign of something breaking and scattering
+  senses:
+    - break
+  symm: symmlr
+  shape: fist,thumbacrossmod
+  orient: extfingero,palml
+  move: replace,finger2345,thumbopenmod
