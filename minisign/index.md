@@ -21,6 +21,7 @@ I'd also like to thank my former sign language linguistics professor, Dr. Lorna 
 ## Table of contents
 * [Notational conventions](/minisign/conventions)
 * [Phonology](/minisign/phonology)
+* [Word order](/minisign/word-order)
 * [Verbs](/minisign/verbs)
 * [Classifiers](/minisign/classifiers)
 * [Numerals](/minisign/numerals)
