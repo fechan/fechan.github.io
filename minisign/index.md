@@ -13,6 +13,11 @@ One of the main reasons there aren't many signed conlangs is the lack of signed 
 
 Since many conlangers take it as a challenge to create a conlang that feels plausibly naturalistic, this conlang aims to be what a signed conlang would look like in its early stages if it were trying to be naturalistic when developed in the long term. This will make it easier to learn from, and serves as a jumping off point for other conlangers to make more naturalistic signed conlangs in the future.
 
+## Acknowledgements
+I'd like to thank the members of the Signed Conlangs Discord server, a community of both Deaf, HoH, and hearing conlangers who make signed conlangs, for their advice, sharing their personal experiences, and generally being wonderful to talk with about sign languages and signed conlangs.
+
+I'd also like to thank my former sign language linguistics professor, Dr. Lorna Rozelle, for teaching me most of what I know about signed linguistics and getting me interested in sign languages in general.
+
 ## Table of contents
 * [Notational conventions](/minisign/conventions)
 * [Phonology](/minisign/phonology)
