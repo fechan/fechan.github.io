@@ -15,9 +15,11 @@
 - gloss: move
   pos: verb
   senses:
-    - move
+    - move (something)
   etymology: Iconic sign of moving something from one place to another.
-  notes: MOVE is a spatial verb where the sign moves from the source to the goal.
+  notes: |
+    MOVE is a spatial verb where the sign moves from the source to the goal.
+    It is only used if the agent and the theme are different, and not used if the agent is moving itself.
   shape: cee12
   move: mover
 
