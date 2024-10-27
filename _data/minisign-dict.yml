@@ -186,3 +186,13 @@
   etymology: Iconic sign of a pair of scissors
   shape: finger23spread,thumbacrossmod
   move: replace,finger23,thumbacrossmod,repeatfromstart
+
+- gloss: cat
+  pos: noun
+  senses:
+    - cat, feline
+  etymology: Iconic sign of a cat's paw
+  shape: fist,thumbacrossmod
+  orient: extfingeru,palmd
+  loc: shoulders,lrat
+  move: replace,extfingero
