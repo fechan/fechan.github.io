@@ -58,23 +58,6 @@ To make a lower-ranking NP the agent, direct-inverse languages use an inverse ma
   </tr>
 </table>
 
-Note that the inverse marker cannot be used with intransitive verbs to form passives in direct-inverse languages.
-
-<table class="!w-96 mx-auto">
-  <tr>
-    <th>Direct-inverse English</th>
-    <th>Regular English</th>
-  </tr>
-  <tr>
-    <td>I hear</td>
-    <td>I hear</td>
-  </tr>
-  <tr>
-    <td>*I hear-<small-caps>INVERSE</small-caps></td>
-    <td><i>Intended meaning:</i> I am heard</td>
-  </tr>
-</table>
-
 ## Distinguishing between 3rd person arguments
 If you have two 3rd person arguments, like "dog" and "bone," how do you know which one is the agent and object?
 
