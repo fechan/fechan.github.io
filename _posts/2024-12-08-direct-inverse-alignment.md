@@ -36,7 +36,7 @@ If, in our direct-inverse version of English, we have a hierarchy such as:
 2. 2nd person NPs
 3. 3rd person NPs
 
-Then no matter what order the NPs come in the sentences *"I see you"* or *"You see I,"* you always know that *"I"* is the agent because it is higher on the hierarchy than *"you,"* and therefore *"you"* is the object.
+In our direct-inverse version of English, no matter what order the NPs come in the sentences *"I see you"* or *"You see I,"* you always know that *"I"* is the agent because it is higher on the hierarchy than *"you,"* and therefore *"you"* is the object.
 
 But what if the seeing goes the other way around? **What happens if you want the lower-ranking NP to be the agent?**
 
