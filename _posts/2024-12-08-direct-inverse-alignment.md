@@ -19,7 +19,7 @@ The following terms will be used in this article:
 
 For example, in the English sentence *"I see you,"* you know that *"I"* is the agent and *"you"* is the object because agents of transitive verbs always precede the verb and objects come after.
 
-**In a direct-inverse language**, none of the NPs are marked. If English were a direct-inverse language, all the following sentences would *mean the same thing:*
+**In a direct-inverse language**, none of the NPs are marked. If English were a direct-inverse language, all the following sentences would mean the same thing:
 * I see you
 * You see I
 * I you see
