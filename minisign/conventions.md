@@ -9,12 +9,14 @@ layout: minisign
 ## Phonological transcription
 The MiniSign reference grammar uses the [Hamburg Notation System](https://web.dgs-korpus.de/hamnosys-97.html) (HamNoSys) as its transcription system.
 
+MiniSign example sentences in this website will almost always be given using a per-morpheme gloss rather than a phonological transcription, unless the phonological form is relevant. HamNoSys transcriptions of MiniSign words can be found in the [dictionary](/minisign/dictionary)
+
 <details class="conlanger-note" markdown="1">
   <summary>Conlanger note: Transcription systems</summary>
 
-  There is no consensus for how to transcribe sign languages, and there are many competing options including HamNoSys, Sutton's SignWriting, and DJP's [SLIPA](https://www.dedalvs.com/slipa.html), which was created specifically so DJP could make a signed conlang.
+  There is no consensus for how to transcribe sign languages, and there are many competing options including HamNoSys, Sutton's SignWriting, and EliS.
 
-  I personally chose to use HamNoSys because it's commonly seen in research and is used by my sign language linguistics professor, Dr. Rozelle, at the University of Washington. It tries to have a symbol for every possible constituent (unlike the IPA, which only assigns a symbol for phonemes that are attested in a language), which is handy for conlanging.
+  I personally chose to use HamNoSys because it is extremely flexible and is commonly seen in sign language linguistics research. It tries to have a symbol for every possible constituent (unlike the IPA, which only assigns a symbol for phonemes that are attested in a language), which is handy for conlanging. The trade-off is that there are a lot of symbols to memorize and is not always intuitive.
 
   Although strictly speaking it is not ASCII-compatible and needs a font to display, each symbol has a standardized ASCII-compatible name like `hamfinger23` (for <ham-signs>hamfinger23</ham-signs>), so I write my dictionary with those and [automatically convert it with JavaScript](https://fredchan.org/blog/hamnosys-renderer/) if it needs to be displayed on my website.
 </details>
