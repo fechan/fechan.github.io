@@ -2,7 +2,7 @@
 layout: post
 categories: [linguistics, conlang, conpidgin]
 title: "Running a conpidgin: A Pidgin Island Quest Retrospective"
-tldr: "Learning from the successes and failures of previous SCC pidgin games, the we devised a new set of rules for PidginCraft to help players stay engaged."
+tldr: "Learning from the successes and failures of previous SCC pidgin games, the we devised a new set of rules for PidginCraft to help players stay engaged: giving them goals, having synchronous sessions, enforcing world boundaries, and removing starter languages."
 ---
 The SCC's conpidgin roleplaying game, Pidgin Island Quest, ran from July 14 to September 25 of 2024. It was the longest in a series of four conpidgin experiments by the SCC since 2021 and featured a unique ruleset designed to encourage activity with mixed success. What can we learn from Pidgin Island Quest, and how is it being used to design the SCC's next pidgin game, PidginCraft?
 
