@@ -13,7 +13,7 @@ Pidgin Island Quest (PIQ) was a conpidgin RPG played using a Discord text channe
 During the normal, asynchronous play, players would type text and post clarifying pictures or drawings to communicate. The synchronous sessions were predefined hours of the week when available players would play together which, other than happening at a faster pace, was mechanically identical to asynchronous play.
 Most of the SCC's Pidgin Games only involved a handful of players, and PIQ was no exception: 9 players signed up for PIQ initially, but only 6 players actually played. By the final week only 2 players were active, and the decision was made to stop the experiment.
 
-## Providing Goals Through Roleplaying
+## Providing goals through roleplaying
 
 One big problem that conpidgins face is that people need something to talk about, otherwise there's not much reason to converse, let alone in a pidgin nobody understands very well. To solve this problem, PIQ introduced a loosely structured tabletop roleplay system, inspired by Dungeons & Dragons, which gave players in-game challenges requiring cooperation to complete.
 
@@ -21,7 +21,7 @@ In PIQ, players took on the role of primitive mountainfolk who were kidnapped fo
 
 Though English was not allowed to be spoken by player characters, it was necessary for the DM to be unambiguously notified of actions players wished to take so they could craft appropriate responses. For simple actions that would be evident to anyone watching, such as running, the player simply announces a simple action phrase in English (e.g. "running away"). More complicated actions, such as crafting a bow or building a hut, would be related privately to the DM, who would then announce the result of the action to all players.
 
-## Roleplay Setting Effects on Vocabulary
+## Effects of the roleplay setting and mechanics on vocabulary
 
 In the first few IRL days, players created an expansive, though volatile, vocabulary to describe the world around them. Since the setting was especially primitive, the structure of words in the early vocabulary contained few compounds and nearly always described concrete objects or actions, such as *aiwan* "boar", *xag* "food", and *bizkotte* "attack". As PIQ developed, many of these early words were later found in compounds like *hafidxag* "seafood".
 
