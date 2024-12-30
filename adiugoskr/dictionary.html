@@ -1,0 +1,38 @@
+---
+title: Adiugoskr dictionary
+layout: adiugoskr
+prose: false
+---
+<main class="grid grid-cols-2 gap-3 mt-5">
+  {% assign dictionary = site.data.adiugoskr-dict | sort: "orth" %}
+  {% for word in dictionary %}
+    <article class="border-t border-stone-400 pt-5">
+      <a id="{{ word.gloss }}"></a>
+      <a id="{{ word.orth }}"></a>
+
+      <h2 class="text-3xl font-display font-bold">{{ word.orth }}</h2>
+
+      <ul class="list-disc list-inside mb-3">
+        <div>
+          <h3 class="capitalize font-bold inline">
+            {{ word.pos }}
+          </h3>
+
+          <span>
+            {% if word.pos == "noun" or word.pos == "pronoun" %}
+              <small-caps>{{ word.class }}</small-caps>
+            {% endif %}
+
+            {% if word.pos == "verb" %}
+              <small-caps>{{ word.align }}</small-caps>
+            {% endif %}
+          </span>
+        </div>
+
+        {% for sense in word.senses %}
+          <li class="ps-5">{{ sense | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+      </ul>
+    </article>
+  {% endfor %}
+</main>

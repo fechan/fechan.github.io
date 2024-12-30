@@ -1,0 +1,118 @@
+- gloss: man
+  orth: lód
+  pos: noun
+  senses:
+    - man
+  class: animate
+
+- gloss: snake
+  orth: lowí
+  pos: noun
+  senses:
+    - snake
+  class: animate
+
+- gloss: child
+  orth: pikó
+  pos: noun
+  senses:
+    - child
+  class: animate
+
+- gloss: leaf
+  orth: bjan
+  pos: noun
+  senses:
+    - leaf
+
+- gloss: belly
+  orth: buna
+  pos: noun
+  senses:
+    - belly
+
+- gloss: rrekin
+  orth: rrekin
+  pos: noun
+  senses:
+    - city
+
+- gloss: bread
+  orth: yim
+  pos: noun
+  senses:
+    - bread
+
+- gloss: people
+  orth: irín
+  pos: noun
+  senses:
+    - people (collective), population
+    - social group
+    - nation, tribe
+  class: animate
+
+- gloss: me
+  orth: angá
+  pos: pronoun
+  senses:
+    - I, me
+  class: animate
+
+- gloss: you
+  orth: án
+  pos: pronoun
+  senses:
+    - you
+  class: animate
+
+- gloss: grain
+  orth: fíun
+  pos: noun
+  senses:
+    - grain
+
+- gloss: be_able
+  orth: laur
+  pos: verb
+  senses:
+    - be able
+
+- gloss: exist
+  orth: ajen
+  pos: verb
+  senses:
+    - exist, be true
+    - be given by divine or spiritual providence
+
+- gloss: GNO
+  orth: ajén
+  pos: preverb
+  senses:
+    - '*gnomic evidentiality marker*'
+  notes: Compare with [ajen *'exist'*](#exist).
+
+- gloss: in
+  orth: a
+  pos: preposition
+  senses:
+    - in
+
+- gloss: sleep
+  orth: zaga
+  pos: verb
+  senses:
+    - sleep
+
+- gloss: find
+  orth: afí
+  pos: verb
+  senses:
+    - find
+
+- gloss: kill
+  orth: rrigau
+  pos: verb
+  senses:
+    - kill
+  align: inverse

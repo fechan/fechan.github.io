@@ -5,6 +5,8 @@ module.exports = {
     './_layouts/**/*.html',
     './minisign/**/*.html',
     './minisign/**/*.md',
+    './adiugoskr/**/*.html',
+    './adiugoskr/**/*.md',
     './_posts/*.md',
     './*.md',
     './*.html',
