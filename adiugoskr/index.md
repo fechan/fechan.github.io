@@ -14,4 +14,5 @@ Adiugoskr is an *a priori* naturalistic conlang spoken by most residents of the 
 5. Be developed enough that translating arbitrary sentences can be done with at most minor changes to the grammar
 
 ## Table of contents
+* [Phonology and orthography](/adiugoskr/phonology)
 * [Dictionary](/adiugoskr/dictionary)
