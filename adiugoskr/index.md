@@ -1,5 +1,5 @@
 ---
-title: Adiugoskr - A conlang
+title: Adiugoskr - A language spoken in the Kingdom of Ogdorja
 layout: adiugoskr
 no_nav: true
 ---
