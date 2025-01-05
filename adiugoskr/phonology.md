@@ -9,7 +9,7 @@ layout: adiugoskr
 * Double angle brackets (*e.g.* ⟪a⟫) indicate Adiugoskr othography.
 
 <details class="conlanger-note">
-  <summary>Conlanger note: Adiugoskr alpabet</summary>
+  <summary>Conlanger note: Adiugoskr alphabet</summary>
 
   <p>There's supposed to be a custom alphabet for Adiugoskr, but I haven't digitized it yet so it's not on this page.</p>
 </details>
