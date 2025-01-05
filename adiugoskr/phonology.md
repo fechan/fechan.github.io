@@ -6,7 +6,7 @@ layout: adiugoskr
 ## Notational conventions
 * Slashes (*e.g.* /a/) indicate phonemes.
 * Angle brackets (*e.g.* ⟨a⟩) indicate a romanized transcription.
-* Double angle brackets (*e.g.* ⟪a⟫) indicate a Adiugoskr othography.
+* Double angle brackets (*e.g.* ⟪a⟫) indicate Adiugoskr othography.
 
 <details class="conlanger-note">
   <summary>Conlanger note: Adiugoskr alpabet</summary>

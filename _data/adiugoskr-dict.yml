@@ -110,9 +110,24 @@
   senses:
     - find
 
-- gloss: kill
+- gloss: murder
   orth: rrigau
   pos: verb
   senses:
-    - kill
+    - murder
+  align: inverse
+  notes: Compare with [arren *'kill a lesser being'*](#kill).
+
+- gloss: kill
+  orth: arren
+  pos: verb
+  senses:
+    - kill (a lesser being)
+  notes: Not used if the object of the verb is a person, in which case [rrigau *'murder'*](#murder) is preferred.
+
+- gloss: swindle
+  orth: vemba
+  pos: verb
+  senses:
+    - swindle
   align: inverse

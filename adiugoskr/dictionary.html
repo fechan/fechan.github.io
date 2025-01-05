@@ -29,9 +29,15 @@ prose: false
           </span>
         </div>
 
-        {% for sense in word.senses %}
-          <li class="ps-5">{{ sense | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-        {% endfor %}
+        <ul class="mb-3 list-disc ps-5">
+          {% for sense in word.senses %}
+            <li>{{ sense | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+          {% endfor %}
+        </ul>
+
+        {% if word.notes %}
+          {{ word.notes | markdownify }}
+        {% endif %}
       </ul>
     </article>
   {% endfor %}
