@@ -19,13 +19,13 @@ A transitive verb where both the subject and object are 3rd person nouns will ha
 ### Transitives
 If the two core arguments of a transitive verb involves an SAP, then the verb exhibits polypersonal agreement with its arguments.
 
-* **-yí**: 1st person **subject** > 2nd person **object**
+* **-yé**: 1st person **subject** > 2nd person **object**
 * **-dé**: 1st person **subject** > 3rd person **object**
 * **-bó**: 2nd person **subject** > 3rd person **object**
 
 These can be given a rising tone instead of a high tone to invert the subject-object relationship:
 
-* **-yǐ**: 1st person **object** < 2nd person **subject**
+* **-yě**: 1st person **object** < 2nd person **subject**
 * **-dě**: 1st person **object** < 3rd person **subject**
 * **-bǒ**: 2nd person **object** < 3rd person **subject**
 
