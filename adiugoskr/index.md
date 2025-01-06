@@ -15,7 +15,7 @@ Adiugoskr is an *a priori* naturalistic conlang spoken by most residents of the 
 
 ### Influences
 * The direct-inverse morphosyntax and polypersonal agreement was inspired by [Stau](https://en.wikipedia.org/wiki/Horpa_language) after I read [Verbal Triplication Morphology in Stau (Mazi Dialect)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-968X.12083).
-* Some of the phonemes choices the consonant inventory are inspired by Sektale, a conlang made by Finn, a fellow member of the [Seattle Conlang Club](https://conlang.club)
+* Some of the phoneme choices in the consonant inventory are inspired by Sektale, a conlang made by Finn, a fellow member of the [Seattle Conlang Club](https://conlang.club)
 
 ## Table of contents
 * [Phonology and orthography](/adiugoskr/phonology)
