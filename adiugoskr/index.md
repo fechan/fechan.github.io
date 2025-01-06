@@ -13,8 +13,12 @@ Adiugoskr is an *a priori* naturalistic conlang spoken by most residents of the 
 4. Integrate its vocabulary and grammar with the culture of the Ogdorjans
 5. Be developed enough that translating arbitrary sentences can be done with at most minor changes to the grammar
 
+### Influences
+* The direct-inverse morphosyntax and polypersonal agreement was inspired by [Stau](https://en.wikipedia.org/wiki/Horpa_language) after I read [Verbal Triplication Morphology in Stau (Mazi Dialect)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-968X.12083).
+* Some of the phonemes in the consonant inventory is inspired by Sektale, a conlang made by Finn, a fellow member of the [Seattle Conlang Club](https://conlang.club)
+
 ## Table of contents
 * [Phonology and orthography](/adiugoskr/phonology)
 * [Nouns](/adiugoskr/nouns)
-* [Morphosyntax](/adiugoskr/morphosyntax)
+* [Verbs](/adiugoskr/verbs)
 * [Dictionary](/adiugoskr/dictionary)

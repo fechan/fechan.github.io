@@ -11,7 +11,23 @@ Underlyingly, only the final syllable is specified for tone, with low tone speci
 Nouns can be marked as physically close or more salient to the discourse context with the proximate marker **-dé**. Due to tone sandhi, inanimate proximate nouns have a rising tone on the penultimate syllable.
 
 ## Topicalization
-Noun phrases can be topicalized by putting them at the start or end of a sentence. If the head noun is inanimate, it will have a rising tone. See [Morphosyntax§Topicalization](/adiugoskr/morphosyntax#topicalization) for details on the syntax and semantics of topicalization.
+Adiugoskr is a topic-prominent language that allows the discourse topic to be set by putting the topicalized NP at the start (or in some cases, end) of the sentence. If the head noun of the NP is inanimate, then the noun's final syllable will have a rising tone.
+
+<div class="gloss">
+  A buna fǐun sa án laur ajén gadabó.<br/>
+  a buna fǐun sa án laur ajén gada -bó <br/>
+  in belly grain\*TOP* *C.NEG* you be.able *GNO* count *2>3* <br/>
+  ! 'You cannot count the grain in your belly.'
+</div>
+
+The topicalized NP does not necessarily need to be an argument of a verb in the sentence; it may simply be relevant in the discourse context.
+
+<div class="gloss">
+  Ajaná pikó yim ikár.<br/>
+  Ajaná pikó yim ikár <br/>
+  Ajaná\*TOP* child bread hate <br/>
+  ! 'As for Ajana, (her) child hates bread.'
+</div>
 
 Underlyingly, the topic marking morpheme is simply a high tone, which fuses with the low tone final syllable of inanimate nouns to form the rising tone.
 

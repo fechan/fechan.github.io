@@ -2,6 +2,7 @@
 <html lang="en">
 {% include head.html %}
 <body class="font-body container">
+  <link rel="stylesheet" href="{{ '/assets/interlinear/interlinear.css' | absolute_url }}">
   {% if page.hide_header != true %}
     {% include header.html %}
   {% endif %}
@@ -18,5 +19,7 @@
     {{ content }}
   </main>
   {% include footer.html %}
+
+  <script src="{{ '/assets/interlinear/interlinear.js' | absolute_url }}"></script>
 </body>
 </html>

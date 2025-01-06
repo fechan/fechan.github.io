@@ -131,3 +131,30 @@
   senses:
     - swindle
   align: inverse
+
+- gloss: lone
+  orth: ejona
+  pos: adjective
+  senses:
+    - lone
+    - lonely
+
+- gloss: dog
+  orth: rofa
+  pos: noun
+  senses:
+    - dog
+
+- gloss: station
+  orth: eljet
+  pos: noun
+  senses:
+    - stopping point, rest area
+    - station, stop (of a bus, train, or other transportation)
+    - layby
+
+- gloss: bus
+  orth: ezjgeniu
+  pos: noun
+  senses:
+    - bus

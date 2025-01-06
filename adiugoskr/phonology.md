@@ -102,7 +102,7 @@ layout: adiugoskr
 <tbody>
   <tr>
     <th>Close</th>
-    <td>/i/ ⟨i⟩</td>
+    <td>/i/ ⟨i, e⟩</td>
     <td></td>
     <td>/u/ ⟨u⟩</td>
   </tr>
