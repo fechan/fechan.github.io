@@ -18,8 +18,8 @@ Adiugoskr is a topic-prominent language that allows the discourse topic to be se
 
 <div class="gloss">
   A buna fǐun sa án laur ajén gadabó.<br/>
-  a buna fǐun sa án laur ajén gada -bó <br/>
-  in belly grain\*TOP* *C.NEG* you be.able *GNO* count *2>3* <br/>
+  a buna fǐun sa án laur ajén gada-bó <br/>
+  in belly grain\*TOP* *C.NEG* you be.able *GNO* count-*2>3* <br/>
   ! 'You cannot count the grain in your belly.'
 </div>
 

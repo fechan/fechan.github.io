@@ -145,6 +145,7 @@
   pos: noun
   senses:
     - dog
+  class: animate
 
 - gloss: station
   orth: eljet
@@ -159,3 +160,8 @@
   pos: noun
   senses:
     - bus
+
+- gloss: hate
+  orth: ikár
+  pos: verb
+  align: inverse
