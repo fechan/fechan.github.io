@@ -17,7 +17,7 @@ Intransitive and reflexive verbs in Adiugoskr have only one argument, the subjec
 A transitive verb where both the subject and object are 3rd person nouns will have a high tone final syllable if either argument is animate, or low tone if both are inanimate.
 
 ### Transitives
-If the two core arguments of a transitive verb involves an SAP, then the verb exhibits polypersonal agreement with its arguments.
+If the two core arguments of a transitive, non-reflexive verb involves an SAP, then the verb exhibits polypersonal agreement with its arguments.
 
 * **-yé**: 1st person **subject** > 2nd person **object**
 * **-dé**: 1st person **subject** > 3rd person **object**
