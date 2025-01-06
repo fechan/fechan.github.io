@@ -26,7 +26,7 @@ If the two core arguments of a transitive verb involves an SAP, then the verb ex
 These can be given a rising tone instead of a high tone to invert the subject-object relationship:
 
 * **-yǐ**: 1st person **object** < 2nd person **subject**
-* **-dǐ**: 1st person **object** < 3rd person **subject**
+* **-dě**: 1st person **object** < 3rd person **subject**
 * **-bǒ**: 2nd person **object** < 3rd person **subject**
 
 ## Morphosyntactic alignment
