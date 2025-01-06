@@ -5,6 +5,9 @@ layout: adiugoskr
 ## Animacy
 By default, all of the syllables in an inanimate noun are low tone, and the final syllable in animate nouns is high tone.
 
+* Animate: [**rofá** *'dog'*](/adiugoskr/dictionary#dog), [**lowí** *'snake'*](/adiugoskr/dictionary#snake), [**pikó** *'child'*](/adiugoskr/dictionary#child)
+* Inanimate: [**bjan** *'leaf'*](/adiugoskr/dictionary#leaf), [**buna** *'belly'*](/adiugoskr/dictionary#belly), [**fiun** *'grain'*](/adiugoskr/dictionary#grain)
+
 Underlyingly, only the final syllable is specified for tone, with low tone specified for inanimate nouns and high tone specified for animate nouns. In Adiugoskr, any syllables with unspecified tone become low tone when spoken.
 
 ## Proximate
