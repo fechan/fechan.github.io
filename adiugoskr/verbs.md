@@ -2,14 +2,30 @@
 title: Adiugoskr verbs
 layout: adiugoskr
 ---
+## TAM
+Adiugoskr verbs have clitics marking tense and mood. These clitics come before verbs or, if the clause contains a serial verb complex, before the verb complex. The mood clitic always comes before the tense clitic.
+
+Aspect is not marked with clitics, but instead with serial verbs.
+
+### Tense
+The default, unmarked tense is non-past, and clitic **iu=** marks past tense.
+
+### Mood
+In Adiugoskr, the default, unmarked grammatical mood is indicative/realis. There are four clitics marking various irrealis moods:
+
+* **sjǎn=**: Dubitative, indicating that the speaker doubts whether the verb action actually occurred.
+* **rró=**: Optative mood, indicating that the verb action is desired or is a command.
+* **íz=**: Conditional mood, indicating that the verb action is the premise of some condition, whether real or hypothetical.
+* **it=**: Counterfactual mood, indicating that the verb action is hypothetical and did not actually occur.
+
 ## Agreement with verbal arguments
 ### Intransitives and reflexives
 Intransitive and reflexive verbs in Adiugoskr have only one argument, the subject. These verbs agree with their subject's animacy in tone: 1st and 2nd person arguments (also called *Speech Act Participants*, or *SAPs*) and animate 3rd person subjects cause the final syllable of the verb to have a high tone, as opposed to a low tone for inanimate subjects.
 
 <div class="gloss">
   Rofá ejoná a eljetwar ezjgeniu iuzagá. <br/>
-  rofá ejoná a eljet-war ezjgeniu iu-zagá <br/>
-  dog*(AN)* lonely\*AN* in station-*POSS* bus *PST*-sleep\*AN*<br/>
+  rofá ejoná a eljet-war ezjgeniu iu=zagá <br/>
+  dog*(AN)* lonely\*AN* in station-*POSS* bus *PST*=sleep\*AN*<br/>
   ! 'The lonely dog slept in the bus station.'
 </div>
 

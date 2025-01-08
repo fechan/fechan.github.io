@@ -84,13 +84,13 @@
   pos: verb
   senses:
     - exist, be true
-    - be given by divine or spiritual providence
+    - (of a piece of information) be given by divine or spiritual providence
 
 - gloss: GNO
   orth: ajén
-  pos: preverb
+  pos: complementizer
   senses:
-    - '*gnomic evidentiality marker*'
+    - '*indicates gnomic evidentiality*'
   notes: Compare with [ajen *'exist'*](#exist).
 
 - gloss: in
@@ -165,3 +165,49 @@
   orth: ikár
   pos: verb
   align: inverse
+
+- gloss: NEG
+  orth: sa
+  pos: complementizer
+  senses:
+    - '*indicates negative polarity*'
+
+- gloss: foolhardy
+  orth: geveniz
+  pos: verb
+  senses:
+    - '*(intransitive)* be foolhardy or brazen'
+    - '*(transitive)* brazenly or bravely do something foolish'
+
+- gloss: brave
+  orth: geloniz
+  pos: verb
+  senses:
+    - '*(intransitive)* be brave or daring'
+    - '*(transitive)* dare (to do something important)'
+
+- gloss: know
+  orth: ilin
+  pos: verb
+  senses:
+    - know
+
+- gloss: help
+  orth: miura
+  pos: verb
+  senses:
+    - help, benefit, or give advantage to (a person)
+    - assist with (an action)
+
+- gloss: abet
+  orth: rrunja
+  pos: verb
+  senses:
+    - abet someone (in performing a wrongful act), conspire with
+    - conspire (to do something)
+  align: inverse
+
+- gloss: situation
+  orth: wo
+  senses:
+    - situation, state of affairs
