@@ -26,8 +26,8 @@ Adiugoskr is a topic-prominent language that allows the discourse topic to be se
 The topicalized NP does not necessarily need to be an argument of a verb in the sentence; it may simply be relevant in the discourse context.
 
 <div class="gloss">
-  Ajaná pikó yim ikár.<br/>
-  Ajaná pikó yim ikár <br/>
+  Ajaná pikó yin ikár.<br/>
+  Ajaná pikó yin ikár <br/>
   Ajaná\*TOP* child bread hate <br/>
   ! 'As for Ajana, (her) child hates bread.'
 </div>

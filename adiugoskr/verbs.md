@@ -78,4 +78,4 @@ Some verbs are inherently inverse, meaning that for those verbs, animate and pro
     4. 2nd person arguments
 3. Non-promoted inanimate 3rd person arguments
 
-Most inherently inverse verbs are verbs that are unpleasant or immoral for a person to do, such as [**rrigau** *'murder'*](/adiugoskr/dictionary#murder) or [**vemba** *'swindle'*](/adiugoskr/dictionary#swindle).
+Most inherently inverse verbs are verbs that are unpleasant or immoral for a person to do, such as [**rrigau** *'murder'*](/adiugoskr/dictionary#murder) or [**venba** *'swindle'*](/adiugoskr/dictionary#swindle).
