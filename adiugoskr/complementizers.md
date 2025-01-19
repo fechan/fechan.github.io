@@ -5,7 +5,7 @@ layout: adiugoskr
 Adiugoskr complementizers appear at the start of complementizer phrases, such as main and subordinate clauses. A complementizer is required at the head of subordinate clauses, but not main clauses. There are multiple types of complementizers that mark polarity, questions, and evidentiality, which may occur in sequence (also known as *complementizer stacking*).
 
 ## Positive and negative complementizers
-The default polarity of clauses is positive, but the positive complementizer is required if it is a subordinate clause headed by no other complementizers.
+The default polarity of clauses is positive, but the positive complementizer is only required in subordinate clauses that are headed by no other complementizers.
 
 * **vi**: positive polarity
 * **sa**: negative polarity
@@ -16,7 +16,7 @@ The question marking complementizer is **anǎ** and is used with both yes/no que
 ## Evidentiality complementizers
 A lack of an evidentiality complementizer leaves the evidential source ambiguous.
 
-* direct knowledge
-* inferential
-* reportative
-* gnomic
+* **tún**: direct knowledge
+* **gel**: inferential
+* **aun**: reportative
+* **ajén**: gnomic

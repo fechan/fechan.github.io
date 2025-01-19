@@ -18,6 +18,12 @@ In Adiugoskr, the default, unmarked grammatical mood is indicative/realis. There
 * **íz=**: Conditional mood, indicating that the verb action is the premise of some condition, whether real or hypothetical.
 * **it=**: Counterfactual mood, indicating that the verb action is hypothetical and did not actually occur.
 
+## Copula
+Adiugoskr has both a null-marked and an overt copula **iused**. **iused** is usually found in main clauses, and less commonly in subordinate clauses unless it is being emphasized or a verb is needed for the clitic to attach to.
+
+### Existential verb
+The copula is not the same as the existential verb, [**ajen** *'exist'*](/adiugoskr/dictionary#exist). However, like the copula, it also has a null-marked counterpart. **ajen** is usually found in main clauses, and less commonly in subordinate clauses unless it is being emphasized or a verb is needed for the clitic to attach to.
+
 ## Agreement with verbal arguments
 ### Intransitives and reflexives
 Intransitive and reflexive verbs in Adiugoskr have only one argument, the subject. These verbs agree with their subject's animacy in tone: 1st and 2nd person arguments (also called *Speech Act Participants*, or *SAPs*) and animate 3rd person subjects cause the final syllable of the verb to have a high tone, as opposed to a low tone for inanimate subjects.
@@ -58,8 +64,9 @@ Arguments can be made more salient (*promoted*) by marking an overt noun argumen
 2. 3rd person arguments
     1. Proximate 3rd person arguments
     2. Topicalized 3rd person arguments
-    3. Animate 3rd person arguments
-    4. Inanimate 3rd person arguments
+    3. Animate, human 3rd person arguments
+    4. Animate 3rd person arguments
+    5. Inanimate 3rd person arguments
 
 ### Inverted verbs
 A rising tone on the final syllable of a verb indicates that it has been inverted, and that the higher-ranking argument is the object and the lower-raking argument is the agent.
@@ -70,6 +77,7 @@ Some verbs are inherently inverse, meaning that for those verbs, animate and pro
 2. 3rd person arguments
     1. Proximate 3rd person arguments
     2. Topicalized 3rd person arguments
+    3. Animate, human 3rd person arguments
     3. Animate 3rd person arguments
 1. Speech Act Participants (SAPs)
     1. Proximate SAPs

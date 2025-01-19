@@ -211,3 +211,36 @@
   orth: wo
   senses:
     - situation, state of affairs
+
+- gloss: cat
+  orth: njáu
+  pos: noun
+  class: animate
+  senses:
+    - cat
+
+- gloss: push
+  orth: dven
+  pos: verb
+  senses:
+    - push
+    - topple
+
+- gloss: cup
+  orth: du
+  pos: noun
+  senses:
+    - cup
+
+- gloss: see
+  orth: ja
+  pos: verb
+  senses:
+    - see
+
+- gloss: ride
+  orth: asjel
+  pos: verb
+  senses:
+    - ride
+    - mount
