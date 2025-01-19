@@ -40,9 +40,9 @@ A *possessum* noun that is possessed by a *possessor* is marked using the posses
 Like adjectives, the possessor usually follows the possessum, but both possessum-possessor and possessor-possessum orders are grammatical.
 
 ## Relative clauses
-[Complementizers](/adiugoskr/complementizers) can be used to introduce a relative clause that modifies a noun phrase. Relative clauses come before the noun phrase that is modifies.
+[Complementizers](/adiugoskr/complementizers) can be used to introduce a relative clause that modifies a noun phrase. Relative clauses come before the noun phrase that it modifies.
 
-In relative clauses containing transitive verbs, the modified noun phrase can be either the verb's subject or object, depending on its salience according to the [salience hierarchy](/adiugoskr/verbs#morphosyntactic-alignment) relative to the other argument.
+In relative clauses containing transitive verbs, the modified noun phrase can be either the verb's subject or object, depending on its [salience](/adiugoskr/verbs#morphosyntactic-alignment) relative to the other argument.
 
 <div class="gloss">
   Vi Ajaná a eljet iujá rofá ezjgeniu asjél<br/>
