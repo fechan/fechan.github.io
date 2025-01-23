@@ -38,7 +38,7 @@ Underlyingly, the topic marking morpheme is simply a high tone, which fuses with
 A *possessum* noun that is possessed by a *possessor* is marked using a possessum marker. Like adjectives, the possessor usually follows the possessum, but both possessum-possessor and possessor-possessum orders are grammatical. If the possessor is obvious from context, it may be omitted.
 
 ### 3rd person possessors
-The marker agrees with its possessor in animacy: if the possessor is inanimate, the marker will be low tone **-war**.
+If the possessor is 3rd person, the marker is  **-war**. The marker agrees with its possessor in animacy: if the possessor is inanimate, the marker will be low tone **-war**.
 
 <div class="gloss">
   Wowar rrekin ikardé.<br/>
