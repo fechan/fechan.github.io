@@ -16,7 +16,7 @@ The question marking complementizer is **anǎ** and is used with both yes/no que
 ## Evidentiality complementizers
 A lack of an evidentiality complementizer leaves the evidential source ambiguous.
 
-* **tún**: direct knowledge
+* **tún**: sensed
 * **gel**: inferential
 * **aun**: reportative
 * **ajén**: gnomic

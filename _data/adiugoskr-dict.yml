@@ -91,7 +91,7 @@
   pos: complementizer
   senses:
     - '*indicates gnomic evidentiality*'
-  notes: Compare with [ajen *'exist'*](#exist).
+  notes: Compare with [**ajen** *'exist'*](#exist).
 
 - gloss: in
   orth: a
@@ -117,14 +117,14 @@
   senses:
     - murder
   align: inverse
-  notes: Compare with [arren *'kill a lesser being'*](#kill).
+  notes: Compare with [**arren** *'kill a lesser being'*](#kill).
 
 - gloss: kill
   orth: arren
   pos: verb
   senses:
     - kill (a lesser being)
-  notes: Not used if the object of the verb is a person, in which case [rrigau *'murder'*](#murder) is preferred.
+  notes: Not used if the object of the verb is a person, in which case [**rrigau** *'murder'*](#murder) is preferred.
 
 - gloss: swindle
   orth: venba
@@ -253,3 +253,29 @@
   pos: verb
   senses:
     - crumble
+
+- gloss: COP
+  orth: sed
+  pos: verb
+  senses:
+    - is, be
+  notes: Not to be confused with [**ajen** *'exist'*](#exist). **sed** is only a copula and is not used for existential meaning, unlike English **be**.
+
+- gloss: good
+  orth: an
+  pos: adjective
+  senses:
+    - good
+
+- gloss: think
+  orth: vena
+  pos: verb
+  senses:
+    - '(*intransitive*) be thinking'
+    - '(*transitive*) think, believe to be true'
+
+- gloss: bad
+  orth: reg
+  pos: adjective
+  senses:
+    - bad

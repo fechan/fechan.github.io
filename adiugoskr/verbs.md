@@ -13,13 +13,13 @@ The default, unmarked tense is non-past, and clitic **iu=** marks past tense.
 ### Mood
 In Adiugoskr, the default, unmarked grammatical mood is indicative/realis. There are four clitics marking various irrealis moods:
 
-* **sjǎn=**: Dubitative, indicating that the speaker doubts whether the verb action actually occurred.
+* **sjǎn=**: Dubitative mood, indicating that the speaker doubts whether the verb action actually occurred.
 * **rró=**: Optative mood, indicating that the verb action is desired or is a command.
 * **íz=**: Conditional mood, indicating that the verb action is the premise of some condition, whether real or hypothetical.
 * **it=**: Counterfactual mood, indicating that the verb action is hypothetical and did not actually occur.
 
 ## Copula
-Adiugoskr has both a null-marked and an overt copula **iused**. **iused** is usually found in main clauses, and less commonly in subordinate clauses unless it is being emphasized or a verb is needed for the clitic to attach to.
+Adiugoskr has both a null-marked and an overt copula **sed**. **sed** is usually found in main clauses, and less commonly in subordinate clauses unless it is being emphasized or a verb is needed for the clitic to attach to.
 
 ### Existential verb
 The copula is not the same as the existential verb, [**ajen** *'exist'*](/adiugoskr/dictionary#exist). However, like the copula, it also has a null-marked counterpart. **ajen** is usually found in main clauses, and less commonly in subordinate clauses unless it is being emphasized or a verb is needed for the clitic to attach to.
