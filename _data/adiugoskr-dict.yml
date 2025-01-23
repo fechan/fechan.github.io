@@ -165,6 +165,8 @@
   orth: ikár
   pos: verb
   align: inverse
+  senses:
+    - hate
 
 - gloss: NEG
   orth: sa
@@ -209,6 +211,7 @@
 
 - gloss: situation
   orth: wo
+  pos: noun
   senses:
     - situation, state of affairs
 
@@ -244,3 +247,9 @@
   senses:
     - ride
     - mount
+
+- gloss: crumble
+  orth: igrran
+  pos: verb
+  senses:
+    - crumble
