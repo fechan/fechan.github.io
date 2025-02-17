@@ -3,9 +3,9 @@ title: Adiugoskr verbs
 layout: adiugoskr
 ---
 ## TAM
-Adiugoskr verbs have clitics marking tense and mood. These clitics come before verbs or, if the clause contains a serial verb complex, before the verb complex. The mood clitic always comes before the tense clitic.
+Adiugoskr verbs have clitics marking tense and mood. These clitics come before verbs or, if the clause contains a verb complex, before the verb complex. The mood clitic always comes before the tense clitic.
 
-Aspect is not marked with clitics, but instead with serial verbs.
+Aspect is not marked with clitics, but instead with auxiliary verbs.
 
 ### Tense
 The default, unmarked tense is non-past, and clitic **iu=** marks past tense.
@@ -17,6 +17,19 @@ In Adiugoskr, the default, unmarked grammatical mood is indicative/realis. There
 * **rró=**: Optative mood, indicating that the verb action is desired or is a command.
 * **íz=**: Conditional mood, indicating that the verb action is the premise of some condition, whether real or hypothetical.
 * **it=**: Counterfactual mood, indicating that the verb action is hypothetical and did not actually occur.
+
+### Aspect
+In Adiugoskr, the default, unmarked aspect is imperfective. Other aspects are marked with certain auxiliary verbs.
+
+* **iun** *'finish'*: Perfective aspect, indicating that the verb action is complete. 
+* **zjos** *'be with'*: Simultaneous aspect, indicating that the verb action happens at the same time as another verb action. 
+
+<div class="gloss">
+    vi wena yi Ajaná iuiun ferdé, iuzjos vlet rrogdá <br/>
+    vi wena yi Ajaná iu=iun fer-dé, iu=zjos vlet rrogdá <br/>
+    *POS* message to Ajaná *PST*=finish give-1>3, *PST*=be.with discover err\*AN* <br/>
+    ! "I had given the message to Ajaná, when I realized I made a mistake."
+</div>
 
 ## Copula
 Adiugoskr has both a null-marked and an overt copula **sed**. **sed** is usually found in main clauses, and less commonly in subordinate clauses unless it is being emphasized or a verb is needed for the clitic to attach to.
@@ -32,7 +45,7 @@ Intransitive and reflexive verbs in Adiugoskr have only one argument, the subjec
   Rofá ejoná a eljetwar ezjgeniu iuzagá. <br/>
   rofá ejoná a eljet-war ezjgeniu iu=zagá <br/>
   dog*(AN)* lonely\*AN* in station-*POSS* bus *PST*=sleep\*AN*<br/>
-  ! 'The lonely dog slept in the bus station.'
+  ! 'The lonely dog was sleeping in the bus station.'
 </div>
 
 ### Transitives with 3rd person subjects and objects

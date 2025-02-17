@@ -279,3 +279,47 @@
   pos: adjective
   senses:
     - bad
+  
+- gloss: finish
+  orth: iun
+  pos: verb
+  senses:
+    - finish, complete
+    - '(*auxiliary verb*) perfective marker'
+
+- gloss: message
+  orth: wena
+  pos: noun
+  senses:
+    - message
+
+- gloss: give
+  orth: fer
+  pos: verb
+  senses:
+    - give
+
+- gloss: to
+  orth: yi
+  pos: preposition
+  senses:
+    - to, towards
+
+- gloss: err
+  orth: rrogda
+  pos: verb
+  senses:
+    - err, make a mistake
+
+- gloss: discover
+  orth: vlet
+  pos: verb
+  senses:
+    - discover, realize (usually in surprise)
+
+- gloss: be_with
+  orth: zjos
+  pos: verb
+  senses:
+    - be with
+    - '(*auxiliary verb*) perfective marker'

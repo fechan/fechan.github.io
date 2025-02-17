@@ -85,5 +85,5 @@ Since the [existential verb](/adiugoskr/verbs#existential-verb) is usually not o
   Du sa njáu iudvén <br/>
   du sa njáu iu=dvén <br/>
   cup *NEG* cat *PST*=push\*AN* <br/>
-  ! 'Something that is not a cat pushed the cup.'
+  ! 'Something that is not a cat was pushing the cup.'
 </div>
