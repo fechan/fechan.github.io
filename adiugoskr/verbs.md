@@ -31,6 +31,14 @@ In Adiugoskr, the default, unmarked aspect is imperfective. Other aspects are ma
     ! "I had given the message to Ajaná, when I realized I made a mistake."
 </div>
 
+<details class="conlanger-note">
+  <summary>Conlanger note: Auxiliary/serial verbs</summary>
+
+  <p>I originally wrote that these aspectual auxiliary verbs were serial verbs, and I'm still wondering what direction to take them. Right now I have a very clear main verb which appears at the end of the verb complex and can agree with the subject and/or object, and the other verbs have no agreement at all, which implies a dependency relationship maybe? And I've read that serial verbs are not dependent on each other, but I need to research that more.</p>
+
+  <p>In any case, I'm entertaining a few possibilities. One is to keep it as it is (and probably keep calling them aux verbs). Another is to make the agreement stuff clitics, like the tense and mood, though I kind of like having two different affixation strategies for the different categories. The last is to have every verb in the complex agree with their subjects/objects, which is attested in Baré, but for Adiugoskr transitive verbs, it adds extra syllables and I don't know if I like that.</p>
+</details>
+
 ## Copula
 Adiugoskr has both a null-marked and an overt copula **sed**. **sed** is usually found in main clauses, and less commonly in subordinate clauses unless it is being emphasized or a verb is needed for the clitic to attach to.
 
