@@ -46,7 +46,7 @@ layout: adiugoskr
   </tr>
   <tr>
     <th>Fricative</th>
-    <td>/ɸ/ ⟨f⟩ /β/ ⟨v⟩</td>
+    <td>/ɸ/ ⟨f⟩ /β/ ⟨v, b<sup>1</sup>⟩</td>
     <td></td>
     <td>/s/ ⟨s⟩ /z/ ⟨z⟩</td>
     <td>/ç/ ⟨sj⟩ /ʝ/ ⟨zj⟩</td>
@@ -65,7 +65,7 @@ layout: adiugoskr
   <tr>
     <th>Approximant</th>
     <td></td>
-    <td>/ʋ/ ⟨w⟩</td>
+    <td>/ʋ/ ⟨w, b<sup>1</sup>⟩</td>
     <td></td>
     <td>/j/ ⟨j⟩</td>
     <td></td>
@@ -90,6 +90,10 @@ layout: adiugoskr
     <td></td>
   </tr>
 </tbody></table>
+
+<aside>
+  <sup>1</sup> ⟨b⟩ represents /β/ before close and near-close vowels, and /ʋ/ before all others.
+</aside>
 
 ## Vowels
 <table><thead>

@@ -29,7 +29,7 @@ The topicalized NP does not necessarily need to be an argument of a verb in the 
   Ajaná pikó yin ikár.<br/>
   Ajaná pikó yin ikár <br/>
   Ajaná\*TOP* child bread hate <br/>
-  ! 'As for Ajana, (her) child hates bread.'
+  ! 'As for Ajaná, (her) child hates bread.'
 </div>
 
 Underlyingly, the topic marking morpheme is simply a high tone, which fuses with the low tone final syllable of inanimate nouns to form the rising tone.
