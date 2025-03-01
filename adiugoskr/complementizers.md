@@ -20,3 +20,9 @@ A lack of an evidentiality complementizer leaves the evidential source ambiguous
 * **gel**: inferential
 * **aun**: reportative
 * **ajén**: gnomic
+
+<details class="conlanger-note">
+  <summary>Conlanger note: Dream interpretation</summary>
+
+  <p>I want to do a bit more on the dream interpretation aspect of Ogdorjan culture, maybe with a separate set of evidentiality complementizers for information learned through a dream. The fact that these complementizers can appear directly next to NPs was a part of that idea, but I want to expand it into more of a system than just a couple of features thrown in the conlang.</p>
+</details>
