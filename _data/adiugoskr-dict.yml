@@ -52,20 +52,6 @@
     - nation, tribe
   class: animate
 
-- gloss: me
-  orth: angá
-  pos: pronoun
-  senses:
-    - I, me
-  class: animate
-
-- gloss: you
-  orth: án
-  pos: pronoun
-  senses:
-    - you
-  class: animate
-
 - gloss: grain
   orth: fiun
   pos: noun
@@ -519,30 +505,35 @@
   senses:
     - I, me
     - we, us (exclusive)
+  class: animate
 
 - gloss: 2
   orth: sjíu
   pos: pronoun
   senses:
     - you
+  class: animate
 
 - gloss: 1+2
   orth: nín
   pos: pronoun
   senses:
     - me and you (all speech act participants)
+  class: animate
 
 - gloss: 3PROX
   orth: bún
   pos: pronoun
   senses:
     - '*proximate third person pronoun*'
+  class: animate
 
 - gloss: 3AN
   orth: ór
   pos: pronoun
   senses:
     - he, she
+  class: animate
 
 - gloss: 3INAN
   orth: or

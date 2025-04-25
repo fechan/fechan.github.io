@@ -17,8 +17,8 @@ Nouns can be marked as physically close or more salient to the discourse context
 Adiugoskr is a topic-prominent language that allows the discourse topic to be set by putting the topicalized NP at the start (or in some cases, end) of the sentence. If the head noun of the NP is inanimate, then the noun's final syllable will have a rising tone.
 
 <div class="gloss">
-  A buna fǐun ajén sa án laur gadabó.<br/>
-  a buna fǐun ajén sa án laur gada-bó <br/>
+  A buna fǐun ajén sa sjíu laur gadabó.<br/>
+  a buna fǐun ajén sa sjíu laur gada-bó <br/>
   in belly grain\*TOP* *GNO* *NEG* you be.able count-*2>3* <br/>
   ! 'You cannot count the grain in your belly.'
 </div>
