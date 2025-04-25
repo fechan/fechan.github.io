@@ -20,6 +20,8 @@ Adiugoskr is an *a priori* naturalistic conlang spoken by most residents of the 
 ## Table of contents
 * [Phonology and orthography](/adiugoskr/phonology)
 * [Nouns](/adiugoskr/nouns)
+* [Pronouns](/adiugoskr/pronouns)
+* [Adjectives](/adiugoskr/adjectives)
 * [Verbs](/adiugoskr/verbs)
 * [Complementizers](/adiugoskr/complementizers)
 * [Dictionary](/adiugoskr/dictionary)

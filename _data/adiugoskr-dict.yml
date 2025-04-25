@@ -285,7 +285,7 @@
   pos: verb
   senses:
     - finish, complete
-    - '(*auxiliary verb*) perfective marker'
+    - '(*auxiliary verb*) perfective aspect marker'
 
 - gloss: message
   orth: wena
@@ -322,4 +322,169 @@
   pos: verb
   senses:
     - be with
-    - '(*auxiliary verb*) perfective marker'
+    - '(*auxiliary verb*) simultaneous aspect marker'
+
+- gloss: exist_in_a_dream
+  orth: viukr
+  pos: verb
+  senses:
+    - exist, be true (in a dream)
+
+- gloss: king
+  orth: sjelá
+  pos: noun
+  senses:
+    - king, leader, chief
+  class: animate
+
+- gloss: dark
+  orth: kolau
+  pos: adjective
+  senses:
+    - dark
+
+- gloss: now
+  orth: kan
+  pos: noun
+  senses:
+    - now, the present
+
+- gloss: distant_future
+  orth: emra
+  pos: noun
+  senses:
+    - the distant future, eternity
+
+- gloss: soldier
+  orth: nerrá
+  pos: noun
+  senses:
+    - soldier, knight, guard
+  class: animate
+
+- gloss: from
+  orth: lau
+  pos: preposition
+  senses:
+    - from
+
+- gloss: life
+  orth: aván
+  pos: noun
+  senses:
+    - life, lifespan
+  class: animate
+
+- gloss: end
+  orth: fal
+  pos: noun
+  senses:
+    - end, conclusion
+
+- gloss: ghost
+  orth: iríl
+  pos: noun
+  senses:
+    - ghost, apparition
+  class: animate
+
+- gloss: and
+  orth: fir
+  pos: conjunction
+  senses:
+    - and
+
+- gloss: time
+  orth: zjon
+  pos: noun
+  senses:
+    - time
+
+- gloss: enemy
+  orth: rrunjará
+  pos: noun
+  senses:
+    - enemy, conspirator
+  class: animate
+
+- gloss: death
+  orth: wát
+  pos: noun
+  senses:
+    - death
+  class: animate
+
+- gloss: kidnap
+  orth: zjataj
+  pos: verb
+  senses:
+    - steal, kidnap
+  align: inverse
+
+- gloss: few_people
+  orth: nót
+  pos: noun
+  senses:
+    - few people, not many people
+  class: animate
+
+- gloss: relationship
+  orth: sjiula
+  pos: noun
+  senses:
+    - relationship, association
+
+- gloss: with
+  orth: esj
+  pos: preposition
+  senses:
+    - with (a person)
+
+- gloss: than
+  orth: fa
+  pos: preposition
+  senses:
+    - than (used to introduce a basis for comparison)
+
+- gloss: universe
+  orth: zerta
+  pos: noun
+  senses:
+    - universe
+    - the world
+
+- gloss: conversation
+  orth: nenet
+  pos: noun
+  senses:
+    - conversation, discussion, chat
+
+- gloss: luckily
+  orth: sazjgu
+  pos: adverb
+  senses:
+    - luckily, fortunately
+
+- gloss: refuse
+  orth: vaulu
+  pos: verb
+  senses:
+    - refuse, reject
+
+- gloss: but
+  orth: na
+  pos: conjunction
+  senses:
+    - but
+
+- gloss: make
+  orth: wanar
+  pos: verb
+  senses:
+    - make, create
+
+- gloss: never
+  orth: lovo
+  pos: adverb
+  senses:
+    - never
