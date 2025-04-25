@@ -488,3 +488,64 @@
   pos: adverb
   senses:
     - never
+
+- gloss: POS
+  orth: vi
+  pos: complementizer
+  senses:
+    - '*indicates positive polarity*'
+
+- gloss: SENS
+  orth: tún
+  pos: complementizer
+  senses:
+    - '*indicates sensed evidentiality*'
+
+- gloss: INFER
+  orth: gel
+  pos: complementizer
+  senses:
+    - '*indicates inferential evidentiality*'
+
+- gloss: REPORT
+  orth: aun
+  pos: complementizer
+  senses:
+    - '*indicates reportative evidentiality*'
+
+- gloss: 1
+  orth: ín
+  pos: pronoun
+  senses:
+    - I, me
+    - we, us (exclusive)
+
+- gloss: 2
+  orth: sjíu
+  pos: pronoun
+  senses:
+    - you
+
+- gloss: 1+2
+  orth: nín
+  pos: pronoun
+  senses:
+    - me and you (all speech act participants)
+
+- gloss: 3PROX
+  orth: bún
+  pos: pronoun
+  senses:
+    - '*proximate third person pronoun*'
+
+- gloss: 3AN
+  orth: ór
+  pos: pronoun
+  senses:
+    - he, she
+
+- gloss: 3INAN
+  orth: or
+  pos: pronoun
+  senses:
+    - it
