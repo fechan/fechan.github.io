@@ -2,10 +2,10 @@
 layout: post
 categories: [internet]
 title: "Setting up a *.city.state.us locality domain for free"
-tldr: "All of this costs nothing: first, get Amazon Lightsail nameservers for DNS, send the Interim .US Domain Template to the delegated manager for your locality, then point DNS entries at your webhost (or whatever you want to use it for)."
+tldr: "Depending on where you live in the United States, you can get a domain name like `blahblah.city.state.us` (e.g. `frederick.seattle.wa.us`) for free. After checking if your town has its own domain and choosing a name, you can get DNS nameservers from Amazon Lightsail, send the *Interim .US Domain Template* to the delegated manager for your locality, then point DNS entries at your webhost (or whatever you want to use it for)."
 ---
 ## tl;dr
-Depending on where you live in the United States, you can get a domain name like `blahblah.city.state.us` (e.g. `frederick.seattle.wa.us`) for free. All of this costs nothing: first, get DNS nameservers from Amazon Lightsail, send the Interim .US Domain Template to the delegated manager for your locality, then point DNS entries at your webhost (or whatever you want to use it for).
+Depending on where you live in the United States, you can get a domain name like `blahblah.city.state.us` (e.g. `frederick.seattle.wa.us`) for free. After checking if your town has its own domain and choosing a name, you can get DNS nameservers from Amazon Lightsail, send the *Interim .US Domain Template* to the delegated manager for your locality, then point DNS entries at your webhost (or whatever you want to use it for).
 
 ## What's a locality domain?
 A locality domain is a domain name that's associated with a location in the United States, such as `frederick.seattle.wa.us` (which currently redirects to fredchan.org). Locality domains were first created in 1992, and the infrastructure has been maintained under government contract ever since.
