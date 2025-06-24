@@ -28,11 +28,11 @@ Veins of ores are clusters of adjacent ore blocks, and you want to mine all of t
 
 For a turtle to distinguish between an ore block and a non-ore block, we can define a simple function that takes the block data from `turtle.inspect()` and returns if it's ore or not. If your distinguishing logic is very simple and fits on one line, you *could* forego this, but it gets harder to change later.
 
-{% highlight lua %}
+```lua
 function isTreasure (block)
     return block.name:find('ore')
 end
-{% endhighlight %}
+```
 
 Now you have to decide whether you want to treat the entire vein as a tree or a graph. Nodes of a tree only ever have one node that points to it, while in a graph multiple nodes can point to the same node. While it seems more appropriate to model a vein as a graph for speed, since multiple blocks can connect to the same block and a tree traversal will cause it to inspect blocks it has already inspected, there are advantages to treating it as a tree. Namely, a tree traversal is both easier to implement and will result in a smaller program because you don't have to write code to calculate which block the turtle has looked at and keep track of them.
 
@@ -41,17 +41,17 @@ Basically, tree traversal is slow, simple, and small (like a real baby turtle). 
 ## Tree traversal
 Usually with a tree traversal, you have a function like this (pseudocode):
 
-{% highlight pseudocode %}
+```
 function traverse(node):
     if node != null:
         doSomething(node)
         for every connection of node:
             traverse(connection)
-{% endhighlight %}
+```
 
 This is analogous to our turtle mining a block, going to the block's position, then if it was ore, doing something with it, looking around to see if there are blocks around it, and doing it all over again for every new block it finds. If it wasn't an ore block, it will go back up the call stack by [returning to where it was before](https://www.cs.utexas.edu/~scottm/cs307/handouts/recursiveBacktrackingExplanation.htm) until it has looked at all the blocks in and around the vein. This is a little wasteful, since moving takes time, so we just have it *not* traverse connections with non-ore at the end. Then you don't have to pass any parameters and you end up with something like this:
 
-{% highlight lua %}
+```lua
 function mineVein ()
     for _, direction in ipairs({'up', 'down', 'front', 'left', 'back', 'right'}) do
         if direction == 'up' then
@@ -64,11 +64,11 @@ function mineVein ()
             end
         elseif
             ...
-{% endhighlight %}
+```
 
 Notice that the turtle has to move in a direction, recurse, and move in the opposite direction so that it's in the position it was before recursing. This is really simple to do in the up, down, and forward case since it's not turning; it can just inspect in that direction, go in that direction, and then go in the opposite direction. For the left, back, and right cases, however, you have to turn...
 
-{% highlight lua %}
+```lua
 ...
     if direction == 'left' then
         turtle.turnLeft()
@@ -82,14 +82,14 @@ Notice that the turtle has to move in a direction, recurse, and move in the oppo
         turtle.turnRight()
     elseif
         ...
-{% endhighlight %}
+```
 
 If you do this for left, right, and back, you'll notice it's doing a silly dance that causes it to face the same blocks over and over again. It's funny to see, but it's inefficient, so here's the trick.
 
 ## The trick
 For a turtle to face backwards, it has to turn left or right twice. To face forwards again, it has to turn left or right twice again. Since it has to turn a full circle anyway in order to inspect all four directions— front, left, back, and right— you might as well collapse them into one case and have the turtle do a single circle by turning it four times in one direction. Every time you turn, inspect. If it's ore, recurse.
 
-{% highlight lua %}
+```lua
 for _, direction in ipairs({'up', 'down', 'other'}) do
     if direction == 'up' then
         ...
@@ -107,14 +107,14 @@ for _, direction in ipairs({'up', 'down', 'other'}) do
         end
     end
 end
-{% endhighlight %}
+```
 
 ## The code
 Now for the part you actually care about! Call mineVein() when the turtle is next to some ore and it will mine the vein. If you use it as part of a strip-mining program, you can call it when it digs an ore along its path (faster, misses more ore) or whenever it moves (slower, more thorough).
 
 [Next post, I talk about the graph method and its code.](/blog/vein-mining-strategies-with-computercraft-2/)
 
-{% highlight lua %}
+```lua
 --Tested with ComputerCraft 1.80
 
 --- Given a block's data, returns true if it's a treasure
@@ -155,7 +155,7 @@ function mineVein ()
         end
     end
 end
-{% endhighlight %}
+```
 
 ## License
 The code in this blog post is provided under the MIT license. If you use this code in your own program, linking back to this blog post would be nice, but is not required.

@@ -10,11 +10,11 @@ tldr: "We can model Minecraft ore veins as graph data structures in ComputerCraf
 ## Takeaways from last time
 If you read [last post](https://fechan.github.io/blog/vein-mining-strategies-with-computercraft-1/) about the trees, you'll remember that the tree traversal is slow because it keeps inspecting blocks it has already inspected. You'll also remember that we employed a trick where whenever we want the turtle to inspect backwards, we have it inspect the front and sides while it was at it. We'll employ something similar again for the graph traversal, and we'll need the `isTreasure()` function again.
 
-{% highlight lua %}
+```lua
 function isTreasure (block)
     return block.name:find('ore')
 end
-{% endhighlight %}
+```
 
 ## Modeling the problem
 ![Example diagram of a graph](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/320px-6n-graf.svg.png)
@@ -31,7 +31,7 @@ You know where you are now. You know which orientation (e.g. north) you're facin
 
 The simplest cases are the for up and down, since you're not actually turning and your orientation stays the same. Just increment or decrement y and that's it.
 
-{% highlight lua %}
+```lua
 function calcDest (xyz, orientation, direction)
     local dest = {x=xyz['x'], y=xyz['y'], z=xyz['z']}
     if direction == 'up' then
@@ -43,22 +43,22 @@ function calcDest (xyz, orientation, direction)
     end
     return {dest, orientation}
 end
-{% endhighlight %}
+```
 
 Notice that we had to construct a new destination xyz out of the xyz of our starting location. That's because if we just did `local dest = xyz`, changing dest would change xyz *even outside of our function*, since Lua [tables are pass by reference](https://stackoverflow.com/questions/6128152/function-variable-scope-pass-by-value-or-reference). On the other hand, the orientation, a string, is passed by value so we don't have to worry about that.
 
 Now for the sideways cases, where you have to determine the final orientation with a calculation. If we quantify the direction we want to turn in (like backwards) as the number of left turns we want to make (2 for back), and then we quantify our orientation (like east) as the number of left turns you have to make from north (3 for east), then you can take the two left turn counts and add them together (2+3=5). Divide it by the number of orientations (4) and take the remainder (5%4=1). The result is the amount of left turns from north it would take to get you in the orientation you'd face (1=west, the orientation you'd face if you looked backwards facing east). In Lua, it looks like this:
 
-{% highlight lua %}
+```lua
 local cardinals = {north=0, west=1, south=2, east=3}
 local cardinalsReverse = {[0]='north', 'west', 'south', 'east'}
 local leftTurns = {front=0, left=1, back=2, right=3}
 orientation = cardinalsReverse[(cardinals[orientation] + leftTurns[direction]) % 4]
-{% endhighlight %}
+```
 
 Once you have that, you can just increment or decrement the appropriate coordinate.
 
-{% highlight lua %}
+```lua
 function calcDest (xyz, orientation, direction)
     local dest = {x=xyz['x'], y=xyz['y'], z=xyz['z']}
     if direction == 'up' then
@@ -82,12 +82,12 @@ function calcDest (xyz, orientation, direction)
     end
     return {dest, orientation}
 end
-{% endhighlight %}
+```
 
 ## Graph traversal
 You know where you'll end up when you go somewhere now, but you also have to keep track of those coordinates so you know to avoid inspecting that block again. One important thing you'll need is a function that tells you if a certain coordinate is in a list, since Lua doesn't have one built in.
 
-{% highlight lua %}
+```lua
 --- Test if a table of {x,y,z}s contains a certain {x,y,z}
 -- @param Table table   table to search within
 -- @param Table xyz     xyz to search for
@@ -100,22 +100,22 @@ function contains (table, xyz)
     end
     return false
 end
-{% endhighlight %}
+```
 
 Next since we start mining our vein with default starting values, we want to make our actual traversing function a helper function of mineVein() so that if we use mineVein() from elsewhere, we don't have to worry about passing in the starting values every time.
 
-{% highlight lua %}
+```lua
 function mineVein ()
     mineVeinHelper({x=0, y=0, z=0}, 'north', {})
 end
 
 function mineVeinHelper (xyz, orientation, traversed)
     ...
-{% endhighlight %}
+```
 
 Then we traverse each edge of the block we're in much like we did with the tree, except we check if turning in that direction will result in inspecting a block already inspected. If not, we add its coordinate to the list of blocks inspected and then we inspect it. The process of actually traversing to that block is the same as when we traversed the vein like a tree, but we pass in our current location and orientation to the next step of traversal.
 
-{% highlight lua %}
+```lua
 function mineVeinHelper (xyz, orientation, traversed)
     for _, direction in ipairs({'up', 'down', 'front', 'back', 'left', 'right'}) do
         local destination, newOrientation = table.unpack(calcDest(xyz, orientation, direction))
@@ -131,7 +131,7 @@ function mineVeinHelper (xyz, orientation, traversed)
                 end
             elseif direction == 'down' then
                 ...
-{% endhighlight %}
+```
 
 Once again, you *could* define every case like the up case and it would work. But just like in the tree traversal, when you do the back case, you might as well do the left and right cases while you're doing the full circle to look backwards and forwards again. Unlike the tree traversal however, *you still have to define those cases separately,* because sometimes you'll end up in a situation where you've already inspected the back block but not the right or left block. If you don't define the left and right cases, the back case won't run and the left and right blocks don't get inspected.
 
@@ -140,7 +140,7 @@ There is a separate optimization to make the front/left/right case into one big 
 ## Back case optimization
 Like the back case of the tree traversal method, we can do the left and right cases while we're in the process of turning backwards and unturning. The added complexity here is that we have to recalculate the block we're looking at each time we turn. We want to store the resulting orientation of turning left once into `leftOrient`, the resulting destination block into `leftDest`, and traverse into that block if it's ore. If we do this three times, we get to inspect the left, back, *and* right block whenever we want to inspect backwards. Sweet! Then we just turn left to face forwards again.
 
-{% highlight lua %}
+```lua
 ...
     elseif direction == 'back' then
         local leftOrient = orientation
@@ -161,11 +161,11 @@ Like the back case of the tree traversal method, we can do the left and right ca
         turtle.turnLeft()
     else
         ...
-{% endhighlight %}
+```
 
 Because we keep adding new blocks to our list of inspected blocks, we can prevent adding the back block to the list twice by not adding it at the beginning:
 
-{% highlight lua %}
+```lua
 function mineVeinHelper (xyz, orientation, traversed)
     for _, direction in ipairs({'up', 'down', 'front', 'back', 'left', 'right'}) do
         local destination, newOrientation = table.unpack(calcDest(xyz, orientation, direction))
@@ -174,14 +174,14 @@ function mineVeinHelper (xyz, orientation, traversed)
                 table.insert(traversed, destination)
             end
         ...
-{% endhighlight %}
+```
 
 Notice that the order in which we inspect each direction is important! If we put `'left', 'right'` before `'back'`, then we'd be inspecting the left and right cases first, and the optimization we made for the back case would be useless! We have to look left and right anyway for the back case, but it we already looked left and right before, we save absolutely no time by inspecting left and right during the back case.
 
 ## Front/left/right case optimization
 Since we have to make these cases anyway, we can collapse them all into one and change the amount and direction we turn before and after we inspect the target block. For front, you don't turn at all. For left, you turn left, inspect, and turn right. And vice versa for right.
 
-{% highlight lua %}
+```lua
 ...
     else
         --turn in the direction to inspect
@@ -203,7 +203,7 @@ Since we have to make these cases anyway, we can collapse them all into one and 
         end
     end
 ...
-{% endhighlight %}
+```
 
 ## The code
 Now for the part you actually care about! Call mineVein() when the turtle is next to some ore and it will mine the vein. If you use it as part of a strip-mining program, you can call it when it digs an ore along its path (faster, misses more ore) or whenever it moves (slower, more thorough).

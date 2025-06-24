@@ -74,8 +74,11 @@
     prose-thead:border-stone-600
     prose-tr:border-stone-400
     prose-li:marker:text-sumiblack
-    max-w-full
     mx-auto;
+}
+
+.blog-post div.highlighter-rouge {
+  @apply relative xl:-left-32 xl:w-[60rem];
 }
 
 .copyable {
