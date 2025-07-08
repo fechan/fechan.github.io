@@ -2,20 +2,20 @@
 layout: post
 categories: [internet]
 title: "Setting up a *.city.state.us locality domain for free"
-tldr: "Depending on where you live in the United States, you can get a domain name like `blahblah.city.state.us` (e.g. `frederick.seattle.wa.us`) for free. After checking if your town has its own domain and choosing a name, you can get DNS nameservers from Amazon Lightsail, send the *Interim .US Domain Template* to the delegated manager for your locality, then point DNS entries at your webhost (or whatever you want to use it for)."
+tldr: "In the US, you can get a domain name like `somename.city.state.us` for free. If your town has its own domain, you can get nameservers from Amazon Lightsail, send the *Interim .US Domain Template* to the delegated manager for your locality, then point DNS entries at your webhost."
 ---
 ## tl;dr
-Depending on where you live in the United States, you can get a domain name like `blahblah.city.state.us` (e.g. `frederick.seattle.wa.us`) for free. After checking if your town has its own domain and choosing a name, you can get DNS nameservers from Amazon Lightsail, send the *Interim .US Domain Template* to the delegated manager for your locality, then point DNS entries at your webhost (or whatever you want to use it for).
+In the US, can get a domain name like `somename.city.state.us` for free. If your town has its own domain, you can get nameservers from Amazon Lightsail, send the *Interim .US Domain Template* to the delegated manager for your locality to register one, then point DNS entries at your webhost.
 
 ## What's a locality domain?
 A locality domain is a domain name that's associated with a location in the United States, such as `frederick.seattle.wa.us` (which currently redirects to fredchan.org). Locality domains were first created in 1992, and the infrastructure has been maintained under government contract ever since.
 
-To register one, you have to be a US citizen or permanent resident, an organization incorporated in the US, or an organization with a bona fide presence in the US that regularly engages in lawful activities or has an office in the US. (For the full verbiage, see the bottom of [this form](https://web.archive.org/web/20060210103628/http://www.nic.us/register/US_Domain_Template_v2.0.txt)).
+To register one, you must be a US citizen or permanent resident, an organization incorporated in the US, or an organization with a bona fide presence in the US that regularly engages in lawful activities or has an office in the US. (For the full verbiage, see the bottom of [this form](https://web.archive.org/web/20060210103628/http://www.nic.us/register/US_Domain_Template_v2.0.txt)).
 
 ## Step 1: Choose a locality domain
 Registration of many locality domains have been delegated to various companies who actually handle the domain registration. See [the list of delegated subdomains](https://web.archive.org/web/20090909141302/http://neustar.us/register/delegated_subdomains.txt) for domains you can register under, which also has the contact e-mail for the corresponding registrar as of 2009.
 
-Since this list is quite old and some companies may have restructured/renamed, you may have to hunt for an e-mail for the current incarnation of the registrar. For example, the e-mail listed for `seattle.wa.us` is `domainrq@nwnexus.com` belonging to NW Nexus, which is now NuOz Corporation, so the e-mail I contacted was `support@nuoz.com`.
+Since this list is quite old and some companies may have restructured/renamed, you may need to hunt for an e-mail for the current incarnation of the registrar. For example, the e-mail listed for `seattle.wa.us` is `domainrq@nwnexus.com` belonging to NW Nexus, which is now NuOz Corporation, so the e-mail I contacted was `support@nuoz.com`.
 
 If you do not live in one of these localities, you can try registering a domain under `gen.your-state.us`, like [next.gen.oh.us](https://www.next.gen.oh.us/), which is officially for *general independent entities*. The contact should be in the same list.
 
