@@ -9,9 +9,10 @@ layout: default
 <ul class="grid xl:grid-cols-2 gap-10">
   {% for post in site.posts %}
     <li>
-      <div class="flex justify-between gap-5">
-        <a href="{{ post.url | absolute_url }}" class="uppercase font-bold text-lg">{{ post.title }}</a>
-        <time datetime="{{ post.date | date: '%Y-%m-%d'}}" class="text-right whitespace-pre">{{ post.date | date: "%-d %b %Y"}}</time>
+      <a href="{{ post.url | absolute_url }}" class="uppercase font-bold text-lg block">{{ post.title }}</a>
+      <div class="font-display font-bold mb-3">
+        First published:
+        <time datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: "%-d %b %Y"}}</time>
       </div>
       <p><b>tl;dr:</b> {{ post.tldr | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     </li>

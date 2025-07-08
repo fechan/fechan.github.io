@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [internet]
-title: "Setting up a *.city.state.us locality domain for free"
+title: "Setting up a free *.city.state.us locality domain"
 tldr: "In the US, you can get a domain name like `somename.city.state.us` for free. If your town has its own domain, you can get nameservers from Amazon Lightsail, send the *Interim .US Domain Template* to the delegated manager for your locality, then point DNS entries at your webhost."
 ---
 ## tl;dr
