@@ -2,8 +2,8 @@
 title: Adiugoskr conjunctions
 layout: adiugoskr
 ---
-## fir and on - Complement and predicative *'and'*
-### fir: complement cumulative conjunction
+## Fir and on - Complement and predicative *'and'*
+### Fir: complement cumulative conjunction
 Complement cumulative conjunction **fir** *'and'* comes between all constituents
 that act as complements, such as noun phrases, as well as complementizer phrases,
 and prepositional phrases that do not modify nouns.
@@ -27,7 +27,7 @@ In the following example, the two complementizer phrases
   ! 'I see that the dog is eating and the cat is drinking.'
 </div>
 
-### on: predicative cumulative conjunction
+### On: predicative cumulative conjunction
 The predicative cumulative conjunction **on** *'and.PRED'* comes between all
 constituents that act as predicates, such as verb phrases, adjective phrases, as
 well as complementizer phrases and prepositional phrases that modify nouns.
