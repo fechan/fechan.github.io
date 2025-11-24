@@ -13,10 +13,6 @@ Adiugoskr is an *a priori* naturalistic conlang spoken by most residents of the 
 4. Integrate its vocabulary and grammar with the culture of the Ogdorjans
 5. Be developed enough that translating arbitrary sentences can be done with at most minor changes to the grammar
 
-### Influences
-* The direct-inverse morphosyntax and polypersonal agreement was inspired by [Stau](https://en.wikipedia.org/wiki/Horpa_language) after I read [Verbal Triplication Morphology in Stau (Mazi Dialect)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-968X.12083).
-* Some of the phoneme choices in the consonant inventory are inspired by Sektale, a conlang made by Finn, a fellow member of the [Seattle Conlang Club](https://conlang.club)
-
 ## Table of contents
 * [Phonology and orthography](/adiugoskr/phonology)
 * [Nouns](/adiugoskr/nouns)
@@ -24,4 +20,10 @@ Adiugoskr is an *a priori* naturalistic conlang spoken by most residents of the 
 * [Adjectives](/adiugoskr/adjectives)
 * [Verbs](/adiugoskr/verbs)
 * [Complementizers](/adiugoskr/complementizers)
+* [Conjunctions](/adiugoskr/conjunctions)
 * [Dictionary](/adiugoskr/dictionary)
+
+### Influences
+* The direct-inverse morphosyntax and polypersonal agreement was inspired by [Stau](https://en.wikipedia.org/wiki/Horpa_language) after I read [Verbal Triplication Morphology in Stau (Mazi Dialect)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-968X.12083).
+* Some of the phoneme choices in the consonant inventory are inspired by Sektale, a conlang made by Finn, a fellow member of the [Seattle Conlang Club](https://conlang.club)
+* The verbs' counterfactual mood marker was inspired by [Worrorra's counterfactual marker](https://readingglosses.com/2023/10/08/if-you-stare-at-it-it-might-come-down/).

@@ -366,6 +366,7 @@
   pos: noun
   senses:
     - end, conclusion
+    - result
 
 - gloss: ghost
   orth: iríl
@@ -540,3 +541,99 @@
   pos: pronoun
   senses:
     - it
+
+- gloss: walk
+  orth: 'on'
+  pos: verb
+  senses:
+    - walk
+
+- gloss: movement
+  orth: onban
+  pos: noun
+  senses:
+    - movement
+
+- gloss: pub
+  orth: sjinen
+  pos: noun
+  senses:
+    - pub, bar, resting area with refreshments
+
+- gloss: drink
+  orth: vol
+  pos: verb
+  senses:
+    - drink
+
+- gloss: eat
+  orth: jar
+  pos: verb
+  senses:
+    - eat
+
+- gloss: soup
+  orth: wed
+  pos: noun
+  senses:
+    - soup, stew
+
+- gloss: idea
+  orth: ban
+  pos: noun
+  senses:
+    - idea, thought, concept
+
+- gloss: everything
+  orth: yirol
+  pos: noun
+  senses:
+    - everything
+
+- gloss: hear
+  orth: djet
+  pos: verb
+  senses:
+    - hear
+
+- gloss: sometimes
+  orth: lelet
+  pos: adverb
+  senses:
+    - sometimes, occasionally
+
+- gloss: shape
+  orth: naus
+  pos: adverb
+  senses:
+    - sometimes, occasionally
+
+- gloss: arrangement
+  orth: nausenaus
+  pos: noun
+  senses:
+    - arrangement, pattern
+
+- gloss: reason
+  orth: izrin
+  pos: noun
+  senses:
+    - reason, cause
+
+- gloss: trust
+  orth: zjiul
+  pos: verb
+  senses:
+    - trust
+
+- gloss: remember
+  orth: vletzjos
+  pos: verb
+  senses:
+    - remember
+
+- gloss: consist.of
+  orth: geliut
+  pos: verb
+  senses:
+    - consist of, be made of

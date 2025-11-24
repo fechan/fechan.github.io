@@ -16,14 +16,14 @@ The question marking complementizer is **anǎ** and is used with both yes/no que
 ## Evidentiality complementizers
 The [evidentiality](https://en.wikipedia.org/wiki/Evidentiality) complementizers indicate how the information conveyed in the complementizer phrase was known. A lack of an evidentiality complementizer leaves the evidential source ambiguous.
 
-* **tún**: Sensed evidence, for information known through the speaker's own physical senses.
-* **gel**: Inferential evidence, for conclusions and information inferred from something else.
-* **aun**: Reportative evidence, for information received from another person, through speech, writing, or other method.
-* **ajén**: Gnomic evidence, for general facts, truths and aphorisms.
+* **tún**: Sensed evidence (glossed <small-caps>SEN</small-caps>), for information known through the speaker's own physical senses.
+* **gel**: Inferential evidence (glossed <small-caps>INFR</small-caps>), for conclusions and information inferred from something else.
+* **aun**: Reportative evidence (glossed <small-caps>RPT</small-caps>), for information received from another person, through speech, writing, or other method.
+* **ajén**: Gnomic evidence (glossed <small-caps>GNO</small-caps>), for general facts, truths and aphorisms.
 
 ### Dreamed evidentialities
 If a piece of information was received during a dream or vision, a different set of evidentials are used. These are not used for dreams created from one's own imagination, such as daydreams, wishes, and aspirations.
 
-* **áutr**: Sensed-in-dream, for information known through the speaker's own senses during a dream, or for information inferred from other dream-information.
-* **wiva**: Reported-in-dream, for information received from another person in a dream, through speech, writing, or other method.
-* **vén**: Believed-in-dream, for information with no apparent evidential source, but was "just known" during the dream.
+* **áutr**: Sensed-in-dream (glossed <small-caps>SEN.DREAM</small-caps>), for information known through the speaker's own senses during a dream, or for information inferred from other dream-information.
+* **wiva**: Reported-in-dream (glossed <small-caps>RPT.DREAM</small-caps>), for information received from another person in a dream, through speech, writing, or other method.
+* **vén**: Believed-in-dream (glossed <small-caps>GNO.DREAM</small-caps>), for information with no apparent evidential source, but was "just known" during the dream.
