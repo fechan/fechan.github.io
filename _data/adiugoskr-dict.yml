@@ -307,7 +307,7 @@
   orth: zjos
   pos: verb
   senses:
-    - be with
+    - accompany, be with
     - '(*auxiliary verb*) simultaneous aspect marker'
 
 - gloss: exist_in_a_dream
@@ -637,3 +637,9 @@
   pos: verb
   senses:
     - consist of, be made of
+
+- gloss: say
+  orth: bal
+  pos: verb
+  senses:
+    - say
