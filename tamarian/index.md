@@ -13,7 +13,7 @@ Tamarian is an alien conlang where all but the most basic ideas and expressions 
 4. Explain why a [Universal Translator](https://memory-alpha.fandom.com/wiki/Universal_translator) might fail to translate the language
 
 ## Table of contents
-* [Basic concept](/tamarian/concept)
+* [Background](/tamarian/background)
 * [Syntax](/tamarian/syntax)
 * [Verbs](/tamarian/verbs)
 * [Semantics](/tamarian/semantics)
