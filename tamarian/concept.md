@@ -1,6 +1,6 @@
 ---
 title: "Tamarian: Basic concepts"
-layout: adiugoskr
+layout: tamarian
 ---
 ## Tamarian in Star Trek
 The original [Tamarian language](https://memory-alpha.fandom.com/wiki/Tamarian_language) was originally introduced in an episode of [*Star Trek: The Next Generation*](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation) entitled ["Darmok"](https://en.wikipedia.org/wiki/Darmok). In this episode, the crew of the starship Enterprise encounter an alien species whose language they cannot seem to translate with their [Universal Translator](https://memory-alpha.fandom.com/wiki/Universal_translator). Instead of the usual greetings like *"Hello"* or *"Leave our sovereign space at once!"*, all the translator will output is nonsense like **Darmok and Jalad at Tanagra** and **Shaka, when the walls fell**.

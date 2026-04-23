@@ -1,6 +1,6 @@
 ---
 title: Tamarian - A language inspired by Star Trek
-layout: adiugoskr
+layout: tamarian
 no_nav: true
 ---
 ## Introduction

@@ -1,6 +1,6 @@
 ---
 title: Tamarian syntax
-layout: adiugoskr
+layout: tamarian
 ---
 ## Basic sentences
 ### Metatopics
