@@ -22,6 +22,7 @@ Adiugoskr is an *a priori* naturalistic conlang spoken by most residents of the 
 * [Complementizers](/adiugoskr/complementizers)
 * [Conjunctions](/adiugoskr/conjunctions)
 * [Dictionary](/adiugoskr/dictionary)
+* [Example sentences](/adiugoskr/example-sentences)
 
 ### Influences
 * The direct-inverse morphosyntax and polypersonal agreement was inspired by [Stau](https://en.wikipedia.org/wiki/Horpa_language) after I read [Verbal Triplication Morphology in Stau (Mazi Dialect)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-968X.12083).
