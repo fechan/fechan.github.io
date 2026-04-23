@@ -2,7 +2,7 @@
 title: Tamarian lexical semantics
 layout: tamarian
 ---
-This page described aspects of Tamarian semantics that are not already described elsewhere.
+This page describes aspects of Tamarian semantics that are not already described elsewhere.
 
 ## Archetypes
 Many metaphors feature the same set of characters, like Uzani, in different situations. Even if a Tamarian speaker does not know the origin behind the metaphors, it would not be too difficult to guess what kind of character Uzani is:
