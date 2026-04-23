@@ -1,5 +1,5 @@
 ---
-title: Tamarian lexical semantics
+title: Tamarian semantics
 layout: tamarian
 ---
 This page describes aspects of Tamarian semantics that are not already described elsewhere.
