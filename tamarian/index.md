@@ -1,5 +1,5 @@
 ---
-title: Tamarian - A language inspired by Star Trek
+title: Tamarian - A Darmok-inspired language
 layout: tamarian
 no_nav: true
 ---
