@@ -14,6 +14,7 @@ Tamarian is an alien conlang where all but the most basic ideas and expressions 
 
 ## Table of contents
 * [Basic concept](/tamarian/concept)
+* [Syntax](/tamarian/syntax)
 
 ### Influences
 * The central concept of an idiom-based language was inspired by [Tamarian](https://memory-alpha.fandom.com/wiki/Tamarian_language) in Star Trek: The Next Generation.
