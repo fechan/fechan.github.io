@@ -23,7 +23,7 @@ With Tamarian, I turn these metaphors up to eleven: what if nearly the whole lan
 ## Non-idioms
 As presented in Star Trek, the Tamarian language can be literally translated into English without reflecting the intended meaning. At the end of the episode "Darmok", a new idiom is even created: **Picard and Dathon at El-Adrel**, meaning *'first contact'*. This implies there are words (or morphemes) that have literal meaning, such as names and whatever the language's equivalent of conjunctions and prepositions are.
 
-In spite of this, most of the communication is still idiom-based. For my Tamarian conlang, I make the assumption that the morphemes that have literal meaning are very limited. They can express extremely basic spatial relations and objects, but nothing more complex or abstract, like *'happiness'* or *'danger'*.
+In spite of this, most of the communication is still idiom-based. For my Tamarian conlang, I make the assumption that the morphemes that have literal meaning are very limited. They can express extremely basic spatial relations and objects, but nothing as complex or abstract as *'happiness'* or *'danger'*.
 
 I also make the assumption that the literal morphemes are a **closed class**, like prepositions in English. While English nouns and verbs are an **open class**, meaning people can always make up more nouns and verbs, it is incredibly rare for English to gain a new preposition that catches on. If literal morphemes in Tamarian are a closed class, but idioms are an open class, then naturally the idioms are going to be more prevalent.
 

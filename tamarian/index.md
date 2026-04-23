@@ -15,8 +15,10 @@ Tamarian is an alien conlang where all but the most basic ideas and expressions 
 ## Table of contents
 * [Basic concept](/tamarian/concept)
 * [Syntax](/tamarian/syntax)
+* [Verbs](/tamarian/verbs)
+* [Semantics](/tamarian/semantics)
 
 ### Influences
 * The central concept of an idiom-based language was inspired by [Tamarian](https://memory-alpha.fandom.com/wiki/Tamarian_language) in Star Trek: The Next Generation.
-* The polysynthetic syntax is inspired by [Navajo](https://en.wikipedia.org/wiki/Navajo_grammar).
+* The topic-comment structure is inspired by Japanese.
 * The classifiers are inspired by [Cantonese](https://en.wikipedia.org/wiki/List_of_Chinese_classifiers), [Japanese](https://en.wikipedia.org/wiki/Japanese_counter_word), and [Navajo](https://en.wikipedia.org/wiki/Navajo_grammar#Classificatory_verbs).
