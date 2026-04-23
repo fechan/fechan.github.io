@@ -17,7 +17,7 @@ In the following example, the metatopic is Darmok, marked with the second person
   ! 'You are lonely.' 
 </div>
 
-Notice the two different translations: the "literal" translation ('#Darmok (you) on the ocean'), and the true translation ('You are lonely'). The idea here is that, within the metaphor, Darmok is lonely. When adding the second person topic clitic **=a**, you assert that the second person ('you') is like Darmok, but in the real world.
+Notice the two different translations: the "literal" translation that we mark with a pound sign `#` ('#Darmok (you) on the ocean'), and the true translation ('You are lonely'). The idea here is that, within the metaphor, Darmok is lonely. When adding the second person topic clitic **=a**, you assert that the second person ('you') is like Darmok, but in the real world.
 
 In general, the sentence's true topic (in this case, 'you') is represented by metaphor's topic ('Darmok'). Whatever role or state the metatopic takes on in the metaphor, the true topic is understood to have that same role or state in the real world.
 
@@ -46,7 +46,7 @@ When the metatopic contains more than one noun, the action or state that it repr
 
 A metatopic, like Darmok, might appear in a number of different metaphors. Darmok might be lonely in one metaphor but content in another, so the rest of the sentence (the metacomment) is necessary to know which metaphor is being used.
 
-In the following sentence, we change the metacomment from **talaki** *'on the ocean'* to **bagaro** *'in the swamp'*. Notice how the meaning of the sentence changes:
+In the following sentence, we change the metacomment in **Darmoka talaki** *'You are lonely'* from **talaki** *'on the ocean'* to **bagaro** *'in the swamp'*. Notice how the meaning of the sentence changes:
 
 <div class="gloss">
   Darmoka bagaro.<br/>
@@ -56,7 +56,7 @@ In the following sentence, we change the metacomment from **talaki** *'on the oc
   ! 'You are going insane from lack of socializing.'
 </div>
 
-In both sentences (1) and (2), the true topic is represented by the same metatopic, Darmok. However, since the metacomment is different, the state of being that Darmok is in changes from loneliness to insanity.
+In both sentences, the true topic is represented by the same metatopic, Darmok. However, since the metacomment is different, the state of being that Darmok is in changes from loneliness to insanity.
 
 ### Subjects
 
