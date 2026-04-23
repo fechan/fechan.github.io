@@ -5,7 +5,7 @@ layout: tamarian
 
 ## True verbs
 Verbs in Tamarian are a closed class, and all verbs are intransitive, stative verbs. Non-stative and transitive actions must be expressed using a metaphorical sentence.
-They can never appear inside a metatopic.
+True verbs can never appear inside a metatopic.
 
 * **bati** *'be open, unfurled'*
 * **imati** *'be closed'*
