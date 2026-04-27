@@ -21,6 +21,35 @@ Notice the two different translations: the "literal" translation that we mark wi
 
 In general, the sentence's true topic (in this case, 'you') is represented by metaphor's topic ('Darmok'). Whatever role or state the metatopic takes on in the metaphor, the true topic is understood to have that same role or state in the real world.
 
+The full list of topic markers is as follows:
+
+<table>
+  <thead>
+    <tr>
+      <th>Gloss</th>
+      <th>Clitic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><small-caps>=TOP.1</small-caps> <i>'I'</i></td>
+      <td>=s</td>
+    </tr>
+    <tr>
+      <td><small-caps>=TOP.2</small-caps> <i>'you'</i></td>
+      <td>=a</td>
+    </tr>
+    <tr>
+      <td><small-caps>=TOP.3</small-caps> <i>'he/she/it'</i></td>
+      <td>=n</td>
+    </tr>
+    <tr>
+      <td><small-caps>=TOP.4</small-caps> <i>'one'</i></td>
+      <td>=ga</td>
+    </tr>
+  </tbody>
+</table>
+
 <details class="conlanger-note" markdown="1">
   <summary>Conlanger note: Topic marking the "wrong" thing</summary>
 
@@ -29,7 +58,7 @@ In general, the sentence's true topic (in this case, 'you') is represented by me
   What's the difference between that and `Darmok-TOP.1 ocean=SUPE.2`? Just focus? Maybe it has similar semantics to the English passive voice: "I was dumped by you".
 </details>
 
-#### Plural metasubjects
+#### Plural metatopics
 Metatopics are NPs, which can contain conjunctions:
 
 <div class="gloss">
@@ -79,3 +108,7 @@ Within metacomments, there can be subjects, marked with the subject (<small-caps
 
   For alienable ones, it might make some sense: in "Uzani, army with fists open", "army" could be associated a 3rd person (like "peanut butter"), for example, to mean "I spread the peanut butter thin", or something.
 </details>
+
+### Locatives
+
+Within metacomments, there can be locatives, marked with one of various locative suffixes.

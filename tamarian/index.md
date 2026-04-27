@@ -16,6 +16,7 @@ Tamarian is an alien conlang where all but the most basic ideas and expressions 
 * [Background](/tamarian/background)
 * [Syntax](/tamarian/syntax)
 * [Verbs](/tamarian/verbs)
+* [Nouns](/tamarian/nouns)
 * [Semantics](/tamarian/semantics)
 
 ### Influences
